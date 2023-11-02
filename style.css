@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(180, 255, 255);
+    /* color: aliceblue; */
+
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 5px 50px;
+    font-weight: 800;
+}
+
+.content {
+    width: 95%;
+    margin: 10px auto;
+}
+
+header {
+    text-align: center;
+    font-weight: 900;
+    margin: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+#projectList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+#addProjectBtn {
+    background-color: aqua;
+    font-weight: 800;
+}
+
+#projectDetails {
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 133, 5);
+    border-radius: 2px;
+}
+
+#projectImage {
+    width: 80%;
+    margin: 5px auto;
+}
+
+#projectName {
+    text-align: center;
+    font-size: 2rem;
+}
+.contribute-section{
+    text-align: center;
+}
+#projectDetails .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#projectDetails .button-container button {
+    background-color: #0918efe1;
+    border: none;
+    border-radius: 2px;
+    margin: 5px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-container a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    height: 30px;
+    margin: 2px;
+    padding: 5px 10px;
+    background-color: red;
+    color: antiquewhite;
+    font-weight: 800;
+    cursor: pointer;
+}
