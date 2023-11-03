@@ -46,8 +46,25 @@ const projects = [
     codeLink: "https://github.com/MrAshwin2142/Super-Market-Bill-System",
     liveLink: "https://www.linkedin.com/posts/ashwin-dhangar-btech24_cpp-miniproject-project-activity-6979374060145139712-N_EY?utm_source=share&utm_medium=member_desktop",
   },
+  {
+    name: "Agenda",
+    image: "images/Agenda.png",
+    description: "Take control of your time and tasks with Agenda, where you can easily structure your day or event schedules in just a few clicks.",
+    usedTech: "HTML, CSS and JavaScript",
+    contributorName: "Patrick Ancajas",
+    codeLink: "https://github.com/JohnPatrickAncajas/Agenda",
+    liveLink: "https://johnpatrickancajas.github.io/Agenda/",
+  },
+  {
+    name: "Timestamp",
+    image: "images/Timestamp.png",
+    description: "Timestamp is where every second, minute, hour, day, month, and year are elegantly displayed. As you watch the clock tick, find inspiration in quotes that change with the hour and day.",
+    usedTech: "HTML, CSS and JavaScript",
+    contributorName: "Patrick Ancajas",
+    codeLink: "https://github.com/JohnPatrickAncajas/Timestamp",
+    liveLink: "https://johnpatrickancajas.github.io/Timestamp/",
+  },
   
-
 
   // Manually add more projects here
 ];
