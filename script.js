@@ -26,11 +26,11 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!detailSection.classList.contains('hidden') && projectName.innerText === project.name) {
             detailSection.classList.add('hidden');
         } else {
-            console.log("hello")
+            // console.log("hello"); // I commented this debugging part for now
             detailSection.classList.remove('hidden');
         }
         projectName.innerText = project.name;
-        projectDescription.innerText = project.description;
+        projectDescription.innerHTML = project.description + "<br><br>";
         contributor.innerText = project.contributorName;
         usedTech.innerText = project.usedTech;
         codeLink.href = project.codeLink;
