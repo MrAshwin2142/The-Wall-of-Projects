@@ -73,6 +73,15 @@ const projects = [
     codeLink: "https://github.com/JohnPatrickAncajas/COMPASS",
     liveLink: "https://johnpatrickancajas.github.io/COMPASS/",
   },
+    {
+    name: "DeepAm Creation",
+    image: "",
+    description: "DeepAm Creations: Your go-to online shop for beautiful flower pots. Shop anytime, anywhere, and elevate your gardening experience.",
+    usedTech: "Javascript",
+    contributorName: "Withakash",
+    codeLink: "https://github.com/Withakash/Deepam-Creation/tree/main",
+    liveLink: "https://withakash.github.io/Deepam-Creation/",
+  },
 
 
   // Manually add more projects here
