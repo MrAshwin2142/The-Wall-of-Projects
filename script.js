@@ -8,10 +8,19 @@ document.addEventListener("DOMContentLoaded", () => {
     const liveLink = document.getElementById("liveLink");
     const detailSection = document.getElementById("detailSection");
     const usedTech = document.getElementById("usedTech");
+    const contributorTable = document.getElementById("contributorTable");
+    const starContributor = {};
+
 
     projects.forEach((project) => {
         const projectButton = document.createElement("button");
         projectButton.textContent = project.name;
+        if (starContributor[project.contributorName]) {
+            starContributor[project.contributorName] += 1;
+        } else {
+            // starContributor.set(project.contributorName,  Number(1));
+            starContributor[project.contributorName]=  Number(1);
+        }
         projectButton.className = "btn";
         projectButton.title = project.usedTech;
         // Attach an event listener to show project details when clicked
@@ -22,6 +31,12 @@ document.addEventListener("DOMContentLoaded", () => {
         // Append the project button to the project list
         projectList.appendChild(projectButton);
     });
+    // console.log(starContributor);
+    for(const key in starContributor){
+        const nameNproject= document.createElement("tr");
+        nameNproject.innerHTML=`<td>${key}</td><td>${starContributor[key]}</td>`
+        contributorTable.append(nameNproject); 
+    }
     function displayProjectDetails(project) {
         if (!detailSection.classList.contains('hidden') && projectName.innerText === project.name) {
             detailSection.classList.add('hidden');

@@ -15,7 +15,7 @@ const projects = [
     image: "./images/moviezz.png",
     description: "Moviezz is a web application that replicates the Netflix experience, providing real-time movie data and a user-friendly interface for seamless movie and TV show exploration",
     usedTech: "Reactjs",
-    contributorName: "AShwin Dhangar",
+    contributorName: "Ashwin Dhangar",
     codeLink: "https://github.com/MrAshwin2142/moviezz",
     liveLink: "https://tmdb-moviezz.netlify.app/",
   },
@@ -73,9 +73,18 @@ const projects = [
     codeLink: "https://github.com/JohnPatrickAncajas/COMPASS",
     liveLink: "https://johnpatrickancajas.github.io/COMPASS/",
   },
-  
+
 
   // Manually add more projects here
+  // {
+  //   name: "Your Project Name",
+  //   image: "./images/YourProjectImage.jpg", // Add your project image to the `images` directory
+  //   description: "A brief description of your project.",
+  //   usedTech: "Technologies or programming languages used.",
+  //   contributorName: "Your Name",
+  //   codeLink: "Link to your project's source code (GitHub, GitLab, etc.)",
+  //   liveLink: "Link to the live version of your project (if available)",
+  // },
 ];
 
 //   export default projects;

@@ -42,19 +42,41 @@ header {
 
 header h1 {
     font-family: 'Papyrus', fantasy;
-
 }
 
 #intro {
     color: #222222;
     margin-bottom: 1em;
-    
+
 }
 
 .hidden {
     display: none;
 }
 
+.main-containt {
+    width: 100%;
+    display: flex;
+}
+
+/* .projct-section {
+    width: 70%;
+} */
+
+.startContributor {
+    font-size: 1rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 30%;
+    min-width: 200px;
+    padding: 10px;
+    /* border-left: 2px solid black; */
+}
+.startContributor h4{
+    margin-bottom: 20px;
+}
 #projectList {
     display: flex;
     flex-wrap: wrap;
@@ -98,9 +120,10 @@ header h1 {
     margin: 0.5rem 0;
 }
 
-.contribute-section{
+.contribute-section {
     text-align: center;
 }
+
 #projectDetails .button-container {
     display: flex;
     justify-content: center;
@@ -145,47 +168,66 @@ header h1 {
 
 @media (max-width: 576px) {
     body {
-      font-size: 14px;
+        font-size: 14px;
     }
+
     p {
         margin: 0 1rem;
     }
+
     #projectDetails {
         width: auto;
     }
+
     #projectImage {
         width: 100%;
         margin: 0.5rem auto;
     }
-    
+    .main-containt{
+        flex-direction: column;
+    }
+    .startContributor{
+        width: 100%;
+    }
 }
-  
+
 @media (min-width: 577px) and (max-width: 768px) {
     body {
-      font-size: 16px;
+        font-size: 16px;
     }
+
     #projectDetails {
         width: 90%;
     }
-}
-  
-  @media (min-width: 769px) and (max-width: 992px) {
-    body {
-      font-size: 18px;
+    .startContributor{
+        width: 80%;
     }
+    .main-containt{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    body {
+        font-size: 18px;
+    }
+    
     #projectDetails {
-        width:80%;
+        width: 80%;
+    }
+    .startContributor{
+        width: 80%;
     }
 }
-  
-  @media (min-width: 993px) and (max-width: 1200px) {
+
+@media (min-width: 993px) and (max-width: 1200px) {
     body {
-      font-size: 20px;
+        font-size: 20px;
     }
 }
-  
-  @media (min-width: 1201px) {
+
+@media (min-width: 1201px) {
     body {
-      font-size: 22px;
+        font-size: 22px;
     }
 }
