@@ -73,18 +73,19 @@ const projects = [
     codeLink: "https://github.com/JohnPatrickAncajas/COMPASS",
     liveLink: "https://johnpatrickancajas.github.io/COMPASS/",
   },
-    {
+  {
     name: "DeepAm Creation",
     image: "",
     description: "DeepAm Creations: Your go-to online shop for beautiful flower pots. Shop anytime, anywhere, and elevate your gardening experience.",
     usedTech: "Javascript",
-    contributorName: "Withakash",
+    contributorName: "Akash Yadav",
     codeLink: "https://github.com/Withakash/Deepam-Creation/tree/main",
     liveLink: "https://withakash.github.io/Deepam-Creation/",
   },
 
 
   // Manually add more projects here
+  // Please avoid putting your projects at the very beginning or the end of the file. Instead, insert them in the middle.
   // {
   //   name: "Your Project Name",
   //   image: "./images/YourProjectImage.jpg", // Add your project image to the `images` directory
