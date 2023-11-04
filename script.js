@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
             detailSection.classList.remove('hidden');
         }
         projectName.innerText = project.name;
-        projectDescription.innerHTML = project.description + "<br><br>";
+        projectDescription.innerText = project.description;
         contributor.innerText = project.contributorName;
         usedTech.innerText = project.usedTech;
         codeLink.href = project.codeLink;
