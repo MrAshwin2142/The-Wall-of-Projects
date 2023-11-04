@@ -82,6 +82,16 @@ const projects = [
     codeLink: "https://github.com/Withakash/Deepam-Creation/tree/main",
     liveLink: "https://withakash.github.io/Deepam-Creation/",
   },
+    {
+    name: "Social Media Handle's",
+    image: "images/socialmedia.png",
+    description: "One Place to handle all social media accounts link",
+    usedTech: "HTML/CSS",
+    contributorName: "Akash Yadav",
+    codeLink: "https://github.com/Withakash/Social-media",
+    liveLink: "https://withakash.github.io/Social-media/",
+  },
+  
 
 
   // Manually add more projects here
