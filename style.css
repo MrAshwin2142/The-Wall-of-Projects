@@ -116,6 +116,10 @@ header h1 {
     margin: 1rem;
 }
 
+#projectDescription {
+    margin-bottom: 2rem;
+}
+
 #projectHr {
     margin: 0.5rem 0;
 }
