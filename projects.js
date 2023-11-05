@@ -75,7 +75,7 @@ const projects = [
   },
   {
     name: "DeepAm Creation",
-    image: "",
+    image: "images/deepam.png",
     description: "DeepAm Creations: Your go-to online shop for beautiful flower pots. Shop anytime, anywhere, and elevate your gardening experience.",
     usedTech: "Javascript",
     contributorName: "Akash Yadav",
