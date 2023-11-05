@@ -155,6 +155,48 @@ header h1 {
     color: #FFFFFF;
 }
 
+/* Style the table container */
+.starContributor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Style the table header */
+#contributorTable {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+#contributorTable th {
+    background-color: #007bff; /* Header background color */
+    color: #fff; /* Header text color */
+    font-weight: bold;
+    padding: 10px;
+}
+
+#contributorTable tr {
+    background-color: #f2f2f2;
+}
+
+#contributorTable tr:hover {
+    background-color: #ddd; /* Hovered row background color */
+}
+
+/* Style table cells */
+#contributorTable td {
+    padding: 8px;
+    text-align: center;
+}
+
+/* Add some border to the table and cells */
+#contributorTable, #contributorTable th, #contributorTable td {
+    border: 1px solid #ddd;
+}
+
+
 /* Media Queries */
 
 @media (min-width: 576px) {
@@ -171,12 +213,6 @@ header h1 {
 @media (min-width: 768px) {
     body {
         font-size: 18px;
-    }
-    
-    /* Makes the contributor table go side by side of the projects*/
-
-    .main-content{
-        flex-direction: row;
     }
 }
 
