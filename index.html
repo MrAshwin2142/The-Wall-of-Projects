@@ -9,73 +9,81 @@
 </head>
 
 <body>
-    <div class="content">
-        <header>
-            <h1>The Wall of Projects</h1>
-        </header>
-        <p id="intro">You can add your projects to this wall, no matter how small or large they are. Your contribution
-            will
-            definitely help others. Simply click on 'ADD NEW PROJECT' to share your project. You can also explore other
-            projects!</p>
-        <hr>
-        <div class="main-containt">
-            <div class="projct-section">
-                <main>
-                    <div id="projectList">
-                        <button class="btn" id="addProjectBtn"><a
-                                href="https://github.com/MrAshwin2142/The-Wall-of-Projects/blob/main/CONTRIBUTE.md" target="_blank"> ADD NEW
-                                PROJECT!</a></button>
-                        <!-- Project buttons will be added here -->
 
-                    </div>
-                </main>
+    <!-- Header section -->
 
-                <!-- Project details section (hidden by default) -->
-                <section id="detailSection" class="hidden">
-                    <div id="projectDetails">
-                        <h1 id="projectName"></h1>
-                        <img id="projectImage" src="./images/default-image.jpg" alt="Project Image">
-                        <p id="projectDescription"></p>
-                        <p>Tech Used : <span id="usedTech"></span></p>
-                        <p>Contributor : <span id="contributor"></span></p>
-                        <hr id="projectHr">
-                        <div class="button-container">
-                            <button><a href="" target="_blank" id="codeLink">Go to Code</a></button>
-                            <button><a href="" target="_blank" id="liveLink">Go to Live</a></button>
-                        </div>
+    <header>
+        <h1>The Wall of Projects</h1>
+    </header>
+    <p id="intro">You can add your projects to this wall, no matter how small or large they are. Your contribution will definitely help others. Simply click on 'ADD NEW PROJECT!' to share your project. You can also explore other projects!</p>
+    <hr>
+
+    <!-- Projects section -->
+
+    <div class="main-content">
+        <div class="project-section">
+            <main>
+                <div id="projectList">
+                    <button class="btn" id="addProjectBtn"><a
+                            href="https://github.com/MrAshwin2142/The-Wall-of-Projects/blob/main/CONTRIBUTE.md" target="_blank"> ADD NEW
+                            PROJECT!</a></button>
+
+                    <!-- Project buttons will be added here -->
+
+                </div>
+            </main>
+
+            <!-- Project details section (hidden by default) -->
+
+            <section id="detailSection" class="hidden">
+                <div id="projectDetails">
+                    <h1 id="projectName"></h1>
+                    <img id="projectImage" src="./images/default-image.jpg" alt="Project Image">
+                    <p id="projectDescription"></p>
+                    <p>Tech Used : <span id="usedTech"></span></p>
+                    <p>Contributor : <span id="contributor"></span></p>
+                    <hr id="projectHr">
+                    <div class="button-container">
+                        <button><a href="" target="_blank" id="codeLink">Go to Code</a></button>
+                        <button><a href="" target="_blank" id="liveLink">Go to Live</a></button>
                     </div>
-                </section>
-            </div>
-            <div class="startContributor">
-                <h4>Star Contributors</h4>
-                <table id="contributorTable">
-                    <tr>
-                        <th>Name</th>
-                        <th>Projects</th>
-                    </tr>
-                </table>
-            </div>
+                </div>
+            </section>
         </div>
-        <hr>
-        <footer class="contribute-section">
-            <p>If your code is not
-                deployed yet, you can refer to this <a
-                    href="https://www.geeksforgeeks.org/how-to-host-a-website-on-github-for-free/">Article<a> for
-                        guidance.<br><br></p>
-            <p>
-                Want to contribute?
-                <a href="https://github.com/MrAshwin2142/The-Wall-of-Projects" target="_blank">Contribute
-                    here!<br><br></a>
-            </p>
-            <p>
-                More about me:
-                <a href="https://ashwin-portfolioo.netlify.app/#" target="_blank">Ashwin Dhangar</a>
-            </p>
-        </footer>
 
+        <!-- Contributor Table -->
+
+        <div class="starContributor">
+            <h4>Star Contributors</h4>
+            <table id="contributorTable">
+                <tr>
+                    <th>Name</th>
+                    <th>Projects</th>
+                </tr>
+            </table>
+        </div>
     </div>
+    <hr>
+
+    <!-- Footer section -->
+
+    <footer class="contribute-section">
+        <p>If your code is not
+            deployed yet, you can refer to this <a
+                href="https://www.geeksforgeeks.org/how-to-host-a-website-on-github-for-free/">Article<a> for
+                    guidance.<br><br></p>
+        <p>
+            Want to contribute?
+            <a href="https://github.com/MrAshwin2142/The-Wall-of-Projects" target="_blank">Contribute
+                here!<br><br></a>
+        </p>
+        <p>
+            More about me:
+            <a href="https://ashwin-portfolioo.netlify.app/#" target="_blank">Ashwin Dhangar</a>
+        </p>
+    </footer>
+
     <script src="script.js"></script>
     <script src="projects.js"></script>
 </body>
-
 </html>

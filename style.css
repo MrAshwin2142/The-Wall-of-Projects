@@ -1,27 +1,37 @@
+/* General Styles */
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    text-align: center;
 }
 
 body {
-    background-color: rgb(180, 255, 255);
-    /* color: aliceblue; */
-
+    font-size: 14px;
+    background-color: #B4FFFF;
+    width: 95vw;
+    margin: 1rem auto;
 }
 
 p {
+    margin: 0 1rem;
     line-height: 1.5;
-    margin: 0 3rem;
-    font-weight: 800;
-}
-
-a {
-    text-decoration: none;
+    font-weight: bolder;
 }
 
 a:hover {
     color: #21043b;
+}
+
+.hidden {
+    display: none;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
 }
 
 hr {
@@ -29,14 +39,9 @@ hr {
     border: 0.5px solid black;
 }
 
-.content {
-    width: 95%;
-    margin: 1rem auto;
-}
+/* Header Styles */
 
 header {
-    text-align: center;
-    font-weight: 900;
     margin: 2rem;
 }
 
@@ -47,36 +52,49 @@ header h1 {
 #intro {
     color: #222222;
     margin-bottom: 1em;
-
 }
 
-.hidden {
-    display: none;
-}
+/* Contributor Table Styles */
 
-.main-containt {
-    width: 100%;
+.starContributor {
+    min-width: 15rem;
     display: flex;
-}
-
-/* .projct-section {
-    width: 70%;
-} */
-
-.startContributor {
-    font-size: 1rem;
-    display: flex;
-    text-align: center;
     flex-direction: column;
-    /* justify-content: center; */
-    width: 30%;
-    min-width: 200px;
-    padding: 10px;
-    /* border-left: 2px solid black; */
+    font-size: 0.8em;
+    padding: 0.6rem;
 }
-.startContributor h4{
-    margin-bottom: 20px;
+
+.starContributor h4 {
+    margin-bottom: 1.5rem;
 }
+
+/* Project Buttons Styles*/
+
+#addProjectBtn {
+    background-color: #00E6E6;
+    border-radius: 0.5rem;
+}
+
+#addProjectBtn:hover {
+    background-color: #00FFFF;
+}
+
+.btn {
+    margin: 0.2rem;
+    padding: 0.3rem 0.5rem;
+    background-color: #BE1111;
+    color: antiquewhite;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #FF0000;
+    color: #FAEBD7;
+}
+
+/* Project List Styles */
+
 #projectList {
     display: flex;
     flex-wrap: wrap;
@@ -84,35 +102,23 @@ header h1 {
     margin: 1rem;
 }
 
-#addProjectBtn {
-    background-color: rgb(0, 230, 230);
-    font-weight: 800;
-    border-radius: 0.5rem;
-}
-
-#addProjectBtn:hover {
-    background-color: rgb(0, 255, 255);
-}
-
 #projectDetails {
-    width: 70%;
+    width: 90%;
     margin: 0.5rem auto;
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
-    background-color: rgb(238, 133, 5);
-    /* light orange, I think */
+    background-color: #EE8505;
     border-radius: 1rem;
 }
 
 #projectImage {
-    width: 80%;
+    width: 100%;
     margin: 0.5rem auto;
     border-radius: 1rem;
 }
 
 #projectName {
-    text-align: center;
     margin: 1rem;
 }
 
@@ -124,9 +130,7 @@ header h1 {
     margin: 0.5rem 0;
 }
 
-.contribute-section {
-    text-align: center;
-}
+/* Project Card Button Styles */
 
 #projectDetails .button-container {
     display: flex;
@@ -135,7 +139,7 @@ header h1 {
 }
 
 #projectDetails .button-container button {
-    background-color: #0918efe1;
+    background-color: #0918EfE1;
     border: none;
     border-radius: 0.5rem;
     margin: 0.5rem;
@@ -144,93 +148,45 @@ header h1 {
 }
 
 #projectDetails .button-container button:hover {
-    background-color: rgb(0, 119, 255);
+    background-color: #0077FF;
 }
 
 .button-container a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.btn {
-    height: 2rem;
-    margin: 0.2rem;
-    padding: 0.3rem 0.5rem;
-    background-color: rgb(190, 17, 17);
-    color: antiquewhite;
-    font-weight: 800;
-    border-radius: 0.5rem;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background-color: rgb(255, 0, 0);
-    color: antiquewhite;
+    color: #FFFFFF;
 }
 
 /* Media Queries */
 
-@media (max-width: 576px) {
-    body {
-        font-size: 14px;
-    }
-
-    p {
-        margin: 0 1rem;
-    }
-
-    #projectDetails {
-        width: auto;
-    }
-
-    #projectImage {
-        width: 100%;
-        margin: 0.5rem auto;
-    }
-    .main-containt{
-        flex-direction: column;
-    }
-    .startContributor{
-        width: 100%;
-    }
-}
-
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 576px) {
     body {
         font-size: 16px;
     }
 
-    #projectDetails {
+    #projectImage {
         width: 90%;
-    }
-    .startContributor{
-        width: 80%;
-    }
-    .main-containt{
-        flex-direction: column;
+        margin: 0.5rem auto;
     }
 }
 
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 768px) {
     body {
         font-size: 18px;
     }
     
-    #projectDetails {
-        width: 80%;
-    }
-    .startContributor{
-        width: 80%;
+    /* Makes the contributor table go side by side of the projects*/
+
+    .main-content{
+        flex-direction: row;
     }
 }
 
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 992px) {
     body {
         font-size: 20px;
     }
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 1200px) {
     body {
         font-size: 22px;
     }
