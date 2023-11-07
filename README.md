@@ -1,8 +1,36 @@
-# The Wall of Projects
+# <p align="center"> The Wall of Projects</p>
+
+<p align="center">
+    <p align="center">
+        <a href="https://github.com/MrAshwin2142/The-Wall-of-Projects/" target="blank">
+            <img src="https://img.shields.io/github/watchers/MrAshwin2142/The-Wall-of-Projects?style=for-the-badge&logo=appveyor" alt="Watchers"/>
+        </a>
+        <a href="https://github.com/MrAshwin2142/The-Wall-of-Projects/fork" target="blank">
+            <img src="https://img.shields.io/github/forks/MrAshwin2142/The-Wall-of-Projects?style=for-the-badge&logo=appveyor" alt="Forks"/>
+        </a>
+        <a href="https://github.com/MrAshwin2142/The-Wall-of-Projects/stargazers" target="blank">
+            <img src="https://img.shields.io/github/stars/MrAshwin2142/The-Wall-of-Projects?style=for-the-badge&logo=appveyor" alt="Star"/>
+        </a>
+    </p>
+    <p align="center">
+        <a href="https://github.com/MrAshwin2142/The-Wall-of-Projects/issues" target="blank">
+            <img src="https://img.shields.io/github/issues/MrAshwin2142/The-Wall-of-Projects.svg?style=for-the-badge&logo=appveyor" alt="Issue"/>
+        </a>
+        <a href="https://github.com/MrAshwin2142/The-Wall-of-Projects/pulls" target="blank">
+            <img src="https://img.shields.io/github/issues-pr/MrAshwin2142/The-Wall-of-Projects.svg?style=for-the-badge&logo=appveyor" alt="Open Pull Request"/>
+        </a>
+    </p>
+    <p align="center">
+        <a href="https://github.com/MrAshwin2142/The-Wall-of-Projects/blob/master/LICENSE" target="blank">
+            <img src="https://img.shields.io/github/license/MrAshwin2142/The-Wall-of-Projects?style=for-the-badge&logo=appveyor" alt="License" />
+        </a>
+    </p>
+</p>
 
 Welcome to The Wall of Projects! This project is a collection of various projects that you can refer to for learning or contribute by adding your own projects. It's also designed to be a resource for new open-source contributors who want to start their open-source journey.
 
 ## About
+
 Live Link - [The Wall of Projects](https://mrashwin2142.github.io/The-Wall-of-Projects/https://mrashwin2142.github.io/The-Wall-of-Projects/)
 
 The Wall of Projects is a simple web application that allows you to showcase your projects and view others' projects. It provides a user-friendly interface to add your projects and see project details.
@@ -10,6 +38,7 @@ The Wall of Projects is a simple web application that allows you to showcase you
 ## How to Use
 
 1. **Viewing Projects:**
+
    - On the main page, you will find a list of project buttons.
    - Click on a project button to view project details, including project name, code link, live link, description, and an image (if available).
 
@@ -17,6 +46,7 @@ The Wall of Projects is a simple web application that allows you to showcase you
    - To add your own project, click the "ADD NEW PROJECT" button.
    - You will be prompted to enter the project details, including project name, code link, live link, description, and an image (optional).
    - Your project button will be added to the main page for others to see.
+
 ## Contributing
 
 We encourage you to contribute to this collection of projects, whether you're adding your own projects or helping improve the project. To contribute, follow these steps:
@@ -50,6 +80,7 @@ To add your project to The Wall of Projects, follow these guidelines:
     liveLink: "Link to the live version of your project (if available)",
 },
 ```
+
 ## Discussion and Connecting with Contributors
 
 We believe in fostering a collaborative environment for open-source contributors. Feel free to join discussions and connect with other contributors through the following channels:
