@@ -91,6 +91,24 @@ const projects = [
     codeLink: "https://github.com/Withakash/Social-media",
     liveLink: "https://withakash.github.io/Social-media/",
   },
+  {
+    name: "Aaryan's Portfolio website",
+    image: "images/portfoliosite.png",
+    description: "This is my personal portfolio website where I uploads my projects as well as some blogs.",
+    usedTech: "NextJs/Sanity",
+    contributorName: "Aaryan Patel",
+    codeLink: "https://github.com/Aaryan6/portfolio-website-live",
+    liveLink: "https://developeraaryan.me",
+  },
+  {
+    name: "AyurvedaGPT",
+    image: "images/ayurvedagpt.png",
+    description: "This is an AI chatbot trained on Ayurveda knowledge just like the ChatGPT.",
+    usedTech: "NextJs/Langchain/Vercel",
+    contributorName: "Aaryan Patel",
+    codeLink: "https://github.com/Aaryan6/AyurvedaGPT-AIBot",
+    liveLink: "https://ayurvedagpt.vercel.app/",
+  },
   
 
 
