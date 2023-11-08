@@ -38,6 +38,15 @@ const projects = [
     liveLink: "https://mrashwin2142.github.io/soldier.github.io/",
   },
   {
+    name: "Thinkrr - socialise and learn",
+    image: "images/Dashboard.png",
+    description: "This is flask based website where users and students can socialise and grow their career.",
+    usedTech: "Flask/Python, HTML, CSS, JS",
+    contributorName: "Kunal Achintya Reddy",
+    codeLink: "https://github.com/globalnebula/thinkrr",
+    liveLink: "",
+  },
+  {
     name: "Super Market Billing System",
     image: "./images/BillingSystem.jpg",
     description: "Developed a C++ Supermarket Billing System with file handling for efficient product management and data storage, streamlining the billing process",

@@ -9,6 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const detailSection = document.getElementById("detailSection");
     const usedTech = document.getElementById("usedTech");
     const contributorTable = document.getElementById("contributorTable");
+    const liveLinkError = document.getElementById("liveLinkError");
+
     const starContributor = {};
 
 
@@ -48,11 +50,17 @@ document.addEventListener("DOMContentLoaded", () => {
         contributor.innerText = project.contributorName;
         usedTech.innerText = project.usedTech;
         codeLink.href = project.codeLink;
-        liveLink.href = project.liveLink;
+        if (project.liveLink) {
+            liveLink.href = project.liveLink;
+            liveLinkError.textContent = ""; // Clear the error message if live link is available
+        } else {
+            liveLink.href = "#"; // Set a placeholder link
+            liveLinkError.textContent = "Live link is not available"; // Display the error message
+        }
         if (project.image) {
             projectImage.src = project.image;
         } else {
             projectImage.src = './images/default-image.jpg';
         }
-    }
+    }    
 });
