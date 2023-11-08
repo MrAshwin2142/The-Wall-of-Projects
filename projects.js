@@ -4,7 +4,8 @@ const projects = [
   {
     name: "Ashwin's Personal Portfolio",
     image: "./images/portfolioImg.png",
-    description: "I have built a personal portfolio website to enhance my frontend skills and showcase my work. Utilizing HTML and Bootstrap, I've crafted an interactive platform to exhibit my projects and abilities. Explore my site to discover my passion for web development and design.",
+    description:
+      "I have built a personal portfolio website to enhance my frontend skills and showcase my work. Utilizing HTML and Bootstrap, I've crafted an interactive platform to exhibit my projects and abilities. Explore my site to discover my passion for web development and design.",
     usedTech: "HTML,Bootstrap",
     contributorName: "Ashwin Dhangar",
     codeLink: "https://github.com/MrAshwin2142/portfolio/blob/master",
@@ -13,7 +14,8 @@ const projects = [
   {
     name: "Moviezz",
     image: "./images/moviezz.png",
-    description: "Moviezz is a web application that replicates the Netflix experience, providing real-time movie data and a user-friendly interface for seamless movie and TV show exploration",
+    description:
+      "Moviezz is a web application that replicates the Netflix experience, providing real-time movie data and a user-friendly interface for seamless movie and TV show exploration",
     usedTech: "Reactjs",
     contributorName: "Ashwin Dhangar",
     codeLink: "https://github.com/MrAshwin2142/moviezz",
@@ -22,7 +24,8 @@ const projects = [
   {
     name: "Text to Emoji",
     image: "https://ashwin-portfolioo.netlify.app/image/TextToEmoji.png",
-    description: "Web app using HTML, CSS, and JavaScript, transforming text into emoji-encoded messages. Enhanced user experience with encryption algorithms and an intuitive UI.",
+    description:
+      "Web app using HTML, CSS, and JavaScript, transforming text into emoji-encoded messages. Enhanced user experience with encryption algorithms and an intuitive UI.",
     usedTech: "Javascript",
     contributorName: "Ashwin Dhangar",
     codeLink: "https://github.com/MrAshwin2142/text-to-emoji.github.io",
@@ -31,7 +34,8 @@ const projects = [
   {
     name: "Soldier Game",
     image: "https://ashwin-portfolioo.netlify.app/image/jsGame.png",
-    description: "JavaScript game where a soldier avoids incoming fires, demonstrating real-time interaction and dynamic scoring with animation enhancements.",
+    description:
+      "JavaScript game where a soldier avoids incoming fires, demonstrating real-time interaction and dynamic scoring with animation enhancements.",
     usedTech: "Javascript",
     contributorName: "Ashwin Dhangar",
     codeLink: "https://github.com/MrAshwin2142/soldier.github.io",
@@ -40,7 +44,8 @@ const projects = [
   {
     name: "Thinkrr - socialise and learn",
     image: "images/Dashboard.png",
-    description: "This is flask based website where users and students can socialise and grow their career.",
+    description:
+      "This is flask based website where users and students can socialise and grow their career.",
     usedTech: "Flask/Python, HTML, CSS, JS",
     contributorName: "Kunal Achintya Reddy",
     codeLink: "https://github.com/globalnebula/thinkrr",
@@ -49,25 +54,39 @@ const projects = [
   {
     name: "Super Market Billing System",
     image: "./images/BillingSystem.jpg",
-    description: "Developed a C++ Supermarket Billing System with file handling for efficient product management and data storage, streamlining the billing process",
+    description:
+      "Developed a C++ Supermarket Billing System with file handling for efficient product management and data storage, streamlining the billing process",
     usedTech: "C++",
     contributorName: "Ashwin Dhangar",
     codeLink: "https://github.com/MrAshwin2142/Super-Market-Bill-System",
-    liveLink: "https://www.linkedin.com/posts/ashwin-dhangar-btech24_cpp-miniproject-project-activity-6979374060145139712-N_EY?utm_source=share&utm_medium=member_desktop",
+    liveLink:
+      "https://www.linkedin.com/posts/ashwin-dhangar-btech24_cpp-miniproject-project-activity-6979374060145139712-N_EY?utm_source=share&utm_medium=member_desktop",
   },
   {
     name: "Agenda",
     image: "images/Agenda.png",
-    description: "Take control of your time and tasks with Agenda, where you can easily structure your day or event schedules in just a few clicks.",
+    description:
+      "Take control of your time and tasks with Agenda, where you can easily structure your day or event schedules in just a few clicks.",
     usedTech: "HTML, CSS, Bootstrap and JavaScript",
     contributorName: "Patrick Ancajas",
     codeLink: "https://github.com/JohnPatrickAncajas/Agenda",
     liveLink: "https://johnpatrickancajas.github.io/Agenda/",
   },
   {
+    name: "React Bitcoin Component",
+    image: "./images/react-bitcoin-component.jpg",
+    description:
+      "A simple React Component to get latest prices in USD, EUR and/or GBP from Coindesk API, available via NPM.",
+    usedTech: "React, NPM",
+    contributorName: "Abel Rogers",
+    codeLink: "https://github.com/animasoul/bitcoin-price-component/",
+    liveLink: "https://layerfi.meta.mt/",
+  },
+  {
     name: "Timestamp",
     image: "images/Timestamp.png",
-    description: "Timestamp is where every second, minute, hour, day, month, and year are elegantly displayed. As you watch the clock tick, find inspiration in quotes that change with the hour and day.",
+    description:
+      "Timestamp is where every second, minute, hour, day, month, and year are elegantly displayed. As you watch the clock tick, find inspiration in quotes that change with the hour and day.",
     usedTech: "HTML, CSS, Bootstrap and JavaScript",
     contributorName: "Patrick Ancajas",
     codeLink: "https://github.com/JohnPatrickAncajas/Timestamp",
@@ -85,13 +104,14 @@ const projects = [
   {
     name: "DeepAm Creation",
     image: "images/deepam.png",
-    description: "DeepAm Creations: Your go-to online shop for beautiful flower pots. Shop anytime, anywhere, and elevate your gardening experience.",
+    description:
+      "DeepAm Creations: Your go-to online shop for beautiful flower pots. Shop anytime, anywhere, and elevate your gardening experience.",
     usedTech: "Javascript",
     contributorName: "Akash Yadav",
     codeLink: "https://github.com/Withakash/Deepam-Creation/tree/main",
     liveLink: "https://withakash.github.io/Deepam-Creation/",
   },
-    {
+  {
     name: "Social Media Handle's",
     image: "images/socialmedia.png",
     description: "One Place to handle all social media accounts link",
@@ -103,7 +123,8 @@ const projects = [
   {
     name: "Aaryan's Portfolio website",
     image: "images/portfoliosite.png",
-    description: "This is my personal portfolio website where I uploads my projects as well as some blogs.",
+    description:
+      "This is my personal portfolio website where I uploads my projects as well as some blogs.",
     usedTech: "NextJs/Sanity",
     contributorName: "Aaryan Patel",
     codeLink: "https://github.com/Aaryan6/portfolio-website-live",
@@ -112,14 +133,13 @@ const projects = [
   {
     name: "AyurvedaGPT",
     image: "images/ayurvedagpt.png",
-    description: "This is an AI chatbot trained on Ayurveda knowledge just like the ChatGPT.",
+    description:
+      "This is an AI chatbot trained on Ayurveda knowledge just like the ChatGPT.",
     usedTech: "NextJs/Langchain/Vercel",
     contributorName: "Aaryan Patel",
     codeLink: "https://github.com/Aaryan6/AyurvedaGPT-AIBot",
     liveLink: "https://ayurvedagpt.vercel.app/",
   },
-  
-
 
   // Manually add more projects here
   // Please avoid putting your projects at the very beginning or the end of the file. Instead, insert them in the middle.
