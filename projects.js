@@ -77,7 +77,7 @@ const projects = [
     description: "A simple program that displays the current temperature in a chosen city using a thermometer display",
     usedTech: "Python, Tkinter",
     contributorName: "Kieran Triggs",
-    codeLink: "https://github.com/ktriggsdev/ThermoPy.git",
+    codeLink: "https://github.com/ktriggsdev/ThermoPy",
     liveLink: "",
   },
   {
