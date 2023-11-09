@@ -26,10 +26,10 @@ function displayProjectDetails(project, elements) {
   liveLink.href = project.liveLink || "javascript:void(0);";
   if (!project.liveLink) {
     liveLinkError.classList.remove("hidden");
-    liveLink.style.cursor = "not-allowed";
+    liveLink.style.pointerEvents = "none";
   } else {
     liveLinkError.classList.add("hidden");
-    liveLink.style.cursor = "pointer";
+    liveLink.style.pointerEvents = "";
   }
 
   projectImage.src = project.image || "./images/default-image.jpg";
