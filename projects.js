@@ -141,6 +141,18 @@ const projects = [
     liveLink: "https://ayurvedagpt.vercel.app/",
   },
 
+
+  {
+    name: "Shoyebaktar Portfolio",
+    image: "https://img.lovepik.com/photo/45015/7631.jpg_wh860.jpg",
+    description:
+      "This is Personal Portfolio Webpage.",
+    usedTech: "HTML and CSS",
+    contributorName: "Shoyebaktar Shirol",
+    codeLink: "https://github.com/Shoyebaktar-shirol/Personal-Portfolio.git",
+    liveLink: "https://shoyebaktar-shirol.github.io/Personal-Portfolio/",
+  },
+
   // Manually add more projects here
   // Please avoid putting your projects at the very beginning or the end of the file. Instead, insert them in the middle.
   // {
