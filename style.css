@@ -10,7 +10,7 @@
 
 body {
     font-size: 14px;
-    background-color: #B4FFFF;
+    background-color:#FAEBD7;
     width: 95vw;
     margin: 1rem auto;
 }
@@ -77,7 +77,7 @@ header h1 {
 /* Project Buttons Styles*/
 
 #addProjectBtn {
-    background-color: #00E6E6;
+    background-color: white;
     border-radius: 0.5rem;
 }
 
@@ -200,6 +200,37 @@ header h1 {
 /* Add some border to the table and cells */
 #contributorTable, #contributorTable th, #contributorTable td {
     border: 1px solid #ddd;
+}
+
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+    /* Adding a smooth transition effect */
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    /* Example: Increase the size on hover */
+}
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+}
+
+/* Additional hover effect for the image itself */
+.social-icons img:hover {
+    filter: grayscale(100%);
 }
 
 

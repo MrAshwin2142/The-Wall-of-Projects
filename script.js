@@ -26,7 +26,7 @@ function displayProjectDetails(project, elements) {
   liveLink.href = project.liveLink || "javascript:void(0);";
   liveLinkError.textContent = project.liveLink
     ? ""
-    : "Live link is not available";
+    : " ";
 
   projectImage.src = project.image || "./images/default-image.jpg";
 }
