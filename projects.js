@@ -72,6 +72,15 @@ const projects = [
       "https://www.linkedin.com/posts/ashwin-dhangar-btech24_cpp-miniproject-project-activity-6979374060145139712-N_EY?utm_source=share&utm_medium=member_desktop",
   },
   {
+    name: "Thermopy",
+    image: "images/Thermopy.png", // Add your project image to the `images` directory
+    description: "A simple program that displays the current temperature in a chosen city using a thermometer display",
+    usedTech: "Python, Tkinter",
+    contributorName: "Kieran Triggs",
+    codeLink: "https://github.com/ktriggsdev/ThermoPy",
+    liveLink: "",
+  },
+  {
     name: "Agenda",
     image: "images/Agenda.png",
     description:
