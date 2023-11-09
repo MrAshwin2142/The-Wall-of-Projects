@@ -24,9 +24,13 @@ function displayProjectDetails(project, elements) {
   codeLink.href = project.codeLink;
 
   liveLink.href = project.liveLink || "javascript:void(0);";
-  liveLinkError.textContent = project.liveLink
-    ? ""
-    : "Live link is not available";
+  if (!project.liveLink) {
+    liveLinkError.classList.remove("hidden");
+    liveLink.style.cursor = "not-allowed";
+  } else {
+    liveLinkError.classList.add("hidden");
+    liveLink.style.cursor = "pointer";
+  }
 
   projectImage.src = project.image || "./images/default-image.jpg";
 }
