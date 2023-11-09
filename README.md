@@ -31,7 +31,7 @@ Welcome to The Wall of Projects! This project is a collection of various project
 
 ## About
 
-Live Link - [The Wall of Projects](https://mrashwin2142.github.io/The-Wall-of-Projects/https://mrashwin2142.github.io/The-Wall-of-Projects/)
+Live Link - [The Wall of Projects](https://mrashwin2142.github.io/The-Wall-of-Projects/)
 
 The Wall of Projects is a simple web application that allows you to showcase your projects and view others' projects. It provides a user-friendly interface to add your projects and see project details.
 
