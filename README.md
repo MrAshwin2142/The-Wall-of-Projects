@@ -27,11 +27,15 @@
     </p>
 </p>
 
+```code
+⭐  If you find our project valuable, please consider giving it a star. Your support means a lot to us. ⭐
+```
+
 Welcome to The Wall of Projects! This project is a collection of various projects that you can refer to for learning or contribute by adding your own projects. It's also designed to be a resource for new open-source contributors who want to start their open-source journey.
 
 ## About
 
-Live Link - [The Wall of Projects](https://mrashwin2142.github.io/The-Wall-of-Projects/)
+Live Link - [The Wall of Projects](https://the-wall-of-projects.netlify.app/)
 
 The Wall of Projects is a simple web application that allows you to showcase your projects and view others' projects. It provides a user-friendly interface to add your projects and see project details.
 
