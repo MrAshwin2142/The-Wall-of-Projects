@@ -3,14 +3,14 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     text-decoration: none;
     text-align: center;
 }
 
 body {
     font-size: 14px;
-    background-color: #B4FFFF;
+    background-color: #b4ffff;
     width: 95vw;
     margin: 1rem auto;
 }
@@ -20,6 +20,42 @@ body {
     font-weight: bold;
 }
 
+.liveLinkContainer {
+    position: relative;
+    display: inline-block;
+}
+
+.liveLinkContainer #liveLinkError {
+    visibility: hidden;
+    width: 400px;
+    background-color: #555;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 105%;
+    left: 50%;
+    margin-left: -200px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.liveLinkContainer #liveLinkError::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.liveLinkContainer:hover #liveLinkError {
+    visibility: visible;
+    opacity: 1;
+}
 
 p {
     margin: 0 1rem;
@@ -52,7 +88,7 @@ header {
 }
 
 header h1 {
-    font-family: 'Papyrus', fantasy;
+    font-family: "Papyrus", fantasy;
 }
 
 #intro {
@@ -77,26 +113,26 @@ header h1 {
 /* Project Buttons Styles*/
 
 #addProjectBtn {
-    background-color: #00E6E6;
+    background-color: #00e6e6;
     border-radius: 0.5rem;
 }
 
 #addProjectBtn:hover {
-    background-color: #00FFFF;
+    background-color: #00ffff;
 }
 
 .btn {
     margin: 0.2rem;
     padding: 0.3rem 0.5rem;
-    background-color: #BE1111;
+    background-color: #be1111;
     color: antiquewhite;
     border-radius: 0.5rem;
     cursor: pointer;
 }
 
 .btn:hover {
-    background-color: #FF0000;
-    color: #FAEBD7;
+    background-color: #ff0000;
+    color: #faebd7;
 }
 
 /* Project List Styles */
@@ -114,7 +150,7 @@ header h1 {
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
-    background-color: #EE8505;
+    background-color: #ee8505;
     border-radius: 1rem;
 }
 
@@ -145,7 +181,7 @@ header h1 {
 }
 
 #projectDetails .button-container button {
-    background-color: #0918EfE1;
+    background-color: #0918efe1;
     border: none;
     border-radius: 0.5rem;
     margin: 0.5rem;
@@ -154,11 +190,11 @@ header h1 {
 }
 
 #projectDetails .button-container button:hover {
-    background-color: #0077FF;
+    background-color: #0077ff;
 }
 
 .button-container a {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 /* Style the table container */
@@ -198,10 +234,11 @@ header h1 {
 }
 
 /* Add some border to the table and cells */
-#contributorTable, #contributorTable th, #contributorTable td {
+#contributorTable,
+#contributorTable th,
+#contributorTable td {
     border: 1px solid #ddd;
 }
-
 
 /* Media Queries */
 
