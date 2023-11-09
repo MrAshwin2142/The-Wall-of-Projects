@@ -12,6 +12,15 @@ const projects = [
     liveLink: "https://ashwin-portfolioo.netlify.app/#",
   },
   {
+    name: "Trae's ecommerce-website",
+    image: "./images/traescreenshot.png",
+    description: "E-commerce Next.js website built with Typescript and Tailwind CSS, with Local storage backend. meant to emulate store where user can buy favourite football jerseys",
+    usedTech: "Typescript, Tailwind CSS",
+    contributorName: "Trae Zeeofor",
+    codeLink: "https://github.com/traez/ecommerce-website",
+    liveLink: "https://ecommerce-website-traez.vercel.app/",
+  },
+  {
     name: "Moviezz",
     image: "./images/moviezz.png",
     description:
