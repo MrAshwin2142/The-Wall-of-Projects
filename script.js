@@ -68,7 +68,11 @@ document.addEventListener("DOMContentLoaded", () => {
     projectList.appendChild(projectButton);
   });
 
-  Object.entries(starContributor).forEach(
+  const sortedStarContributors = Object.entries(starContributor).sort(
+    (a, b) => b[1] - a[1]
+  );
+
+  sortedStarContributors.forEach(
     ([contributorName, projectsCount]) => {
       const row = document.createElement("tr");
       row.innerHTML = `<td>${contributorName}</td><td>${projectsCount}</td>`;
