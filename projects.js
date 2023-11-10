@@ -12,6 +12,15 @@ const projects = [
     liveLink: "https://ashwin-portfolioo.netlify.app/#",
   },
   {
+    name: "Trae's ecommerce-website",
+    image: "./images/traescreenshot.png",
+    description: "E-commerce Next.js website built with Typescript and Tailwind CSS, with Local storage backend. meant to emulate store where user can buy favourite football jerseys",
+    usedTech: "Typescript, Tailwind CSS",
+    contributorName: "Trae Zeeofor",
+    codeLink: "https://github.com/traez/ecommerce-website",
+    liveLink: "https://ecommerce-website-traez.vercel.app/",
+  },
+  {
     name: "Moviezz",
     image: "./images/moviezz.png",
     description:
@@ -61,6 +70,15 @@ const projects = [
     codeLink: "https://github.com/MrAshwin2142/Super-Market-Bill-System",
     liveLink:
       "https://www.linkedin.com/posts/ashwin-dhangar-btech24_cpp-miniproject-project-activity-6979374060145139712-N_EY?utm_source=share&utm_medium=member_desktop",
+  },
+  {
+    name: "Thermopy",
+    image: "images/Thermopy.png", // Add your project image to the `images` directory
+    description: "A simple program that displays the current temperature in a chosen city using a thermometer display",
+    usedTech: "Python, Tkinter",
+    contributorName: "Kieran Triggs",
+    codeLink: "https://github.com/ktriggsdev/ThermoPy",
+    liveLink: "",
   },
   {
     name: "Agenda",
