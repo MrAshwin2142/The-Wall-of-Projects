@@ -68,10 +68,10 @@ document.addEventListener("DOMContentLoaded", () => {
       if(currentClickedButton){
         currentClickedButton.classList.remove("active");
       }
-
-      projectButton.classList.add("active");
-
-      currentClickedButton = projectButton;
+      if(currentClickedButton != projectButton){
+        projectButton.classList.add("active");
+        currentClickedButton = projectButton;
+      }
       displayProjectDetails(project, elements);
     });
 
