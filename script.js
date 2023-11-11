@@ -37,6 +37,7 @@ function displayProjectDetails(project, elements) {
 
 // Wait until the DOM is fully loaded before running the script
 document.addEventListener("DOMContentLoaded", () => {
+
   const elements = {
     projectName: document.getElementById("projectName"),
     projectImage: document.getElementById("projectImage"),
@@ -52,6 +53,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const starContributor = {};
   const projectList = document.getElementById("projectList");
+  let currentClickedButton = null;
+  
 
   projects.forEach((project) => {
     const projectButton = document.createElement("button");
@@ -62,6 +65,14 @@ document.addEventListener("DOMContentLoaded", () => {
     projectButton.title = project.usedTech;
 
     projectButton.addEventListener("click", () => {
+      if(currentClickedButton){
+        currentClickedButton.classList.remove("active");
+        currentClickedButton=null;
+      }
+     else if(currentClickedButton != projectButton){
+        projectButton.classList.add("active");
+        currentClickedButton = projectButton;
+      }
       displayProjectDetails(project, elements);
     });
 
