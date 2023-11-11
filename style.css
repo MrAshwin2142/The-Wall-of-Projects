@@ -130,6 +130,10 @@ header h1 {
     cursor: pointer;
 }
 
+.active {
+    background-color: black;
+}
+
 .btn:hover {
     background-color: #ff0000;
     color: #faebd7;
