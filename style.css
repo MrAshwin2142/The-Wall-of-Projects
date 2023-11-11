@@ -131,7 +131,7 @@ header h1 {
 }
 
 .active {
-    background-color: black;
+    background-color: #ff0000;
 }
 
 .btn:hover {
