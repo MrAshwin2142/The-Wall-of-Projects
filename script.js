@@ -67,6 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
     projectButton.addEventListener("click", () => {
       if(currentClickedButton){
         currentClickedButton.classList.remove("active");
+        currentClickedButton=null;
       }
       if(currentClickedButton != projectButton){
         projectButton.classList.add("active");
