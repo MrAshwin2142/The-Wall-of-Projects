@@ -101,6 +101,16 @@ const projects = [
     liveLink: "https://layerfi.meta.mt/",
   },
   {
+    name: "The Wall of Projects(React)",
+    image: "./images/thewallofprojects(react).png",
+    description:
+      "This is The webpage wall of projects just a design I thought to throw out there.",
+    usedTech: "React, Tailwind",
+    contributorName: "Kubasu Ivan Sakwa",
+    codeLink: "https://github.com/KubasuIvanSakwa/The-Wall-of-Projects-React-",
+    liveLink: "https://the-wall-of-projects-react.netlify.app",
+  },
+  {
     name: "Timestamp",
     image: "images/Timestamp.png",
     description:
