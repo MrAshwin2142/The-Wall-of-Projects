@@ -108,7 +108,7 @@ const projects = [
     usedTech: "React, Tailwind",
     contributorName: "Kubasu Ivan Sakwa",
     codeLink: "https://github.com/KubasuIvanSakwa/The-Wall-of-Projects-React-",
-    liveLink: "https://github.com/KubasuIvanSakwa/The-Wall-of-Projects-React-",
+    liveLink: "https://the-wall-of-projects-react.netlify.app",
   },
   {
     name: "Timestamp",
