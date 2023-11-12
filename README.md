@@ -65,6 +65,8 @@ We encourage you to contribute to this collection of projects, whether you're ad
 
 5. Create a pull request (PR) to submit your changes for review. Be sure to describe your changes in the PR.
 
+6. Star the repository to show your support! ⭐
+
 ### Adding Your Project
 
 To add your project to The Wall of Projects, follow these guidelines:

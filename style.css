@@ -10,7 +10,7 @@
 
 body {
     font-size: 14px;
-    background-color: #b4ffff;
+    background-color:#FAEBD7;
     width: 95vw;
     margin: 1rem auto;
 }
@@ -113,7 +113,7 @@ header h1 {
 /* Project Buttons Styles*/
 
 #addProjectBtn {
-    background-color: #00e6e6;
+    background-color: white;
     border-radius: 0.5rem;
 }
 
@@ -124,10 +124,14 @@ header h1 {
 .btn {
     margin: 0.2rem;
     padding: 0.3rem 0.5rem;
-    background-color: #be1111;
+    background-color: #550000;
     color: antiquewhite;
     border-radius: 0.5rem;
     cursor: pointer;
+}
+
+.active {
+    background-color: #ff0000;
 }
 
 .btn:hover {
