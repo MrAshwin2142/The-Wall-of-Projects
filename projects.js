@@ -2,6 +2,16 @@
 
 const projects = [
   {
+    name: "Product Preview Card",
+    image: "./images/product-preview-card.png",
+    description:
+      "The first project i built when i started learning frontend web, improved overtime, it wasn't that good at first.",
+    usedTech: "HTML, CSS",
+    contributorName: "Olaniyan Eniola",
+    codeLink: "https://github.com/OlaniyanEniola/product-preview-card",
+    liveLink: "https://olaniyaneniola.github.io/product-preview-card/",
+  },
+  {
     name: "Online compiler",
     image: "./images/OnlineCompiler.png",
     description:
