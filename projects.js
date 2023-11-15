@@ -40,7 +40,6 @@ const projects = [
     codeLink: "https://github.com/MrAshwin2142/text-to-emoji.github.io",
     liveLink: "https://mrashwin2142.github.io/text-to-emoji.github.io/",
   },
-  },
   {
     name: "Glowing Digital Clock",
     image: "",
