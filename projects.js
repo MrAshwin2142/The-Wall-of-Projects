@@ -3,7 +3,7 @@
 const projects = [
   {
     name: "Online compiler",
-    image: "./images/portfolioImg.png",
+    image: "./images/OnlineCompiler.png",
     description:
       "I have built a compiler for web devlopment.",
     usedTech: "HTML,CSS,JavaScript",
