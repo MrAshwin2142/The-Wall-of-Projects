@@ -9,10 +9,11 @@
 }
 
 body {
-  font-size: 14px;
-  background-color: #faebd7;
-  width: 95vw;
-  margin: 1rem auto;
+    font-size: 14px;
+    background-color:#FAEBD7;
+    width: 95vw;
+    margin: 1rem auto;
+    overflow-x: hidden;
 }
 
 .error-message {
@@ -255,9 +256,14 @@ header h1 {
 
 /* Footer Styles */
 footer {
-  background-color: black;
-  color: white;
-  margin-top: 1rem;
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+    font-size: x-large;
+    box-sizing: border-box;
+    margin-bottom: -1rem;
+    margin-left: -2.3rem;
+    margin-right: -2.3rem;
 }
 
 /* Media Queries */
