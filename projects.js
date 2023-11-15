@@ -40,6 +40,17 @@ const projects = [
     codeLink: "https://github.com/MrAshwin2142/text-to-emoji.github.io",
     liveLink: "https://mrashwin2142.github.io/text-to-emoji.github.io/",
   },
+  },
+  {
+    name: "Glowing Digital Clock",
+    image: "",
+    description:
+      "This project involves creating a visually engaging digital clock with a glowing effect using HTML, CSS, and JavaScript. The clock's design includes a gradient background, animated hue rotation, and blurred glowing elements for a striking visual presentation",
+    usedTech: "HTML, CSS, JavaScript",
+    contributorName: "Preeti Sen",
+    codeLink: "https://github.com/withpreetisen08/Digital-watch",
+    liveLink: "https://withpreetisen08.github.io/Digital-watch/",
+  },
   {
     name: "Soldier Game",
     image: "https://ashwin-portfolioo.netlify.app/image/jsGame.png",
@@ -70,6 +81,16 @@ const projects = [
     codeLink: "https://github.com/MrAshwin2142/Super-Market-Bill-System",
     liveLink:
       "https://www.linkedin.com/posts/ashwin-dhangar-btech24_cpp-miniproject-project-activity-6979374060145139712-N_EY?utm_source=share&utm_medium=member_desktop",
+  },
+  {
+    name: "Digital Calculator",
+    image: "",
+    description:
+      "An elegant and responsive web-based calculator with a modern interface designed using HTML, CSS, and JavaScript for basic arithmetic calculations."
+    usedTech: "HTML, CSS, JavaScript",
+    contributorName: "Preeti Sen",
+    codeLink: "https://github.com/withpreetisen08/Calculator2",
+    liveLink: "https://withpreetisen08.github.io/Calculator2/",
   },
   {
     name: "Thermopy",
