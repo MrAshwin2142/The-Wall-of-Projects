@@ -259,12 +259,36 @@ footer {
     background-color: black;
     color: white;
     margin-top: 1rem;
-    font-size: x-large;
     box-sizing: border-box;
     margin-bottom: -1rem;
     margin-left: -2.3rem;
     margin-right: -2.3rem;
 }
+
+#foot-1stlayer{
+  background-color: #555;
+  margin: 0.75rem;
+}
+
+.fut {
+  display: flex;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  margin: 0.75rem;
+  padding: 0.75rem;
+  text-align: center;  
+}
+
+#foot-2ndlayer{
+  font-size: 0.75rem;
+  background-color: black;
+}
+
+div p a {
+  color: #fff !important;
+}
+
 
 /* Media Queries */
 
@@ -296,3 +320,4 @@ footer {
     font-size: 22px;
   }
 }
+
