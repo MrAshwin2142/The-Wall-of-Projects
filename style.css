@@ -1,11 +1,11 @@
 /* General Styles */
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Courier New", Courier, monospace;
-    text-decoration: none;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+  text-align: center;
 }
 
 body {
@@ -17,232 +17,241 @@ body {
 }
 
 .error-message {
-    color: red;
-    font-weight: bold;
+  color: red;
+  font-weight: bold;
 }
 
 .liveLinkContainer {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .liveLinkContainer #liveLinkError {
-    visibility: hidden;
-    width: 400px;
-    background-color: #555;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    position: absolute;
-    z-index: 1;
-    bottom: 105%;
-    left: 50%;
-    margin-left: -200px;
-    opacity: 0;
-    transition: opacity 0.3s;
+  visibility: hidden;
+  width: 400px;
+  background-color: #555;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 105%;
+  left: 50%;
+  margin-left: -200px;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
 .liveLinkContainer #liveLinkError::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
 }
 
 .liveLinkContainer:hover #liveLinkError {
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 
 p {
-    margin: 0 1rem;
-    line-height: 1.5;
-    font-weight: bolder;
+  margin: 0 1rem;
+  line-height: 1.5;
+  font-weight: bolder;
 }
 
 a:hover {
-    color: #21043b;
+  color: #21043b;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .main-content {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 hr {
-    margin: 1rem 0;
-    border: 0.5px solid black;
+  margin: 1rem 0;
+  border: 0.5px solid black;
 }
 
 /* Header Styles */
 
 header {
-    margin: 2rem;
+  margin: 2rem;
 }
 
 header h1 {
-    font-family: "Papyrus", fantasy;
+  font-family: "Papyrus", fantasy;
 }
 
 #intro {
-    color: #222222;
-    margin-bottom: 1em;
+  color: #222222;
+  margin-bottom: 1em;
 }
 
 /* Contributor Table Styles */
 
 .starContributor {
-    min-width: 15rem;
-    display: flex;
-    flex-direction: column;
-    font-size: 0.8em;
-    padding: 0.6rem;
+  min-width: 15rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8em;
+  padding: 0.6rem;
 }
 
 .starContributor h4 {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 /* Project Buttons Styles*/
 
 #addProjectBtn {
-    background-color: white;
-    border-radius: 0.5rem;
+  background-color: #ff0000;
+  border-radius: 0.5rem;
+  font-weight: 700;
+}
+
+#addProjectBtn a {
+  color: antiquewhite;
 }
 
 #addProjectBtn:hover {
-    background-color: #00ffff;
+  background-color: antiquewhite;
+}
+
+#addProjectBtn:hover a {
+  color: #ff0000;
 }
 
 .btn {
-    margin: 0.2rem;
-    padding: 0.3rem 0.5rem;
-    background-color: #550000;
-    color: antiquewhite;
-    border-radius: 0.5rem;
-    cursor: pointer;
+  margin: 0.2rem;
+  padding: 0.3rem 0.5rem;
+  background-color: #550000;
+  color: antiquewhite;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .active {
-    background-color: #ff0000;
+  background-color: #ff0000;
 }
 
 .btn:hover {
-    background-color: #ff0000;
-    color: #faebd7;
+  background-color: #ff0000;
+  color: #faebd7;
 }
 
 /* Project List Styles */
 
 #projectList {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem;
 }
 
 #projectDetails {
-    width: 90%;
-    margin: 0.5rem auto;
-    padding: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    background-color: #ee8505;
-    border-radius: 1rem;
+  width: 90%;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #ee8505;
+  border-radius: 1rem;
 }
 
 #projectImage {
-    width: 100%;
-    margin: 0.5rem auto;
-    border-radius: 1rem;
+  width: 100%;
+  margin: 0.5rem auto;
+  border-radius: 1rem;
 }
 
 #projectName {
-    margin: 1rem;
+  margin: 1rem;
 }
 
 #projectDescription {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 #projectHr {
-    margin: 0.5rem 0;
+  margin: 0.5rem 0;
 }
 
 /* Project Card Button Styles */
 
 #projectDetails .button-container {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 #projectDetails .button-container button {
-    background-color: #0918efe1;
-    border: none;
-    border-radius: 0.5rem;
-    margin: 0.5rem;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
+  background-color: #0918efe1;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
 }
 
 #projectDetails .button-container button:hover {
-    background-color: #0077ff;
+  background-color: #0077ff;
 }
 
 .button-container a {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 /* Style the table container */
 .starContributor {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
 }
 
 /* Style the table header */
 #contributorTable {
-    border-collapse: collapse;
-    width: 70%;
+  border-collapse: collapse;
+  width: 70%;
 }
 
 #contributorTable th {
-    background-color: #007bff; /* Header background color */
-    color: #fff; /* Header text color */
-    font-weight: bold;
-    padding: 10px;
+  background-color: #007bff; /* Header background color */
+  color: #fff; /* Header text color */
+  font-weight: bold;
+  padding: 10px;
 }
 
 #contributorTable tr {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 #contributorTable tr:hover {
-    background-color: #ddd; /* Hovered row background color */
+  background-color: #ddd; /* Hovered row background color */
 }
 
 /* Style table cells */
 #contributorTable td {
-    padding: 8px;
-    text-align: center;
+  padding: 8px;
+  text-align: center;
 }
 
 /* Add some border to the table and cells */
 #contributorTable,
 #contributorTable th,
 #contributorTable td {
-    border: 1px solid #ddd;
+  border: 1px solid #ddd;
 }
 
 /* Footer Styles */
@@ -260,30 +269,30 @@ footer {
 /* Media Queries */
 
 @media (min-width: 576px) {
-    body {
-        font-size: 16px;
-    }
+  body {
+    font-size: 16px;
+  }
 
-    #projectImage {
-        width: 90%;
-        margin: 0.5rem auto;
-    }
+  #projectImage {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
 }
 
 @media (min-width: 768px) {
-    body {
-        font-size: 18px;
-    }
+  body {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 992px) {
-    body {
-        font-size: 20px;
-    }
+  body {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 1200px) {
-    body {
-        font-size: 22px;
-    }
+  body {
+    font-size: 22px;
+  }
 }
