@@ -85,7 +85,7 @@ const projects = [
     name: "Digital Calculator",
     image: "",
     description:
-      "An elegant and responsive web-based calculator with a modern interface designed using HTML, CSS, and JavaScript for basic arithmetic calculations."
+      "An elegant and responsive web-based calculator with a modern interface designed using HTML, CSS, and JavaScript for basic arithmetic calculations.",
     usedTech: "HTML, CSS, JavaScript",
     contributorName: "Preeti Sen",
     codeLink: "https://github.com/withpreetisen08/Calculator2",
