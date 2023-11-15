@@ -2,6 +2,16 @@
 
 const projects = [
   {
+    name: "Online compiler",
+    image: "./images/OnlineCompiler.png",
+    description:
+      "I have built a compiler for web devlopment.",
+    usedTech: "HTML,CSS,JavaScript",
+    contributorName: "Rohan Muttepwar",
+    codeLink: "https://rohaneth.github.io/compiler/",
+    liveLink: "https://rohaneth.github.io/compiler/",
+  },
+  {
     name: "Ashwin's Personal Portfolio",
     image: "./images/portfolioImg.png",
     description:
