@@ -210,6 +210,15 @@ const projects = [
     codeLink: "https://github.com/Shoyebaktar-shirol/Personal-Portfolio.git",
     liveLink: "https://shoyebaktar-shirol.github.io/Personal-Portfolio/",
   },
+  {
+    name: "Poke!Book - Poetry notebook",
+    image: "./images/pokebook.png",
+    description: "Distraction-free private digital notebook for writing poetry and lyrics.",
+    usedTech: "SvelteKit, Capacitor",
+    contributorName: "Pokeghost",
+    codeLink: "https://github.com/pokegh0st/pokebook",
+    liveLink: "https://book.pokeghost.org/",
+},
 
   // Manually add more projects here
   // Please avoid putting your projects at the very beginning or the end of the file. Instead, insert them in the middle.
