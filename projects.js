@@ -1,6 +1,16 @@
 // projects.js
 
 const projects = [
+ {
+    name: "Responsive Payment Form ",
+    image: "",
+    description:
+      "Hey there , I created this cool responsive payment form using HTML and CSS ,  ",
+    usedTech: "HTML, CSS",
+    contributorName: "Vivek Paswan ",
+    codeLink: "https://github.com/vivek-paswan028/Paymentform",
+    liveLink: "https://paymentform-blush.vercel.app/",
+  },
   {
     name: "Animated NavBar ",
     image: "./images/navbar.png",
