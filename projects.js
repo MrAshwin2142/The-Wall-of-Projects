@@ -2,6 +2,16 @@
 
 const projects = [
   {
+    name: "Animated NavBar ",
+    image: "...",
+    description:
+      "Hey there , I created this cool animated navbar using HTML and CSS , Try it Once, you will love this.... ",
+    usedTech: "HTML, CSS",
+    contributorName: "Vivek Paswan ",
+    codeLink: "https://github.com/vivek-paswan028/Animated-navbar",
+    liveLink: "https://animated-navbar-tau.vercel.app/",
+  },
+  {
     name: "Product Preview Card",
     image: "./images/product-preview-card.png",
     description:
