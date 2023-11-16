@@ -1,5 +1,6 @@
-// Define the functions outside of the DOMContentLoaded event
+// Define functions outside of the DOMContentLoaded event
 function displayProjectDetails(project, elements) {
+  // Destructuring elements for ease of use
   const {
     projectName,
     projectDescription,
@@ -17,12 +18,14 @@ function displayProjectDetails(project, elements) {
     projectName.textContent === project.name;
   detailSection.classList.toggle("hidden", shouldBeHidden);
 
+  // Set project details
   projectName.textContent = project.name;
   projectDescription.textContent = project.description;
   contributor.textContent = project.contributorName;
   usedTech.textContent = project.usedTech;
   codeLink.href = project.codeLink;
 
+  // Handle live link
   liveLink.href = project.liveLink || "javascript:void(0);";
   if (!project.liveLink) {
     liveLinkError.classList.remove("hidden");
@@ -32,12 +35,12 @@ function displayProjectDetails(project, elements) {
     liveLink.style.pointerEvents = "";
   }
 
+  // Set project image
   projectImage.src = project.image || "./images/default-image.jpg";
 }
 
 // Wait until the DOM is fully loaded before running the script
 document.addEventListener("DOMContentLoaded", () => {
-
   const elements = {
     projectName: document.getElementById("projectName"),
     projectImage: document.getElementById("projectImage"),
@@ -54,7 +57,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const starContributor = {};
   const projectList = document.getElementById("projectList");
   let currentClickedButton = null;
-  
 
   projects.forEach((project) => {
     const projectButton = document.createElement("button");
@@ -64,30 +66,48 @@ document.addEventListener("DOMContentLoaded", () => {
     projectButton.className = "btn";
     projectButton.title = project.usedTech;
 
-    projectButton.addEventListener("click", () => {
-      if(currentClickedButton){
-        currentClickedButton.classList.remove("active");
-        currentClickedButton=null;
-      }
-      if(currentClickedButton != projectButton){
-        projectButton.classList.add("active");
-        currentClickedButton = projectButton;
-      }
-      displayProjectDetails(project, elements);
-    });
-
     projectList.appendChild(projectButton);
   });
 
+  // Event delegation for project buttons
+  projectList.addEventListener("click", (event) => {
+    const projectButton = event.target;
+    if (projectButton.tagName === "BUTTON") {
+      const project = projects.find(
+        (p) => p.name === projectButton.textContent
+      );
+      if (project) {
+        handleButtonClick(projectButton, project);
+      }
+    }
+  });
+
+  function handleButtonClick(projectButton, project) {
+    const isCurrentButton = currentClickedButton === projectButton;
+    if (currentClickedButton) {
+      currentClickedButton.classList.remove("active");
+    }
+
+    displayProjectDetails(project, elements);
+
+    if (!elements.detailSection.classList.contains("hidden")) {
+      if (!isCurrentButton) {
+        projectButton.classList.add("active");
+        currentClickedButton = projectButton;
+      } else {
+        currentClickedButton = null;
+      }
+    } else {
+      currentClickedButton = null;
+    }
+  }
   const sortedStarContributors = Object.entries(starContributor).sort(
     (a, b) => b[1] - a[1]
   );
 
-  sortedStarContributors.forEach(
-    ([contributorName, projectsCount]) => {
-      const row = document.createElement("tr");
-      row.innerHTML = `<td>${contributorName}</td><td>${projectsCount}</td>`;
-      elements.contributorTable.appendChild(row);
-    }
-  );
+  sortedStarContributors.forEach(([contributorName, projectsCount]) => {
+    const row = document.createElement("tr");
+    row.innerHTML = `<td>${contributorName}</td><td>${projectsCount}</td>`;
+    elements.contributorTable.appendChild(row);
+  });
 });
