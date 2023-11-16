@@ -3,7 +3,7 @@
 const projects = [
   {
     name: "Animated NavBar ",
-    image: "",
+    image: "./images/navbar.png",
     description:
       "Hey there , I created this cool animated navbar using HTML and CSS , Try it Once, you will love this.... ",
     usedTech: "HTML, CSS",
@@ -72,7 +72,7 @@ const projects = [
   },
   {
     name: "Glowing Digital Clock",
-    image: "",
+    image: "./images/clock.png",
     description:
       "This project involves creating a visually engaging digital clock with a glowing effect using HTML, CSS, and JavaScript. The clock's design includes a gradient background, animated hue rotation, and blurred glowing elements for a striking visual presentation",
     usedTech: "HTML, CSS, JavaScript",
@@ -113,7 +113,7 @@ const projects = [
   },
   {
     name: "Digital Calculator",
-    image: "",
+    image: "./images/calculator.png",
     description:
       "An elegant and responsive web-based calculator with a modern interface designed using HTML, CSS, and JavaScript for basic arithmetic calculations.",
     usedTech: "HTML, CSS, JavaScript",
@@ -147,7 +147,7 @@ const projects = [
     description:
       "My (Alex Treptow) portfolio website. Fully responsive for all screens and contains a light/dark mode switcher.",
     usedTech:
-      "Created/deployed with HTML, CSS, JavaScript, Vite, Vercel and Hostinger.",
+      "HTML, CSS, JavaScript, Vite, Vercel and Hostinger.",
     contributorName: "Alex Treptow",
     codeLink: "https://github.com/acktreptow/portfolio",
     liveLink: "https://treptow.dev",
@@ -156,7 +156,7 @@ const projects = [
     name: "PlayStation Productions",
     image: "./images/ps-productions.png",
     description: "A homepage for PlayStations TV and movie division",
-    usedTech: "Created/deployed with React, Boostrap and GitHub Pages",
+    usedTech: "React, Boostrap and GitHub Pages",
     contributorName: "Alex Treptow",
     codeLink: "https://github.com/acktreptow/ps-productions",
     liveLink: "https://acktreptow.github.io/ps-productions/",
@@ -257,7 +257,7 @@ const projects = [
     contributorName: "Pokeghost",
     codeLink: "https://github.com/pokegh0st/pokebook",
     liveLink: "https://book.pokeghost.org/",
-},
+  },
 
   // Manually add more projects here
   // Please avoid putting your projects at the very beginning or the end of the file. Instead, insert them in the middle.
