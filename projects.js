@@ -4,8 +4,7 @@ const projects = [
   {
     name: "Online compiler",
     image: "./images/OnlineCompiler.png",
-    description:
-      "I have built a compiler for web devlopment.",
+    description: "I have built a compiler for web devlopment.",
     usedTech: "HTML,CSS,JavaScript",
     contributorName: "Rohan Muttepwar",
     codeLink: "https://rohaneth.github.io/compiler/",
@@ -24,7 +23,8 @@ const projects = [
   {
     name: "Trae's ecommerce-website",
     image: "./images/traescreenshot.png",
-    description: "E-commerce Next.js website built with Typescript and Tailwind CSS, with Local storage backend. meant to emulate store where user can buy favourite football jerseys",
+    description:
+      "E-commerce Next.js website built with Typescript and Tailwind CSS, with Local storage backend. meant to emulate store where user can buy favourite football jerseys",
     usedTech: "Typescript, Tailwind CSS",
     contributorName: "Trae Zeeofor",
     codeLink: "https://github.com/traez/ecommerce-website",
@@ -104,7 +104,8 @@ const projects = [
   {
     name: "Thermopy",
     image: "images/Thermopy.png", // Add your project image to the `images` directory
-    description: "A simple program that displays the current temperature in a chosen city using a thermometer display",
+    description:
+      "A simple program that displays the current temperature in a chosen city using a thermometer display",
     usedTech: "Python, Tkinter",
     contributorName: "Kieran Triggs",
     codeLink: "https://github.com/ktriggsdev/ThermoPy",
@@ -119,6 +120,26 @@ const projects = [
     contributorName: "Patrick Ancajas",
     codeLink: "https://github.com/JohnPatrickAncajas/Agenda",
     liveLink: "https://johnpatrickancajas.github.io/Agenda/",
+  },
+  {
+    name: "treptow.dev Portfolio Website",
+    image: "./images/acktreptowportfolio.jpg",
+    description:
+      "My (Alex Treptow) portfolio website. Fully responsive for all screens and contains a light/dark mode switcher.",
+    usedTech:
+      "Created/deployed with HTML, CSS, JavaScript, Vite, Vercel and Hostinger.",
+    contributorName: "Alex Treptow",
+    codeLink: "https://github.com/acktreptow/portfolio",
+    liveLink: "https://treptow.dev",
+  },
+  {
+    name: "PlayStation Productions",
+    image: "./images/ps-productions.png",
+    description: "A homepage for PlayStations TV and movie division",
+    usedTech: "Created/deployed with React, Boostrap and GitHub Pages",
+    contributorName: "Alex Treptow",
+    codeLink: "https://github.com/acktreptow/ps-productions",
+    liveLink: "https://acktreptow.github.io/ps-productions/",
   },
   {
     name: "React Bitcoin Component",
@@ -199,12 +220,10 @@ const projects = [
     liveLink: "https://ayurvedagpt.vercel.app/",
   },
 
-
   {
     name: "Shoyebaktar Portfolio",
     image: "https://img.lovepik.com/photo/45015/7631.jpg_wh860.jpg",
-    description:
-      "This is Personal Portfolio Webpage.",
+    description: "This is Personal Portfolio Webpage.",
     usedTech: "HTML and CSS",
     contributorName: "Shoyebaktar Shirol",
     codeLink: "https://github.com/Shoyebaktar-shirol/Personal-Portfolio.git",
