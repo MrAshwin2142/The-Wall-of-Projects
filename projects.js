@@ -3,7 +3,7 @@
 const projects = [
   {
     name: "Animated NavBar ",
-    image: "...",
+    image: "",
     description:
       "Hey there , I created this cool animated navbar using HTML and CSS , Try it Once, you will love this.... ",
     usedTech: "HTML, CSS",
