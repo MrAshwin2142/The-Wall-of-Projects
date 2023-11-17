@@ -11,9 +11,8 @@
 body {
     font-size: 14px;
     background-color:#FAEBD7;
-    width: 95vw;
-    margin: 1rem auto;
-    overflow-x: hidden;
+    width: 100%;
+    /* margin: 1rem auto; */
 }
 
 .error-message {
@@ -97,24 +96,11 @@ header h1 {
   margin-bottom: 1em;
 }
 
-/* Contributor Table Styles */
-
-.starContributor {
-  min-width: 15rem;
-  display: flex;
-  flex-direction: column;
-  font-size: 0.8em;
-  padding: 0.6rem;
-}
-
-.starContributor h4 {
-  margin-bottom: 1.5rem;
-}
 
 /* Project Buttons Styles*/
 
 #addProjectBtn {
-  background-color: #ff0000;
+  background-color:rgb(253, 186, 116);
   border-radius: 0.5rem;
   font-weight: 700;
 }
@@ -124,30 +110,35 @@ header h1 {
 }
 
 #addProjectBtn:hover {
-  background-color: antiquewhite;
+  background-color:rgb(253, 186, 116);
 }
 
 #addProjectBtn:hover a {
-  color: #ff0000;
+  color: antiquewhite;
 }
 
 .btn {
   margin: 0.2rem;
   padding: 0.3rem 0.5rem;
-  background-color: #550000;
+  background-color:rgb(234, 88, 12);
   color: antiquewhite;
   border-radius: 0.5rem;
+  border:none;
   cursor: pointer;
 }
 
 .active {
-  background-color: #ff0000;
+  background-color: rgb(220, 38, 38);
 }
 
 .btn:hover {
-  background-color: #ff0000;
   color: #faebd7;
+  box-shadow:
+    inset 0 -3em 3em rgba(29, 28, 28, 0.3),
+    0 0 0 0px white,
+    0.3em 0.3em 1em rgba(22, 22, 22, 0.6);
 }
+
 
 /* Project List Styles */
 
@@ -169,7 +160,7 @@ header h1 {
 }
 
 #projectImage {
-  width: 100%;
+  width: 90%;
   margin: 0.5rem auto;
   border-radius: 1rem;
 }
@@ -210,8 +201,22 @@ header h1 {
 .button-container a {
   color: #ffffff;
 }
+/*------Contributor Table Styles-------*/
 
-/* Style the table container */
+.starContributor {
+  min-width: 15rem;
+  display: flex;
+  flex-direction: column;
+  font-size: .8em;
+  padding: 0.6rem;
+}
+
+.starContributor h4 {
+  margin-bottom: 1.5rem;
+}
+
+
+/*-----Style the table container-----*/
 .starContributor {
   display: flex;
   align-items: center;
@@ -220,7 +225,7 @@ header h1 {
   margin: 20px;
 }
 
-/* Style the table header */
+/*-----Style the table header-----*/
 #contributorTable {
   border-collapse: collapse;
   width: 70%;
@@ -241,58 +246,100 @@ header h1 {
   background-color: #ddd; /* Hovered row background color */
 }
 
-/* Style table cells */
+/*------Style table cells------*/
 #contributorTable td {
   padding: 8px;
   text-align: center;
 }
 
-/* Add some border to the table and cells */
+/*----Add some border to the table and cells----*/
 #contributorTable,
 #contributorTable th,
 #contributorTable td {
   border: 1px solid #ddd;
 }
 
-/* Footer Styles */
+/*---Footer Styles---*/
 footer {
     background-color: black;
     color: white;
     margin-top: 1rem;
     font-size: x-large;
     box-sizing: border-box;
-    margin-bottom: -1rem;
-    margin-left: -2.3rem;
-    margin-right: -2.3rem;
+    padding:10px 0px;
+
 }
 
-/* Media Queries */
-
-@media (min-width: 576px) {
+/*---Media Queries----*/
+@media screen and (min-width: 1200px) {
   body {
-    font-size: 16px;
+    font-size: 22px;
   }
-
+ 
+}
+/*----------------Media Screen for large tablets--------------*/
+@media screen and (max-width: 992px) {
+  body {
+    font-size: 20px;
+  }
+   /* Style the table header */
+   .starContributor{
+    margin: 0px;
+   }
+   #contributorTable {
+    width: 90%;
+  }
+}
+/**-------------------Media Screen for mid-size tablets and large  screen smartphones------------- */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 18px;
+  }
   #projectImage {
     width: 90%;
     margin: 0.5rem auto;
   }
+  
+  #projectList {
+    display:flex;
+    flex-direction:row;
+    grid-row: 2;
+    
+  }
+  .btn{
+    width:200px;
+
+  }
+    /* Style the table header */
+    .starContributor{
+      margin: 0px;
+     }
+    #contributorTable {
+      width: 100%;
+    }
+ 
+}
+/*---------Media Screen for mid-size smartphones-----*/
+@media screen and  (max-width: 576px) {
+  body {
+    font-size: 16px;
+  }
+
+
+  /* Style the table header */
+  .starContributor{
+    margin: 0px;
+   }
+  #contributorTable {
+    width: 90%;
+  }
+ 
+
 }
 
-@media (min-width: 768px) {
-  body {
-    font-size: 18px;
-  }
-}
 
-@media (min-width: 992px) {
-  body {
-    font-size: 20px;
-  }
-}
 
-@media (min-width: 1200px) {
-  body {
-    font-size: 22px;
-  }
-}
+
+
+
+
