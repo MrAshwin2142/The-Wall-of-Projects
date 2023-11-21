@@ -9,16 +9,17 @@
 }
 
 body {
-    font-size: 14px;
-    background-color:#FAEBD7;
-    width: 100%;
-    /* margin: 1rem auto; */
+  font-size: 14px;
+  background-color: #faebd7;
+  width: 100%;
 }
 
 .error-message {
   color: red;
   font-weight: bold;
 }
+
+/* Style for details section */
 
 .liveLinkContainer {
   position: relative;
@@ -96,11 +97,10 @@ header h1 {
   margin-bottom: 1em;
 }
 
-
 /* Project Buttons Styles*/
 
 #addProjectBtn {
-  background-color:rgb(253, 186, 116);
+  background-color: rgb(253, 186, 116);
   border-radius: 0.5rem;
   font-weight: 700;
 }
@@ -110,7 +110,7 @@ header h1 {
 }
 
 #addProjectBtn:hover {
-  background-color:rgb(253, 186, 116);
+  background-color: rgb(253, 186, 116);
 }
 
 #addProjectBtn:hover a {
@@ -120,10 +120,10 @@ header h1 {
 .btn {
   margin: 0.2rem;
   padding: 0.3rem 0.5rem;
-  background-color:rgb(234, 88, 12);
+  background-color: rgb(234, 88, 12);
   color: antiquewhite;
   border-radius: 0.5rem;
-  border:none;
+  border: none;
   cursor: pointer;
 }
 
@@ -133,12 +133,9 @@ header h1 {
 
 .btn:hover {
   color: #faebd7;
-  box-shadow:
-    inset 0 -3em 3em rgba(29, 28, 28, 0.3),
-    0 0 0 0px white,
+  box-shadow: inset 0 -3em 3em rgba(29, 28, 28, 0.3), 0 0 0 0px white,
     0.3em 0.3em 1em rgba(22, 22, 22, 0.6);
 }
-
 
 /* Project List Styles */
 
@@ -207,7 +204,7 @@ header h1 {
   min-width: 15rem;
   display: flex;
   flex-direction: column;
-  font-size: .8em;
+  font-size: 0.8em;
   padding: 0.6rem;
 }
 
@@ -215,8 +212,8 @@ header h1 {
   margin-bottom: 1.5rem;
 }
 
+/*-----Table container-----*/
 
-/*-----Style the table container-----*/
 .starContributor {
   display: flex;
   align-items: center;
@@ -225,15 +222,16 @@ header h1 {
   margin: 20px;
 }
 
-/*-----Style the table header-----*/
+/*----- Table header-----*/
+
 #contributorTable {
   border-collapse: collapse;
   width: 70%;
 }
 
 #contributorTable th {
-  background-color: #007bff; /* Header background color */
-  color: #fff; /* Header text color */
+  background-color: #007bff; 
+  color: #fff; 
   font-weight: bold;
   padding: 10px;
 }
@@ -247,12 +245,14 @@ header h1 {
 }
 
 /*------Style table cells------*/
+
 #contributorTable td {
   padding: 8px;
   text-align: center;
 }
 
 /*----Add some border to the table and cells----*/
+
 #contributorTable,
 #contributorTable th,
 #contributorTable td {
@@ -260,86 +260,81 @@ header h1 {
 }
 
 /*---Footer Styles---*/
-footer {
-    background-color: black;
-    color: white;
-    margin-top: 1rem;
-    font-size: x-large;
-    box-sizing: border-box;
-    padding:10px 0px;
 
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 1rem;
+  font-size: x-large;
+  box-sizing: border-box;
+  padding: 10px 0px;
 }
 
 /*---Media Queries----*/
+
 @media screen and (min-width: 1200px) {
-  body {
-    font-size: 22px;
-  }
- 
+  body { font-size: 22px; }
 }
 /*----------------Media Screen for large tablets--------------*/
+
 @media screen and (max-width: 992px) {
-  body {
-    font-size: 20px;
+  body { 
+    font-size: 20px; 
   }
-   /* Style the table header */
-   .starContributor{
-    margin: 0px;
-   }
-   #contributorTable {
-    width: 90%;
-  }
+
+  /* Style the table header */
+
+  .starContributor { margin: 0px; }
+
+  #contributorTable { width: 90%; }
 }
 /**-------------------Media Screen for mid-size tablets and large  screen smartphones------------- */
+
 @media screen and (max-width: 768px) {
-  body {
-    font-size: 18px;
+  body { 
+    font-size: 18px; 
   }
+
   #projectImage {
     width: 90%;
     margin: 0.5rem auto;
   }
-  
-  #projectList {
-    display:flex;
-    flex-direction:row;
-    grid-row: 2;
-    
-  }
-  .btn{
-    width:200px;
 
+  #projectList {
+    display: flex;
+    flex-direction: row;
+    grid-row: 2;
   }
-    /* Style the table header */
-    .starContributor{
-      margin: 0px;
-     }
-    #contributorTable {
-      width: 100%;
-    }
- 
+
+  .btn {
+    width: 200px;
+  }
+
+  /* Style the table header */
+
+  .starContributor {
+    margin: 0px;
+  }
+
+  #contributorTable {
+    width: 100%;
+  }
 }
+
 /*---------Media Screen for mid-size smartphones-----*/
-@media screen and  (max-width: 576px) {
+
+@media screen and (max-width: 576px) {
   body {
     font-size: 16px;
   }
 
-
   /* Style the table header */
-  .starContributor{
+
+  .starContributor {
     margin: 0px;
-   }
+  }
+
   #contributorTable {
     width: 90%;
   }
- 
-
 }
-
-
-
-
-
-
-
