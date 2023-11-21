@@ -273,7 +273,9 @@ footer {
 /*---Media Queries----*/
 
 @media screen and (min-width: 1200px) {
-  body { font-size: 22px; }
+  body {
+     font-size: 22px; 
+  }
 }
 /*----------------Media Screen for large tablets--------------*/
 
