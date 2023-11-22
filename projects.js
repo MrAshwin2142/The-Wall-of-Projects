@@ -1,6 +1,16 @@
 // projects.js
 
 const projects = [
+  {
+    name: "Weather-Info",
+    image: "./images/weather.png",
+    description:
+      "A simple JavaScript weather application that allows users to check the current weather conditions, Humidity, Wind Speed for a specific location using a weather data API.",
+    usedTech: "HTML, CSS, JavaScript, OpenWeatherAPI",
+    contributorName: "Vipin Kumar Yadav",
+    codeLink: "https://github.com/vy211/Weather-Info",
+    liveLink: "https://vy211.github.io/Weather-Info/",
+  },
  {
     name: "Responsive Payment Form ",
     image: "",
