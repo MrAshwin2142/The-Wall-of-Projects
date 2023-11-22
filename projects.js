@@ -11,7 +11,7 @@ const projects = [
     codeLink: "https://github.com/vy211/Weather-Info",
     liveLink: "https://vy211.github.io/Weather-Info/",
   },
- {
+  {
     name: "Responsive Payment Form ",
     image: "",
     description:
@@ -20,6 +20,16 @@ const projects = [
     contributorName: "Vivek Paswan ",
     codeLink: "https://github.com/vivek-paswan028/Paymentform",
     liveLink: "https://paymentform-blush.vercel.app/",
+  },
+  {
+    name: "Fardeen Ahamed Personal Portfolio",
+    image: "./images/fardeenPortfolio.png",
+    description:
+      "Hey there ,This is my Personal Portfolio, I created this cool responsive portfolio website using Next.js and Tailwind CSS.",
+    usedTech: "Next Js, tailwind CSS",
+    contributorName: "Fardeen Ahamed",
+    codeLink: "https://github.com/Fardeen2001/personal-portfolio",
+    liveLink: "https://personal-portfolio-fardeen2001.vercel.app/",
   },
   {
     name: "Animated NavBar ",
@@ -166,8 +176,7 @@ const projects = [
     image: "./images/acktreptowportfolio.jpg",
     description:
       "My (Alex Treptow) portfolio website. Fully responsive for all screens and contains a light/dark mode switcher.",
-    usedTech:
-      "HTML, CSS, JavaScript, Vite, Vercel and Hostinger.",
+    usedTech: "HTML, CSS, JavaScript, Vite, Vercel and Hostinger.",
     contributorName: "Alex Treptow",
     codeLink: "https://github.com/acktreptow/portfolio",
     liveLink: "https://treptow.dev",
@@ -220,10 +229,11 @@ const projects = [
     codeLink: "https://github.com/JohnPatrickAncajas/COMPASS",
     liveLink: "https://johnpatrickancajas.github.io/COMPASS/",
   },
-    {
+  {
     name: "Pokecards",
     image: "./images/pokecards.png", // Add your project image to the `images` directory
-    description: "A memory card game built solely using Pokemon cards, select the same card again in a round and lose the game.",
+    description:
+      "A memory card game built solely using Pokemon cards, select the same card again in a round and lose the game.",
     usedTech: "React.js, Tailwind CSS",
     contributorName: "Ruchika Muddinagiri",
     codeLink: "https://github.com/ruchikamuddinagiri/memory-tiles",
@@ -281,7 +291,8 @@ const projects = [
   {
     name: "Poke!Book - Poetry notebook",
     image: "./images/pokebook.png",
-    description: "Distraction-free private digital notebook for writing poetry and lyrics.",
+    description:
+      "Distraction-free private digital notebook for writing poetry and lyrics.",
     usedTech: "SvelteKit, Capacitor",
     contributorName: "Pokeghost",
     codeLink: "https://github.com/pokegh0st/pokebook",
