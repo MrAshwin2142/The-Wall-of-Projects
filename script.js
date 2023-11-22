@@ -52,6 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
     usedTech: document.getElementById("usedTech"),
     contributorTable: document.getElementById("contributorTable"),
     liveLinkError: document.getElementById("liveLinkError"),
+    projectCount: document.getElementById("projectCount"),
   };
 
   const starContributor = {};
@@ -110,4 +111,5 @@ document.addEventListener("DOMContentLoaded", () => {
     row.innerHTML = `<td>${contributorName}</td><td>${projectsCount}</td>`;
     elements.contributorTable.appendChild(row);
   });
+ projectCount.textContent=`Total Projects Hosted: ${projects.length}`;
 });
