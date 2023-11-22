@@ -58,7 +58,7 @@ body {
   opacity: 1;
 }
 
-p {
+p, #projectCount{
   margin: 0 1rem;
   line-height: 1.5;
   font-weight: bolder;
@@ -92,10 +92,12 @@ header h1 {
   font-family: "Papyrus", fantasy;
 }
 
-#intro {
+#intro, #projectCount{
   color: #222222;
   margin-bottom: 1em;
 }
+
+
 
 /* Project Buttons Styles*/
 
