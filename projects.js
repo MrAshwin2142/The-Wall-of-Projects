@@ -212,7 +212,7 @@ const projects = [
   },
     {
     name: "Pokecards",
-    image: "./images/memory-tiles.png", // Add your project image to the `images` directory
+    image: "./images/pokecards.png", // Add your project image to the `images` directory
     description: "A memory card game built solely using Pokemon cards, select the same card again in a round and lose the game.",
     usedTech: "React.js, Tailwind CSS",
     contributorName: "Ruchika Muddinagiri",
