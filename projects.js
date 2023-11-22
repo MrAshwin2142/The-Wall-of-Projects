@@ -11,7 +11,7 @@ const projects = [
     codeLink: "https://github.com/vy211/Weather-Info",
     liveLink: "https://vy211.github.io/Weather-Info/",
   },
- {
+  {
     name: "Responsive Payment Form ",
     image: "",
     description:
