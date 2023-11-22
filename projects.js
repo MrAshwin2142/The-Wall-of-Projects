@@ -210,6 +210,15 @@ const projects = [
     codeLink: "https://github.com/JohnPatrickAncajas/COMPASS",
     liveLink: "https://johnpatrickancajas.github.io/COMPASS/",
   },
+    {
+    name: "Pokecards",
+    image: "./images/pokecards.png", // Add your project image to the `images` directory
+    description: "A memory card game built solely using Pokemon cards, select the same card again in a round and lose the game.",
+    usedTech: "React.js, Tailwind CSS",
+    contributorName: "Ruchika Muddinagiri",
+    codeLink: "https://github.com/ruchikamuddinagiri/memory-tiles",
+    liveLink: "https://pokemon-memory-tiles.netlify.app/",
+  },
   {
     name: "DeepAm Creation",
     image: "images/deepam.png",
