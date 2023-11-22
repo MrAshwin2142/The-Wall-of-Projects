@@ -65,9 +65,36 @@ document.addEventListener("DOMContentLoaded", () => {
     starContributor[project.contributorName] =
       (starContributor[project.contributorName] || 0) + 1;
     projectButton.className = "btn";
+    projectButton.setAttribute("data-tech", project.usedTech.toLowerCase());
+    projectButton.setAttribute("data-name", project.name.toLowerCase());
+    projectButton.setAttribute(
+      "data-contributor",
+      project.contributorName.toLowerCase()
+    );
     projectButton.title = project.usedTech;
 
     projectList.appendChild(projectButton);
+  });
+
+  searchBox.addEventListener("input", (event) => {
+    const searchTerm = event.target.value.toLowerCase();
+
+    const buttons = projectList.getElementsByTagName("button");
+    for (const button of buttons) {
+      const tech = button.getAttribute("data-tech") || "";
+      const name = button.getAttribute("data-name") || "";
+      const contributor = button.getAttribute("data-contributor") || "";
+
+      if (
+        tech.includes(searchTerm) ||
+        name.includes(searchTerm) ||
+        contributor.includes(searchTerm)
+      ) {
+        button.style.display = ""; // Show the button
+      } else {
+        button.style.display = "none"; // Hide the button
+      }
+    }
   });
 
   // Event delegation for project buttons
@@ -111,5 +138,5 @@ document.addEventListener("DOMContentLoaded", () => {
     row.innerHTML = `<td>${contributorName}</td><td>${projectsCount}</td>`;
     elements.contributorTable.appendChild(row);
   });
- projectCount.textContent=`Total Projects Hosted: ${projects.length}`;
+  projectCount.textContent = `Total Projects Hosted: ${projects.length}`;
 });

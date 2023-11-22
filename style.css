@@ -19,6 +19,14 @@ body {
   font-weight: bold;
 }
 
+input[type="text"] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  text-align: left;
+}
+
 /* Style for details section */
 
 .liveLinkContainer {
@@ -58,7 +66,8 @@ body {
   opacity: 1;
 }
 
-p, #projectCount{
+p,
+#projectCount {
   margin: 0 1rem;
   line-height: 1.5;
   font-weight: bolder;
@@ -92,12 +101,11 @@ header h1 {
   font-family: "Papyrus", fantasy;
 }
 
-#intro, #projectCount{
+#intro,
+#projectCount {
   color: #222222;
   margin-bottom: 1em;
 }
-
-
 
 /* Project Buttons Styles*/
 
@@ -232,8 +240,8 @@ header h1 {
 }
 
 #contributorTable th {
-  background-color: #007bff; 
-  color: #fff; 
+  background-color: #007bff;
+  color: #fff;
   font-weight: bold;
   padding: 10px;
 }
@@ -276,27 +284,31 @@ footer {
 
 @media screen and (min-width: 1200px) {
   body {
-     font-size: 22px; 
+    font-size: 22px;
   }
 }
 /*----------------Media Screen for large tablets--------------*/
 
 @media screen and (max-width: 992px) {
-  body { 
-    font-size: 20px; 
+  body {
+    font-size: 20px;
   }
 
   /* Style the table header */
 
-  .starContributor { margin: 0px; }
+  .starContributor {
+    margin: 0px;
+  }
 
-  #contributorTable { width: 90%; }
+  #contributorTable {
+    width: 90%;
+  }
 }
 /**-------------------Media Screen for mid-size tablets and large  screen smartphones------------- */
 
 @media screen and (max-width: 768px) {
-  body { 
-    font-size: 18px; 
+  body {
+    font-size: 18px;
   }
 
   #projectImage {
