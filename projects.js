@@ -298,6 +298,15 @@ const projects = [
     codeLink: "https://github.com/pokegh0st/pokebook",
     liveLink: "https://book.pokeghost.org/",
   },
+  {
+    name: "ShopMag - E-Commerce",
+    image: "./images/ShopMag.png",
+    description: "A Full stack e-commerce application.",
+    usedTech: "Reactjs/Nodejs-ExpressJs/MongoDb",
+    contributorName: "Mahdi Selmani",
+    codeLink: "https://github.com/MahdiSelmani/ecommerce",
+    liveLink: "",
+  }
 
   // Manually add more projects here
   // Please avoid putting your projects at the very beginning or the end of the file. Instead, insert them in the middle.
