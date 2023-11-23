@@ -8,12 +8,14 @@
   text-align: center;
 }
 
+/* Body Styles */
 body {
   font-size: 14px;
   background-color: #faebd7;
   width: 100%;
 }
 
+/* Error Message Styling */
 .error-message {
   color: red;
   font-weight: bold;
@@ -32,6 +34,7 @@ body {
   background-color: #555;
   text-align: center;
   padding: 5px 0;
+  /* removed redundant px code from padding property */
   border-radius: 6px;
   position: absolute;
   z-index: 1;
@@ -80,6 +83,9 @@ a:hover {
 hr {
   margin: 1rem 0;
   border: 0.5px solid black;
+  /* float px values render differently across other browsers
+  - may need to change this to a normal integer
+  */
 }
 
 /* Header Styles */
@@ -88,37 +94,52 @@ header {
   margin: 2rem;
 }
 
+/*
+Sets the h1 element inside the header element to a font family of
+'Papyrus' with a fallback value of 'fantasy'.
+*/
 header h1 {
   font-family: "Papyrus", fantasy;
 }
 
+/*
+Sets elements with ID 'Intro' and 'ProjectCount' to have a
+color of #222222 and margin-bottom of 1em
+*/
 #intro, #projectCount{
   color: #222222;
   margin-bottom: 1em;
 }
 
 
-
 /* Project Buttons Styles*/
 
+/*
+sets button to a background-color of rgb(253, 186, 116), a
+border radius of 0.5rem and a font-weight of 700
+*/
 #addProjectBtn {
   background-color: rgb(253, 186, 116);
   border-radius: 0.5rem;
   font-weight: 700;
 }
 
+/* sets links of buttons with the id of 'addProjectBtn' to a color of 'antiquewhite'. */
 #addProjectBtn a {
   color: antiquewhite;
 }
 
+/* sets the button hover background color to rgb(253, 186, 116) */
 #addProjectBtn:hover {
   background-color: rgb(253, 186, 116);
 }
 
+/* sets the button link's hover action to a color of 'antiquewhite'*/
 #addProjectBtn:hover a {
   color: antiquewhite;
 }
 
+/* btn class styling */
 .btn {
   margin: 0.2rem;
   padding: 0.3rem 0.5rem;
@@ -129,18 +150,28 @@ header h1 {
   cursor: pointer;
 }
 
+/* active class styling */
 .active {
   background-color: rgb(220, 38, 38);
 }
 
+/* btn class with hover action */
 .btn:hover {
   color: #faebd7;
-  box-shadow: inset 0 -3em 3em rgba(29, 28, 28, 0.3), 0 0 0 0px white,
+  box-shadow: inset 0 -3em 3em rgba(29, 28, 28, 0.3), 0 0 0 0 white,
+    /* removed redundant px code from box-shadow property */
     0.3em 0.3em 1em rgba(22, 22, 22, 0.6);
 }
 
 /* Project List Styles */
 
+/*
+sets elements with an ID of 'projectList' to the following:
+display: flex
+flex-wrap: wrap
+justify-content: center
+margin: 1rem
+*/
 #projectList {
   display: flex;
   flex-wrap: wrap;
@@ -148,6 +179,16 @@ header h1 {
   margin: 1rem;
 }
 
+/*
+sets elements with an ID of 'projectDetails' to the following:
+width: 90% of the page element
+margin: 0.5rem with auto
+padding: 0.5rem
+display: flex
+flex-direction: column
+background-color: bright orange
+border-radius: 1rem
+ */
 #projectDetails {
   width: 90%;
   margin: 0.5rem auto;
@@ -158,32 +199,56 @@ header h1 {
   border-radius: 1rem;
 }
 
+/*
+sets element with id of 'projectImage to the following:
+width: 90% of the page element
+margin: 0.5rem with auto
+border-radius: 1rem
+*/
 #projectImage {
   width: 90%;
   margin: 0.5rem auto;
   border-radius: 1rem;
 }
 
+/* sets element with id of 'projectName to have a margin of 1rem */
 #projectName {
   margin: 1rem;
 }
 
+/* sets element with id of 'projectDescription to have a margin-bottom of 2rem */
 #projectDescription {
   margin-bottom: 2rem;
 }
 
+/* sets element with id of 'projectHr to have a margin of 0.5rem with 0px */
 #projectHr {
   margin: 0.5rem 0;
 }
 
 /* Project Card Button Styles */
 
+/*
+sets button-container class inside projectDetails element to the following:
+display: flex
+justify-content: center
+a gap of 1rem
+ */
 #projectDetails .button-container {
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
 
+/*
+sets button inside button container class inside projectDetails element to the following:
+background-color: dark blue
+border: no border (none)
+border-radius: 0.5rem
+margin of 0.5rem
+padding of 0.5rem across top and bottom  with 1rem left and right
+cursor is set to pointer
+ */
 #projectDetails .button-container button {
   background-color: #0918efe1;
   border: none;
@@ -193,14 +258,31 @@ header h1 {
   cursor: pointer;
 }
 
+/* sets hover action of button to have a background color of Dodger blue */
 #projectDetails .button-container button:hover {
   background-color: #0077ff;
 }
 
+/* sets links with a button-container class to have a color of white */
 .button-container a {
   color: #ffffff;
 }
 /*------Contributor Table Styles-------*/
+
+/*-----Table container-----*/
+
+/*
+sets starContributor class to the following properties:
+min-width: 15rem
+display: flex
+flex-direction: column
+font-size: 0.8rem
+padding of 0.6rem each side
+align-items: center
+justify-content: center
+text-align: center
+margin of 20px each side
+ */
 
 .starContributor {
   min-width: 15rem;
@@ -208,29 +290,37 @@ header h1 {
   flex-direction: column;
   font-size: 0.8em;
   padding: 0.6rem;
-}
-
-.starContributor h4 {
-  margin-bottom: 1.5rem;
-}
-
-/*-----Table container-----*/
-
-.starContributor {
-  display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   margin: 20px;
 }
 
+/* sets h4 element with class of starContributor  to have a margin-bottom of 1rem */
+.starContributor h4 {
+  margin-bottom: 1.5rem;
+}
+
+
 /*----- Table header-----*/
 
+/*
+sets element with ID of contributorTable properties to:
+border-collapse: collapse
+width: 70% of the page element
+ */
 #contributorTable {
   border-collapse: collapse;
   width: 70%;
 }
 
+/*
+sets contributorTable table header properties to the following:
+background-color: dodger blue
+color: white
+font-weight: bold
+padding of 10px each side
+ */
 #contributorTable th {
   background-color: #007bff; 
   color: #fff; 
@@ -238,23 +328,36 @@ header h1 {
   padding: 10px;
 }
 
+/*
+sets contributorTable table row properties to the following:
+background-color: white
+ */
 #contributorTable tr {
   background-color: #f2f2f2;
 }
 
+/*
+sets contributorTable table row hover action properties to the following:
+background-color: white
+ */
 #contributorTable tr:hover {
   background-color: #ddd; /* Hovered row background color */
 }
 
 /*------Style table cells------*/
 
+/*
+sets contributorTable td properties to the following:
+padding of 8px each side
+text-align to center
+ */
 #contributorTable td {
   padding: 8px;
   text-align: center;
 }
 
 /*----Add some border to the table and cells----*/
-
+/* solid border with 1px border width and a color of white */
 #contributorTable,
 #contributorTable th,
 #contributorTable td {
@@ -269,7 +372,8 @@ footer {
   margin-top: 1rem;
   font-size: x-large;
   box-sizing: border-box;
-  padding: 10px 0px;
+  padding: 10px 0;
+  /* removed redundant px code from padding property */
 }
 
 /*---Media Queries----*/
@@ -288,12 +392,12 @@ footer {
 
   /* Style the table header */
 
-  .starContributor { margin: 0px; }
+  .starContributor { margin: 0; }
 
   #contributorTable { width: 90%; }
 }
 /**-------------------Media Screen for mid-size tablets and large  screen smartphones------------- */
-
+/* if the screen size is a mid-size tablet or large screen smartphone override the css styles with these: */
 @media screen and (max-width: 768px) {
   body { 
     font-size: 18px; 
@@ -317,7 +421,7 @@ footer {
   /* Style the table header */
 
   .starContributor {
-    margin: 0px;
+    margin: 0;
   }
 
   #contributorTable {
@@ -326,6 +430,7 @@ footer {
 }
 
 /*---------Media Screen for mid-size smartphones-----*/
+/* if the screen size is a mid-size smartphone, override the css styles with these: */
 
 @media screen and (max-width: 576px) {
   body {
@@ -334,10 +439,16 @@ footer {
 
   /* Style the table header */
 
+  /*
+  sets starContributor to have a margin of 0px
+  */
   .starContributor {
-    margin: 0px;
+    margin: 0;
   }
 
+  /*
+  sets contributorTable to have a width of 90% of the page
+  */
   #contributorTable {
     width: 90%;
   }
