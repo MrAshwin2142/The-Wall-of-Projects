@@ -306,6 +306,15 @@ const projects = [
     contributorName: "Mahdi Selmani",
     codeLink: "https://github.com/MahdiSelmani/ecommerce",
     liveLink: "",
+  },
+  {
+    name: "tinder Clone",
+    image: "./images/tinder.jpg",
+    description: "Full stack tinder clone application",
+    usedTech: "Nodejs / Reactjs",
+    contributorName: "Saoussen Bouraoui",
+    codeLink: "https://github.com/BouraouiSaoussen/tinder-clone",
+    liveLink: "",
   }
 
   // Manually add more projects here
