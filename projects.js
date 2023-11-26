@@ -39,7 +39,7 @@ const projects = [
     usedTech: "Python, TensorFlow",
     contributorName: "Sukanya Singh",
     codeLink: "https://github.com/Sukanyasingh3/AgroAid",
-    liveLink: "-",
+    liveLink: "",
   },
   {
     name: "Animated NavBar ",
