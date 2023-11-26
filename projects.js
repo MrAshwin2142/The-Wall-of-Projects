@@ -42,6 +42,16 @@ const projects = [
     liveLink: "",
   },
   {
+    name: "PyroDetect",
+    image: "./images/PyroDetect.png",
+    description:
+      "Tool to detect fire in CCTV Images using a Computer Vision Deep CNN Classification Model.",
+    usedTech: "Python, TensorFlow",
+    contributorName: "Sukanya Singh",
+    codeLink: "https://github.com/Sukanyasingh3/PyroDetect",
+    liveLink: "",
+  },
+  {
     name: "Animated NavBar ",
     image: "./images/navbar.png",
     description:
