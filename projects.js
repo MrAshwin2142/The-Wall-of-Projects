@@ -269,6 +269,16 @@ const projects = [
     liveLink: "https://pokemon-memory-tiles.netlify.app/",
   },
   {
+    name: "E-COMMARCE",
+    image: "./images/ecommers.png", // Add your project image to the `images` directory
+    description:
+      "This is E-commarce website to connect Amazon website ",
+    usedTech: "HTML and CSS",
+    contributorName: "ER. ANJALI SAHU",
+    codeLink: "https://theanjalisahu23.github.io/E-commarce.github.io/",
+    liveLink: "https://theanjalisahu23.github.io/E-commarce.github.io/",
+  },
+  {
     name: "DeepAm Creation",
     image: "images/deepam.png",
     description:
