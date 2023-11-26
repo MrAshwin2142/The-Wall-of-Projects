@@ -151,6 +151,15 @@ const projects = [
     liveLink: "",
   },
   {
+    name: "History Games",
+    image: "",
+    description: "A drag and drop app to learn about France's History",
+    usedTech: "React JS and the beautiful dnd library",
+    contributorName: "Ulysse Valdenaire",
+    codeLink: "https://github.com/UltraViolet33/history-games",
+    liveLink: "https://ultraviolet33.github.io/history-games",
+  },
+  {
     name: "Super Market Billing System",
     image: "./images/BillingSystem.jpg",
     description:
@@ -327,6 +336,7 @@ const projects = [
     codeLink: "https://github.com/MahdiSelmani/ecommerce",
     liveLink: "",
   },
+
   {
     name: "tinder Clone",
     image: "./images/tinder.jpg",
@@ -336,6 +346,7 @@ const projects = [
     codeLink: "https://github.com/BouraouiSaoussen/tinder-clone",
     liveLink: "",
   }
+
 
   // Manually add more projects here
   // Please avoid putting your projects at the very beginning or the end of the file. Instead, insert them in the middle.
