@@ -8,6 +8,11 @@
   text-align: center;
 }
 
+/* HTML Styles */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Body Styles */
 body {
   font-size: 14px;
@@ -97,10 +102,27 @@ hr {
   */
 }
 
+/* Nav Styles */
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+nav > a,
+a:visited {
+  color: black;
+}
+
 /* Header Styles */
 
 header {
   margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*
@@ -115,9 +137,11 @@ header h1 {
 Sets elements with ID 'Intro' and 'ProjectCount' to have a
 color of #222222 and margin-bottom of 1em
 */
-#intro, #projectCount {
+#intro,
+#projectCount {
   color: #222222;
   margin-bottom: 1em;
+  width: 70%;
 }
 
 /* Project Buttons Styles*/
@@ -167,8 +191,8 @@ border radius of 0.5rem and a font-weight of 700
 .btn:hover {
   color: #faebd7;
   box-shadow: inset 0 -3em 3em rgba(29, 28, 28, 0.3), 0 0 0 0 white,
-    /* removed redundant px code from box-shadow property */
-    0.3em 0.3em 1em rgba(22, 22, 22, 0.6);
+    /* removed redundant px code from box-shadow property */ 0.3em 0.3em 1em
+      rgba(22, 22, 22, 0.6);
 }
 
 /* Project List Styles */
@@ -309,7 +333,6 @@ margin of 20px each side
   margin-bottom: 1.5rem;
 }
 
-
 /*----- Table header-----*/
 
 /*
@@ -400,8 +423,8 @@ footer {
 
   /* Style the table header */
 
-  .starContributor { 
-    margin: 0; 
+  .starContributor {
+    margin: 0;
   }
 
   #contributorTable {
@@ -418,6 +441,11 @@ footer {
   #projectImage {
     width: 90%;
     margin: 0.5rem auto;
+  }
+
+  #intro,
+  #projectCount {
+    width: 90%;
   }
 
   #projectList {
