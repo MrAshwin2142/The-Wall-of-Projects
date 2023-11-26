@@ -32,6 +32,26 @@ const projects = [
     liveLink: "https://personal-portfolio-fardeen2001.vercel.app/",
   },
   {
+    name: "AgroAid",
+    image: "./images/AgroAid.png",
+    description:
+      "Tool to diagnose diseases in plant leaves, Using transfer learning with the pre-trained ResNet50 model.",
+    usedTech: "Python, TensorFlow",
+    contributorName: "Sukanya Singh",
+    codeLink: "https://github.com/Sukanyasingh3/AgroAid",
+    liveLink: "",
+  },
+  {
+    name: "PyroDetect",
+    image: "./images/PyroDetect.png",
+    description:
+      "Tool to detect fire in CCTV Images using a Computer Vision Deep CNN Classification Model.",
+    usedTech: "Python, TensorFlow",
+    contributorName: "Sukanya Singh",
+    codeLink: "https://github.com/Sukanyasingh3/PyroDetect",
+    liveLink: "",
+  },
+  {
     name: "Animated NavBar ",
     image: "./images/navbar.png",
     description:
@@ -316,6 +336,17 @@ const projects = [
     codeLink: "https://github.com/MahdiSelmani/ecommerce",
     liveLink: "",
   },
+
+  {
+    name: "tinder Clone",
+    image: "./images/tinder.jpg",
+    description: "Full stack tinder clone application",
+    usedTech: "Nodejs / Reactjs",
+    contributorName: "Saoussen Bouraoui",
+    codeLink: "https://github.com/BouraouiSaoussen/tinder-clone",
+    liveLink: "",
+  }
+
 
   // Manually add more projects here
   // Please avoid putting your projects at the very beginning or the end of the file. Instead, insert them in the middle.
