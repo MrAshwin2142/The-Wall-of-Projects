@@ -51,6 +51,16 @@ const projects = [
     codeLink: "https://github.com/Sukanyasingh3/PyroDetect",
     liveLink: "",
   },
+   {
+    name: "Speech Emotion Recognition",
+    image: "./images/SER.png",
+    description:
+      "Speech Emotion Recognition (SER) using model with LSTM layers, utilizing NLP techniques and deep learning to classify speech recordings into 7 emotions.",
+    usedTech: "Python, LSTM",
+    contributorName: "Sukanya Singh",
+    codeLink: "https://github.com/Sukanyasingh3/Speech-Emotion-Recognition",
+    liveLink: "",
+  },
   {
     name: "Animated NavBar ",
     image: "./images/navbar.png",
