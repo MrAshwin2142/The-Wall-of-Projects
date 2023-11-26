@@ -32,6 +32,16 @@ const projects = [
     liveLink: "https://personal-portfolio-fardeen2001.vercel.app/",
   },
   {
+    name: "AgroAid",
+    image: "./images/AgroAid.png",
+    description:
+      "Tool to diagnose diseases in plant leaves, Using transfer learning with the pre-trained ResNet50 model.",
+    usedTech: "Python, TensorFlow",
+    contributorName: "Sukanya Singh",
+    codeLink: "https://github.com/Sukanyasingh3/AgroAid",
+    liveLink: "-",
+  },
+  {
     name: "Animated NavBar ",
     image: "./images/navbar.png",
     description:
