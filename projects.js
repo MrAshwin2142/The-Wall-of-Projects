@@ -132,7 +132,7 @@ const projects = [
   },
   {
     name: "History Games",
-    image: "./images/historyGames.jpg",
+    image: "",
     description: "A drag and drop app to learn about France's History",
     usedTech: "React JS and the beautiful dnd library",
     contributorName: "Ulysse Valdenaire",
