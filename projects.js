@@ -61,7 +61,7 @@ const projects = [
     codeLink: "https://github.com/Sukanyasingh3/PyroDetect",
     liveLink: "",
   },
-   {
+  {
     name: "Speech Emotion Recognition",
     image: "./images/SER.png",
     description:
@@ -169,6 +169,16 @@ const projects = [
     contributorName: "Kunal Achintya Reddy",
     codeLink: "https://github.com/globalnebula/thinkrr",
     liveLink: "",
+  },
+  {
+    name: "Safest Path",
+    image: "images/safest.jpg",
+    description:
+      "website that lets the user go from one point to other by adding its name to the file. They have option to travel by walk or by drive.",
+    usedTech: "HTML, CSS, JavaScript",
+    contributorName: "Taranjeet Singh Bedi",
+    codeLink: "https://github.com/TartejBrothers/Safest-Path",
+    liveLink: "https://safestpathmap.web.app/",
   },
   {
     name: "History Games",
@@ -291,8 +301,7 @@ const projects = [
   {
     name: "E-COMMARCE",
     image: "./images/ecommers.png", // Add your project image to the `images` directory
-    description:
-      "This is E-commarce website to connect Amazon website ",
+    description: "This is E-commarce website to connect Amazon website ",
     usedTech: "HTML and CSS",
     contributorName: "ER. ANJALI SAHU",
     codeLink: "https://theanjalisahu23.github.io/E-commarce.github.io/",
@@ -375,8 +384,7 @@ const projects = [
     contributorName: "Saoussen Bouraoui",
     codeLink: "https://github.com/BouraouiSaoussen/tinder-clone",
     liveLink: "",
-  }
-
+  },
 
   // Manually add more projects here
   // Please avoid putting your projects at the very beginning or the end of the file. Instead, insert them in the middle.
