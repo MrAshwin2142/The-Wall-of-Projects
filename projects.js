@@ -2,6 +2,16 @@
 
 const projects = [
   {
+    name: "Demos Delivered",
+    image: "./images/demosdelivered.png",
+    description:
+      "A web platform for aspiring producers to submit their demos to the hottest EDM labels. I used React & Next.js along with MongoDB to store music label information. The responsive styling is done with Tailwind CSS. Currently have 200 active users.",
+    usedTech: "React, Next.js, HTML, TypeScript, Tailwind CSS, MongoDB",
+    contributorName: "Jason Zubiate",
+    codeLink: "https://github.com/jasonzubiate/Demos-Delivered",
+    liveLink: "https://www.demosdelivered.live/",
+  },
+  {
     name: "Weather-Info",
     image: "./images/weather.png",
     description:
