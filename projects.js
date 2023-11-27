@@ -172,10 +172,10 @@ const projects = [
   },
   {
     name: "Safest Path",
-    image: "images/safestpath.jpg",
+    image: "images/safest.jpg",
     description:
       "website that lets the user go from one point to other by adding its name to the file. They have option to travel by walk or by drive.",
-    usedTech: "HTML, CSS, JS",
+    usedTech: "HTML, CSS, JavaScript",
     contributorName: "Taranjeet Singh Bedi",
     codeLink: "https://github.com/TartejBrothers/Safest-Path",
     liveLink: "https://safestpathmap.web.app/",
