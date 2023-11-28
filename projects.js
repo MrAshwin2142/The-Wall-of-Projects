@@ -174,11 +174,21 @@ const projects = [
     name: "Safest Path",
     image: "images/safest.jpg",
     description:
-      "website that lets the user go from one point to other by adding its name to the file. They have option to travel by walk or by drive.",
+      "Website that lets the user go from one point to other by adding its name to the file. They have option to travel by walk or by drive.",
     usedTech: "HTML, CSS, JavaScript",
     contributorName: "Taranjeet Singh Bedi",
     codeLink: "https://github.com/TartejBrothers/Safest-Path",
     liveLink: "https://safestpathmap.web.app/",
+  },
+  {
+    name: "Alumni Nexus",
+    image: "images/AlumniNexus.jpg",
+    description:
+      "A website for connecting alumni of a college. It saves records on cloud database, and can be accessed for better connections.  ",
+    usedTech: "HTML, CSS, JavaScript, DJango, PostgreSQL",
+    contributorName: "Taranjeet Singh Bedi",
+    codeLink: "https://github.com/TartejBrothers/Alumni-Nexus",
+    liveLink: "https://alumni-nexus.vercel.app/",
   },
   {
     name: "History Games",
