@@ -11,7 +11,10 @@
   --table-hover: #ddd;
   --table-bg: #f2f2f2;
   --table-text: black;
-  --add-project-link: rgb(85 26 139);
+  --link: rgb(85 26 139);
+  --link-hover: black;
+  --footer-bg: black;
+  --footer-color: white;
 }
 
 .dark-Theme{
@@ -25,7 +28,10 @@
   --table-border: #1f1429;
   --table-text: #1f1429;
   --table-hover: #ddd;
-  --add-project-link: aqua;
+  --link: aqua;
+  --link-hover: rgb(221, 114, 0);
+  --footer-bg: white;
+  --footer-color: black;
 }
 
 
@@ -51,7 +57,7 @@ body {
   width: 100%;
 }
 
-p{
+body p:not(footer p){
   color: var(--body-color);
 }
 
@@ -206,15 +212,18 @@ color of #222222 and margin-bottom of 1em
 #intro,
   #projectCount {
     font-family: Arial, sans-serif;
-    color: var(--body-color);
     margin-bottom: 1em;
     width: 70%;
     padding: 1rem;
   }
 
-  #intro p a{
-    color: var(--add-project-link);
-  }
+#intro p a, .contribute-section p:nth-child(2) a{
+  color: var(--link);
+}
+
+#intro p a:hover, .contribute-section p:nth-child(2) a:hover{
+  color: var(--link-hover);
+}
 
 
 /* Project Buttons Styles*/
@@ -469,15 +478,11 @@ text-align to center
   border: 1px solid var(--table-border);
 }
 
-.contribute-section p:nth-child(3) a{
-  color: var(--add-project-link);
-}
-
 /*---Footer Styles---*/
 
 footer {
-  background-color: black;
-  color: white;
+  background-color: var(--footer-bg);
+  color: var(--footer-color);
   margin-top: 1rem;
   font-size: x-large;
   box-sizing: border-box;
