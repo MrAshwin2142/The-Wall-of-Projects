@@ -1,4 +1,40 @@
 /* General Styles */
+:root{
+  --body-bg: #faebd7;
+  --body-color: black;
+  --a-hover-color: #21043b;
+  --a-hover-bg: #ffffff;
+  --nav-bg: rgb(221, 114, 0);
+  --btn-bg: rgb(234, 88, 12);
+  --table-heading: #007bff;
+  --table-border: #ddd;
+  --table-hover: #ddd;
+  --table-bg: #f2f2f2;
+  --table-text: black;
+  --link: rgb(85 26 139);
+  --link-hover: black;
+  --footer-bg: black;
+  --footer-color: white;
+}
+
+.dark-Theme{
+  --body-bg: rgb(0,0,0);
+  --body-color: white;
+  --a-hover-color: rgb(221, 114, 0);
+  --a-hover-bg: black;
+  --nav-bg: rgb(68, 63, 58);
+  --btn-bg: rgb(68, 63, 58);
+  --table-heading: #21043b;
+  --table-border: #1f1429;
+  --table-text: #1f1429;
+  --table-hover: #ddd;
+  --link: aqua;
+  --link-hover: rgb(221, 114, 0);
+  --footer-bg: white;
+  --footer-color: black;
+}
+
+
 
 * {
   margin: 0;
@@ -16,8 +52,13 @@ html {
 /* Body Styles */
 body {
   font-size: 14px;
-  background-color: #faebd7;
+  background-color: var(--body-bg);
+  color: var(--body-color);
   width: 100%;
+}
+
+body p:not(footer p){
+  color: var(--body-color);
 }
 
 /* Error Message Styling */
@@ -82,7 +123,7 @@ p,
 }
 
 a:hover {
-  color: #21043b;
+  color: var(--a-hover-color);
 }
 
 .hidden {
@@ -113,7 +154,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 0.75rem;
-  background-color: rgb(221, 114, 0);
+  background-color: var(--nav-bg);
 }
 nav a {
   color: white;
@@ -126,8 +167,22 @@ nav a {
   transition: color 0.3s ease;
 }
 nav a:hover {
-  background-color: #ffffff; /* Hover effect */
+  background-color: var(--a-hover-bg); /* Hover effect */
   text-decoration: underline;
+}
+
+nav img {
+  height: 40px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.lightIcon{
+  content: url("./images/light-mode.png");
+}
+
+.darkIcon{
+  content: url("./images/night-mode.png")
 }
 
 
@@ -157,11 +212,18 @@ color of #222222 and margin-bottom of 1em
 #intro,
   #projectCount {
     font-family: Arial, sans-serif;
-    color: #222222;
     margin-bottom: 1em;
     width: 70%;
     padding: 1rem;
   }
+
+#intro p a, .contribute-section p:nth-child(2) a{
+  color: var(--link);
+}
+
+#intro p a:hover, .contribute-section p:nth-child(2) a:hover{
+  color: var(--link-hover);
+}
 
 
 /* Project Buttons Styles*/
@@ -195,7 +257,7 @@ border radius of 0.5rem and a font-weight of 700
 .btn {
   margin: 0.2rem;
   padding: 0.3rem 0.5rem;
-  background-color: rgb(234, 88, 12);
+  background-color: var(--btn-bg);
   color: antiquewhite;
   border-radius: 0.5rem;
   border: none;
@@ -373,7 +435,7 @@ font-weight: bold
 padding of 10px each side
  */
 #contributorTable th {
-  background-color: #007bff;
+  background-color: var(--table-heading);
   color: #fff;
   font-weight: bold;
   padding: 10px;
@@ -384,7 +446,7 @@ sets contributorTable table row properties to the following:
 background-color: white
  */
 #contributorTable tr {
-  background-color: #f2f2f2;
+  background-color: var(--table-bg);
 }
 
 /*
@@ -392,7 +454,7 @@ sets contributorTable table row hover action properties to the following:
 background-color: white
  */
 #contributorTable tr:hover {
-  background-color: #ddd; /* Hovered row background color */
+  background-color: var(--table-hover); /* Hovered row background color */
 }
 
 /*------Style table cells------*/
@@ -405,6 +467,7 @@ text-align to center
 #contributorTable td {
   padding: 8px;
   text-align: center;
+  color: var(--table-text);
 }
 
 /*----Add some border to the table and cells----*/
@@ -412,14 +475,14 @@ text-align to center
 #contributorTable,
 #contributorTable th,
 #contributorTable td {
-  border: 1px solid #ddd;
+  border: 1px solid var(--table-border);
 }
 
 /*---Footer Styles---*/
 
 footer {
-  background-color: black;
-  color: white;
+  background-color: var(--footer-bg);
+  color: var(--footer-color);
   margin-top: 1rem;
   font-size: x-large;
   box-sizing: border-box;
