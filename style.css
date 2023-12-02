@@ -156,8 +156,14 @@ nav {
   padding: 0.75rem;
   background-color: var(--nav-bg);
 }
+.subNav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 nav a {
   color: white;
+  border-radius: 1vw;
   font-family: "Papyrus", fantasy;
   transition: background-color 0.3s ease;
   display: block;
@@ -168,7 +174,7 @@ nav a {
 }
 nav a:hover {
   background-color: var(--a-hover-bg); /* Hover effect */
-  text-decoration: underline;
+  font-size: 2vw;
 }
 
 nav img {
