@@ -32,6 +32,16 @@ const projects = [
     liveLink: "https://paymentform-blush.vercel.app/",
   },
   {
+    name: "Tarsho",
+    image: "https://drive.google.com/open?id=11exI1VQ824jGGO75Fj4XJ_9nKtSuZaQX",
+    description:
+      "Tarsho is a groundbreaking mobile application designed to streamline the connection between independent contractors and customers seeking professional services. It simplifies the process of discovering and engaging with dependable service providers, catering to various needs such as HVAC, plumbing, and electrical work. With an intuitive design and a user-friendly interface, Tarsho aims to revolutionize interactions between customers and service professionals. Its key features include dual account creation options for consumers and service providers, comprehensive service listings with detailed information, advanced proximity-based search functionality, and a seamless user experience. The tech stack powering Tarsho encompasses React Native for mobile development, React for the web platform, Node.js and Express.js for a robust backend, MongoDB for flexible data management, and GitHub Actions for continuous integration and deployment, all aimed at delivering a reliable and efficient service ecosystem. Deployment strategies for cloud and hosting are yet to be determined, and version control is managed through Git hosted on GitHub.Tarsho is a groundbreaking mobile application designed to streamline the connection between independent contractors and customers seeking professional services. It simplifies the process of discovering and engaging with dependable service providers, catering to various needs such as HVAC, plumbing, and electrical work. With an intuitive design and a user-friendly interface, Tarsho aims to revolutionize interactions between customers and service professionals. Its key features include dual account creation options for consumers and service providers, comprehensive service listings with detailed information, advanced proximity-based search functionality, and a seamless user experience. The tech stack powering Tarsho encompasses React Native for mobile development, React for the web platform, Node.js and Express.js for a robust backend, MongoDB for flexible data management, and GitHub Actions for continuous integration and deployment, all aimed at delivering a reliable and efficient service ecosystem. Deployment strategies for cloud and hosting are yet to be determined, and version control is managed through Git hosted on GitHub.",
+    usedTech: "Reactjs, Nodejs, Expressjs, Mongodb",
+    contributorName: "Ahmed ",
+    codeLink: "https://github.com/AhmedRaisi/Tarsho",
+    liveLink: "",
+  },
+  {
     name: "Fardeen Ahamed Personal Portfolio",
     image: "./images/fardeenPortfolio.png",
     description:
