@@ -367,6 +367,15 @@ const projects = [
     liveLink: "https://shoyebaktar-shirol.github.io/Personal-Portfolio/",
   },
   {
+    name: "Log_ver_2",
+    image: "https://th.bing.com/th/id/OIP.o1sheU57dJ5yz7xBrK30bQHaHa?rs=1&pid=ImgDetMain",
+    description: "A windows based application for diary entry with login and signup features, made using Tkinter.",
+    usedTech: "Python",
+    contributorName: "Chaanakyaa Milkuri",
+    codeLink: "https://github.com/chaanakyaaM/Projects/tree/52e5945e02be503f7ff6459d9c44e99f86922f46/Log_ver_2",
+    liveLink: "https://github.com/chaanakyaaM/Projects/tree/52e5945e02be503f7ff6459d9c44e99f86922f46/Log_ver_2",
+  },
+  {
     name: "Poke!Book - Poetry notebook",
     image: "./images/pokebook.png",
     description:
