@@ -32,6 +32,34 @@ const projects = [
     liveLink: "https://paymentform-blush.vercel.app/",
   },
   {
+    name: "Tarsho",
+    image: "https://drive.google.com/open?id=11exI1VQ824jGGO75Fj4XJ_9nKtSuZaQX",
+    description:
+      "Tarsho is an innovative mobile application designed to connect independent contractors with customers seeking professional services. It simplifies the process of finding and engaging with reliable service providers for a range of services, including HVAC, plumbing, and electrical work. Tarsho's intuitive design and user-friendly interface are set to transform customer and service professional interactions.
+
+
+
+Key Features
+Dual Account Creation: Sign up as either a consumer or a service provider, customizing the experience to fit specific needs.
+Service Listings: Providers can list their services, including detailed information on pricing, location, and specializations.
+Proximity Search: Advanced location-based search functionality enables consumers to easily find local providers.
+User-Friendly Interface: Designed for ease of navigation to effortlessly connect users and service providers.
+Tech Stack
+Tarsho employs a range of modern technologies:
+
+//Mobile: Built with React Native for a seamless Android and iOS app experience.
+Web: Developed using React, ensuring a dynamic and responsive web platform.
+Backend: Engineered with Node.js and Express.js for robust server-side performance.
+Database: Uses MongoDB for scalable and flexible data management.
+Cloud & Hosting: Deployment strategy TBD.
+CI/CD: Utilizes GitHub Actions for continuous integration and deployment.
+Version Control: Managed with Git, hosted on GitHub.",
+    usedTech: "Reactjs, Nodejs, Expressjs, Mongodb",
+    contributorName: "Ahmed ",
+    codeLink: "https://github.com/AhmedRaisi/Tarsho",
+    liveLink: "",
+  },
+  {
     name: "Fardeen Ahamed Personal Portfolio",
     image: "./images/fardeenPortfolio.png",
     description:
