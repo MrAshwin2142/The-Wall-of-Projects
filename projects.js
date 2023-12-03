@@ -35,25 +35,7 @@ const projects = [
     name: "Tarsho",
     image: "https://drive.google.com/open?id=11exI1VQ824jGGO75Fj4XJ_9nKtSuZaQX",
     description:
-      "Tarsho is an innovative mobile application designed to connect independent contractors with customers seeking professional services. It simplifies the process of finding and engaging with reliable service providers for a range of services, including HVAC, plumbing, and electrical work. Tarsho's intuitive design and user-friendly interface are set to transform customer and service professional interactions.
-
-
-
-Key Features
-Dual Account Creation: Sign up as either a consumer or a service provider, customizing the experience to fit specific needs.
-Service Listings: Providers can list their services, including detailed information on pricing, location, and specializations.
-Proximity Search: Advanced location-based search functionality enables consumers to easily find local providers.
-User-Friendly Interface: Designed for ease of navigation to effortlessly connect users and service providers.
-Tech Stack
-Tarsho employs a range of modern technologies:
-
-//Mobile: Built with React Native for a seamless Android and iOS app experience.
-Web: Developed using React, ensuring a dynamic and responsive web platform.
-Backend: Engineered with Node.js and Express.js for robust server-side performance.
-Database: Uses MongoDB for scalable and flexible data management.
-Cloud & Hosting: Deployment strategy TBD.
-CI/CD: Utilizes GitHub Actions for continuous integration and deployment.
-Version Control: Managed with Git, hosted on GitHub.",
+      "Tarsho is a groundbreaking mobile application designed to streamline the connection between independent contractors and customers seeking professional services. It simplifies the process of discovering and engaging with dependable service providers, catering to various needs such as HVAC, plumbing, and electrical work. With an intuitive design and a user-friendly interface, Tarsho aims to revolutionize interactions between customers and service professionals. Its key features include dual account creation options for consumers and service providers, comprehensive service listings with detailed information, advanced proximity-based search functionality, and a seamless user experience. The tech stack powering Tarsho encompasses React Native for mobile development, React for the web platform, Node.js and Express.js for a robust backend, MongoDB for flexible data management, and GitHub Actions for continuous integration and deployment, all aimed at delivering a reliable and efficient service ecosystem. Deployment strategies for cloud and hosting are yet to be determined, and version control is managed through Git hosted on GitHub.Tarsho is a groundbreaking mobile application designed to streamline the connection between independent contractors and customers seeking professional services. It simplifies the process of discovering and engaging with dependable service providers, catering to various needs such as HVAC, plumbing, and electrical work. With an intuitive design and a user-friendly interface, Tarsho aims to revolutionize interactions between customers and service professionals. Its key features include dual account creation options for consumers and service providers, comprehensive service listings with detailed information, advanced proximity-based search functionality, and a seamless user experience. The tech stack powering Tarsho encompasses React Native for mobile development, React for the web platform, Node.js and Express.js for a robust backend, MongoDB for flexible data management, and GitHub Actions for continuous integration and deployment, all aimed at delivering a reliable and efficient service ecosystem. Deployment strategies for cloud and hosting are yet to be determined, and version control is managed through Git hosted on GitHub.",
     usedTech: "Reactjs, Nodejs, Expressjs, Mongodb",
     contributorName: "Ahmed ",
     codeLink: "https://github.com/AhmedRaisi/Tarsho",
