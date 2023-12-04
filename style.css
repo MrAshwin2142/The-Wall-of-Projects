@@ -6,6 +6,8 @@
   --a-hover-bg: #ffffff;
   --nav-bg: rgb(221, 114, 0);
   --btn-bg: rgb(234, 88, 12);
+  --add-btn-bg: #007bff;
+  --add-btn-hover-bg: #004bcf;
   --table-heading: #007bff;
   --table-border: #ddd;
   --table-hover: #ddd;
@@ -24,6 +26,8 @@
   --a-hover-bg: black;
   --nav-bg: rgb(68, 63, 58);
   --btn-bg: rgb(68, 63, 58);
+  --add-btn-bg: #21043b;
+  --add-btn-hover-bg: #51346b;
   --table-heading: #21043b;
   --table-border: #1f1429;
   --table-text: #1f1429;
@@ -239,7 +243,7 @@ sets button to a background-color of rgb(253, 186, 116), a
 border radius of 0.5rem and a font-weight of 700
 */
 #addProjectBtn {
-  background-color: rgb(253, 186, 116);
+  background-color: var(--add-btn-bg);
   border-radius: 0.5rem;
   font-weight: 700;
 }
@@ -251,7 +255,7 @@ border radius of 0.5rem and a font-weight of 700
 
 /* sets the button hover background color to rgb(253, 186, 116) */
 #addProjectBtn:hover {
-  background-color: rgb(253, 186, 116);
+  background-color: var(--add-btn-hover-bg);
 }
 
 /* sets the button link's hover action to a color of 'antiquewhite'*/
