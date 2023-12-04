@@ -415,6 +415,15 @@ const projects = [
     liveLink: "",
   },
 
+  {
+    name: "Offline Password Manager",
+    image: "./images/offline-password-manager.png", // Add your project image to the `images` directory
+    description: "Offline Password Manager",
+    usedTech: "Python",
+    contributorName: "Utkarsh Singh",
+    codeLink: "https://github.com/vib795/Password-Manager",
+    liveLink: "",
+  },
   // Manually add more projects here
   // Please avoid putting your projects at the very beginning or the end of the file. Instead, insert them in the middle.
   // {
