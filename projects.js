@@ -181,6 +181,16 @@ const projects = [
     liveLink: "",
   },
   {
+    name: "Next-Word-Predictor",
+    image: "images/Next-Word-Predictor.png",
+    description:
+      "Python model trained in Keras to predict next word in a sentence.",
+      usedTech: "Python",
+      contributorName: "Luke Li",
+      codeLink: "https://github.com/yhlli/Next-Word-Predictor",
+      liveLink: "",
+  },
+  {
     name: "Safest Path",
     image: "images/safest.jpg",
     description:
