@@ -241,6 +241,15 @@ const projects = [
     liveLink: "https://withpreetisen08.github.io/Calculator2/",
   },
   {
+    name: "SpeechBoy",
+    image: "./images/SpeechBoy.png",
+    description: "SpeechBoy is a text to speech transaltion application providing us with a variety of options to customize the voice",
+    usedTech: "Python",
+    contributorName: "Bhanuj Sharma",
+    codeLink: "https://github.com/BhanujISNOTACODER/SpeechBoy",
+    liveLink: "",
+  },
+  {
     name: "Thermopy",
     image: "images/Thermopy.png", // Add your project image to the `images` directory
     description:
