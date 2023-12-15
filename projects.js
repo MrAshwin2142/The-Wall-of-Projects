@@ -185,10 +185,10 @@ const projects = [
     image: "images/Next-Word-Predictor.png",
     description:
       "Python model trained in Keras to predict next word in a sentence.",
-      usedTech: "Python",
-      contributorName: "Luke Li",
-      codeLink: "https://github.com/yhlli/Next-Word-Predictor",
-      liveLink: "",
+    usedTech: "Python",
+    contributorName: "Luke Li",
+    codeLink: "https://github.com/yhlli/Next-Word-Predictor",
+    liveLink: "",
   },
   {
     name: "Safest Path",
@@ -243,7 +243,8 @@ const projects = [
   {
     name: "SpeechBoy",
     image: "./images/SpeechBoy.png",
-    description: "SpeechBoy is a text to speech transaltion application providing us with a variety of options to customize the voice",
+    description:
+      "SpeechBoy is a text to speech transaltion application providing us with a variety of options to customize the voice",
     usedTech: "Python",
     contributorName: "Bhanuj Sharma",
     codeLink: "https://github.com/BhanujISNOTACODER/SpeechBoy",
@@ -397,12 +398,16 @@ const projects = [
   },
   {
     name: "Log_ver_2",
-    image: "https://th.bing.com/th/id/OIP.o1sheU57dJ5yz7xBrK30bQHaHa?rs=1&pid=ImgDetMain",
-    description: "A windows based application for diary entry with login and signup features, made using Tkinter.",
+    image:
+      "https://th.bing.com/th/id/OIP.o1sheU57dJ5yz7xBrK30bQHaHa?rs=1&pid=ImgDetMain",
+    description:
+      "A windows based application for diary entry with login and signup features, made using Tkinter.",
     usedTech: "Python",
     contributorName: "Chaanakyaa Milkuri",
-    codeLink: "https://github.com/chaanakyaaM/Projects/tree/52e5945e02be503f7ff6459d9c44e99f86922f46/Log_ver_2",
-    liveLink: "https://github.com/chaanakyaaM/Projects/tree/52e5945e02be503f7ff6459d9c44e99f86922f46/Log_ver_2",
+    codeLink:
+      "https://github.com/chaanakyaaM/Projects/tree/52e5945e02be503f7ff6459d9c44e99f86922f46/Log_ver_2",
+    liveLink:
+      "https://github.com/chaanakyaaM/Projects/tree/52e5945e02be503f7ff6459d9c44e99f86922f46/Log_ver_2",
   },
   {
     name: "Poke!Book - Poetry notebook",
@@ -421,6 +426,17 @@ const projects = [
     usedTech: "Reactjs/Nodejs-ExpressJs/MongoDb",
     contributorName: "Mahdi Selmani",
     codeLink: "https://github.com/MahdiSelmani/ecommerce",
+    liveLink: "",
+  },
+
+  {
+    name: "Jingle",
+    image: "./images/jingle.png",
+    description:
+      "A simple voice assistant to automate your daily tasks a replica of Alexa.",
+    usedTech: "Python",
+    contributorName: "Suvashish Shrestha",
+    codeLink: "https://github.com/suvashish26/Jingle",
     liveLink: "",
   },
 
