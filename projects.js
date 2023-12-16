@@ -300,6 +300,15 @@ const projects = [
     liveLink: "https://layerfi.meta.mt/",
   },
   {
+    name: "Calculator",
+    image: "./images/calculator.png", 
+    description: "A Simple Web Calculator for performing calculations with responsive design",
+    usedTech: "HTML, CSS, Javascript",
+    contributorName: "Sutanjoy Pal",
+    codeLink: "https://github.com/SutanjoyPal/Calculator",
+    liveLink: " https://sutanjoypal.github.io/Calculator/",
+  },
+  {
     name: "The Wall of Projects(React)",
     image: "./images/thewallofprojects(react).png",
     description:
