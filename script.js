@@ -141,10 +141,13 @@ document.addEventListener("DOMContentLoaded", () => {
   projectCount.textContent = `Total Projects Hosted: ${projects.length}`;
 });
 
-
-
-function handleMode(){
-  var element = document.getElementById("modeButton");
+function handleMode() {
+  const element = document.getElementById("modeButton");
   element.classList.toggle("lightIcon");
   document.body.classList.toggle("dark-Theme");
+}
+
+// Handling Menu toggle on mobile screen
+function toggleSlideInMenu() {
+  document.getElementById("slideInMenu").classList.toggle("hidden");
 }
