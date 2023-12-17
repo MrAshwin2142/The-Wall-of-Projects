@@ -1,127 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Wall of Projects</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="./images/wall.png">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8502923994917060"
-     crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="./fonts.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="icon" type="image/png" href="./images/wall.png" />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8502923994917060"
+      crossorigin="anonymous"></script>
+  </head>
 
-<body>
+  <body>
     <!-- Navbar -->
     <nav id="nav">
-        <h3>The Wall of Projects</h3>
-        <div class="subNav">
-            <a href="https://github.com/MrAshwin2142/The-Wall-of-Projects">Star Repo</a>
-            <a href="#theWall">The Wall</a>
-            <a href="#starContributor">Star Contributors</a>
-            <img id="modeButton" src="./images/night-mode.png" class="lightIcon" onclick="handleMode()" alt="">
+      <div class="navContainer">
+        <div class="container">
+          <h1>The Wall of Projects</h1>
+          <div class="subNav">
+            <a
+              href="https://github.com/MrAshwin2142/The-Wall-of-Projects"
+              class="desktopLink"
+              >Star Repo</a
+            >
+            <a class="desktopLink" href="#theWall">The Wall</a>
+            <a class="desktopLink" href="#starContributor">Star Contributors</a>
 
+            <!-- xxx mobile menu button xxx -->
+            <button class="menu" id="menu" onclick="toggleSlideInMenu()">
+              <!-- menu icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+              </svg>
+              <!-- xxxxx -->
+            </button>
+            <!--xxx xxxxxxxxxxxxxxxxxxx xxx-->
+
+            <img
+              id="modeButton"
+              src="./images/dark-mode.svg"
+              class="lightIcon"
+              onclick="handleMode()"
+              alt="" />
+          </div>
         </div>
-
+      </div>
+      <div class="slideInMenu hidden" id="slideInMenu">
+        <div>
+          <a href="https://github.com/MrAshwin2142/The-Wall-of-Projects"
+            >Star Repo</a
+          >
+          <a href="#theWall">The Wall</a>
+          <a href="#starContributor">Star Contributors</a>
+          <button class="close" onclick="toggleSlideInMenu()">
+            <img src="./images/cross.svg" alt="close" />
+          </button>
+        </div>
+      </div>
     </nav>
 
     <!-- Header section -->
 
     <header>
-        <h1>The Wall of Projects</h1>
-        <br>
+      <div class="container">
         <div id="intro">
-            <p>Welcome to the Wall of Projects – where individuals showcase their passion and innovation through a collection of remarkable projects. Your journey in the world of coding deserves recognition, no matter the scale of your project.</p>
-            <br>
-            <p>Ready to make your mark? Click <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYNrsuX1tijjFqAvlgwH02aFo28Zqhb9qTs2N-iTot09LUvw/viewform">'ADD NEW PROJECT!'</a> and proudly display your creation on the Wall. Whether it's a groundbreaking application or a clever piece of code, your project matters. Explore the diverse array of projects hosted here and be part of a community that thrives on collaboration and shared knowledge.
-            </p>
+          <div class="title">
+            <div class="welcome">
+              <span class="gradientLine"></span>
+              <p>welcome to</p>
+              <span class="gradientLine"></span>
+            </div>
+            <h1>the Wall of Projects</h1>
+            <h3>
+              – where individuals showcase their passion and innovation through
+              a collection of remarkable projects.
+            </h3>
+          </div>
+          <div class="card">
+            <h4>
+              Your journey in the world of coding deserves recognition, no
+              matter the scale of your project.
+            </h4>
+            <div class="gradientLine"></div>
+            <div>
+              <p class="mark">Ready to make your mark? &#128278;</p>
+
+              <div class="flex">
+                <p class="uppercase">&#8595; Click &#8595;</p>
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfYNrsuX1tijjFqAvlgwH02aFo28Zqhb9qTs2N-iTot09LUvw/viewform"
+                  class="addNewProject"
+                  >Add New Project</a
+                >
+                <p>
+                  Display your creation on the Wall. Whether it's a
+                  groundbreaking application or a clever piece of code, your
+                  project matters. Explore the diverse array of projects hosted
+                  here and be part of a community that thrives on collaboration
+                  and shared knowledge.
+                </p>
+                <div id="projectCount">0</div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div id="projectCount">0</div>
+      </div>
     </header>
-    <hr>
 
-        
-        <label for="searchBox"  id="theWall">Search</label>
-        <input type="text" id="searchBox" placeholder="Search by Technology, Name or Contibutor...">
-        <!-- Projects section -->
+    <label for="searchBox" id="theWall">Search</label>
+    <input
+      type="text"
+      id="searchBox"
+      placeholder="Search by Technology, Name or Contibutor..." />
+    <!-- Projects section -->
     <div class="main-content">
-        <div class="project-section">
-            <main>
-                <div id="projectList">
-                    <button class="btn" id="addProjectBtn">
-                        <a href="https://forms.gle/6eKToerpPrGK2vhZA"
-                            target="_blank"><s>ADD NEW PROJECT!</s></a>
-                    </button>
+      <div class="project-section">
+        <main>
+          <div id="projectList">
+            <button class="btn" id="addProjectBtn">
+              <a href="https://forms.gle/6eKToerpPrGK2vhZA" target="_blank"
+                ><s>ADD NEW PROJECT!</s></a
+              >
+            </button>
 
-                    <!-- Project buttons will be added here -->
+            <!-- Project buttons will be added here -->
+          </div>
+        </main>
 
-                </div>
-            </main>
+        <!-- Project details section (hidden by default) -->
 
-            <!-- Project details section (hidden by default) -->
+        <section id="detailSection" class="hidden">
+          <div id="projectDetails">
+            <h1 id="projectName"></h1>
+            <img
+              id="projectImage"
+              src="./images/default-image.jpg"
+              alt="Project Image" />
+            <p id="projectDescription"></p>
+            <p>Tech Used : <span id="usedTech"></span></p>
+            <p>Contributor : <span id="contributor"></span></p>
+            <hr id="projectHr" />
+            <div class="button-container">
+              <button>
+                <a href="" target="_blank" id="codeLink">Go to Code</a>
+              </button>
+              <div class="liveLinkContainer">
+                <button>
+                  <a href="" target="_blank" id="liveLink">Go to Live</a>
+                </button>
+                <span class="error-message hidden" id="liveLinkError"
+                  >Live link is not available</span
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
 
-            <section id="detailSection" class="hidden">
-                <div id="projectDetails">
-                    <h1 id="projectName"></h1>
-                    <img id="projectImage" src="./images/default-image.jpg" alt="Project Image">
-                    <p id="projectDescription"></p>
-                    <p>Tech Used : <span id="usedTech"></span></p>
-                    <p>Contributor : <span id="contributor"></span></p>
-                    <hr id="projectHr">
-                    <div class="button-container">
-                        <button><a href="" target="_blank" id="codeLink">Go to Code</a></button>
-                        <div class="liveLinkContainer">
-                            <button><a href="" target="_blank" id="liveLink">Go to Live</a></button>
-                            <span class="error-message hidden" id="liveLinkError">Live link is not available</span>
-                        </div>
-                    </div>
-                </div>
+      <!-- Contributor Table -->
 
-            </section>
-        </div>
-
-        <!-- Contributor Table -->
-
-        <div id="starContributor" class="starContributor">
-            <h2><b>STAR CONTRIBUTORS</b></h2><br>
-            <table id="contributorTable">
-                <tr>
-                    <th>Name</th>
-                    <th>Projects</th>
-                </tr>
-            </table>
-        </div>
+      <div id="starContributor" class="starContributor">
+        <h2><b>STAR CONTRIBUTORS</b></h2>
+        <br />
+        <table id="contributorTable">
+          <tr>
+            <th>Name</th>
+            <th>Projects</th>
+          </tr>
+        </table>
+      </div>
     </div>
-    <hr>
+    <hr />
 
     <!-- Contribute section -->
 
-    <setion class="contribute-section">
-        <p>If your code is not
-            deployed yet, you can refer to this <a
-                href="https://www.geeksforgeeks.org/how-to-host-a-website-on-github-for-free/">Article</a> for
-                    guidance.<br><br></p>
-        <p>
-            Want to contribute?
-            <a href="https://github.com/MrAshwin2142/The-Wall-of-Projects" target="_blank">Contribute
-                here!<br><br></a>
-        </p>
-<!-- 
+    <section class="contribute-section">
+      <p>
+        If your code is not deployed yet, you can refer to this
+        <a
+          href="https://www.geeksforgeeks.org/how-to-host-a-website-on-github-for-free/"
+          >Article</a
+        >
+        for guidance.<br /><br />
+      </p>
+      <p>
+        Want to contribute?
+        <a
+          href="https://github.com/MrAshwin2142/The-Wall-of-Projects"
+          target="_blank"
+          >Contribute here!<br /><br
+        /></a>
+      </p>
+      <!-- 
         <p>
             More about me:
             <a href="https://ashwin-portfolioo.netlify.app/#" target="_blank">Ashwin Dhangar</a>
         </p> -->
-        </section>
+    </section>
 
+    <!-- Footer section -->
 
-        <!-- Footer section -->
+    <footer>
+      <p>&copy; <s>2023 The Wall Of Projects</s></p>
+    </footer>
 
-        <footer>
-            <p>&copy; <s>2023 The Wall Of Projects</s></p>
-        </footer>
-
-        <script src="script.js"></script>
-        <script src="projects.js"></script>
-</body>
-
+    <script src="script.js"></script>
+    <script src="projects.js"></script>
+  </body>
 </html>
