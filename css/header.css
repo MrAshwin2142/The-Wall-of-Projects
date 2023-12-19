@@ -1,0 +1,187 @@
+/* !! 1 rem = 10px !! */
+
+header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid var(--text-color);
+  margin-bottom: 2.2rem;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2) inset;
+}
+
+header .container {
+  width: 90%;
+  max-width: 1440px;
+}
+
+#intro,
+.welcome,
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#intro .welcome {
+  text-transform: uppercase;
+  font-size: 1.65rem;
+  font-weight: 600;
+  width: 100%;
+}
+
+#intro .title-container {
+  padding: 22rem 0 4.4rem;
+}
+
+#intro .gradientLine {
+  display: block;
+  width: 25%;
+  height: 1px;
+  background: var(--linear-gradient);
+}
+
+#intro h1 {
+  font-size: 7.7rem;
+  font-weight: normal;
+  color: var(--h1-color);
+}
+
+#intro h3 {
+  font-family: "Inter", sans-serif;
+  max-width: 92rem;
+  color: var(--text-color);
+  font-weight: 900;
+  font-size: 2.75rem;
+  line-height: 1.25;
+}
+
+#intro .card {
+  width: 100%;
+  max-width: 100rem;
+  padding: 4.4rem 2.2rem 2.2rem;
+  background-color: var(--card-bg);
+  border-radius: 2.2rem 2.2rem 0 0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#intro .card .gradientLine {
+  width: 100%;
+}
+
+#intro .card h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  max-width: 63.5rem;
+  font-size: 2.4rem;
+  color: var(--yellow);
+  margin: 2.2rem;
+}
+
+#intro .card .mark {
+  font-family: cursive !important;
+  font-size: 2.2rem;
+  margin-top: 1.6rem;
+  color: var(--gray);
+}
+
+#intro .card .addNewProject {
+  font-size: 1.5rem;
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  background: var(--h1-color);
+  border-radius: 0.4rem;
+  color: var(--gray);
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+  margin-top: 0.8rem;
+}
+
+#intro .card .addNewProject:hover {
+  scale: 1.1;
+}
+
+#intro .card p.uppercase {
+  margin-top: 1.6rem;
+  font-weight: 600;
+  color: var(--gray);
+}
+
+#intro .card .description {
+  width: 100%;
+  max-width: 61.4rem;
+  color: var(--gray);
+  font-size: 1.65rem;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 1.6rem 1.6rem 0 1.6rem;
+}
+
+#projectCount {
+  font-family: cursive;
+  color: var(--pale-yellow);
+  margin-bottom: 1.6rem;
+  padding: 1.6rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+/*---Media Queries----*/
+@media screen and (max-width: 992px) {
+  #intro .welcome,
+  #intro .card p,
+  #intro .card .description,
+  #intro .addNewProject {
+    font-size: 1.5rem;
+  }
+
+  #intro h1 {
+    font-size: 6rem;
+  }
+
+  #intro h3,
+  #intro .card h4,
+  #intro .card p.mark {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #intro .welcome,
+  #intro .card p,
+  #intro .card .description,
+  #intro .addNewProject {
+    font-size: 1.4rem;
+  }
+
+  #intro h1 {
+    font-size: 5.2rem;
+  }
+
+  #intro h3,
+  #intro .card h4,
+  #intro .card p.mark {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #intro .welcome,
+  #intro .card p,
+  #intro .card .description,
+  #intro .addNewProject {
+    font-size: 1.3rem;
+  }
+
+  #intro h1 {
+    font-size: 4.48rem;
+  }
+
+  #intro h3,
+  #intro .card h4,
+  #intro .card p.mark {
+    font-size: 1.6rem;
+  }
+
+  #intro .card #projectCount {
+    font-size: 1.44rem;
+  }
+}
