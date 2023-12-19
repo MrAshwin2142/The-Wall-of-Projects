@@ -1,0 +1,141 @@
+@import url("fonts.css");
+@import url("utils.css");
+@import url("navbar.css");
+@import url("header.css");
+@import url("projects.css");
+@import url("contributors.css");
+@import url("footer.css");
+
+:root {
+  --flat-black: #333;
+  --white: #fff;
+  --gray: #e0e0e0;
+  --yellow: #ffc476;
+  --pale-yellow: #cc9c5d;
+
+  /* Background Colors */
+  --bg-color: #faebd7;
+  --card-bg: #575050;
+  --btn-bg: rgb(234, 88, 12);
+  --add-btn-bg: #007bff;
+  --table-heading-bg: #007bff;
+  --footer-bg: black;
+
+  /* Text Colors */
+  --text-color: #333;
+  --h1-color: #8a1135;
+  --footer-text-color: white;
+
+  /* Border Colors */
+  --table-border: #ddd;
+
+  /* Gradients and Patterns */
+  --linear-gradient: linear-gradient(
+    90deg,
+    transparent 5%,
+    rgba(51, 51, 51, 1) 44%,
+    transparent 95%
+  );
+}
+
+.dark-Theme {
+  /* Background Colors */
+  --bg-color: #2e2929;
+  --btn-bg: rgb(68, 63, 58);
+  --add-btn-bg: #21043b;
+  --table-heading-bg: #21043b;
+  --footer-bg: white;
+
+  /* Text Colors */
+  --text-color: #d6d6d6;
+  --h1-color: #ca1c50;
+  --footer-text-color: black;
+
+  /* Border Colors */
+  --table-border: #1f1429;
+
+  /* Gradients and Patterns */
+  --linear-gradient: linear-gradient(
+    90deg,
+    transparent,
+    rgba(250, 235, 215, 1) 44%,
+    transparent 100%
+  );
+}
+
+/* general styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* !!! Set the base font size to 62.5% for easier pixel-to-rem translation.
+   This makes 1rem equal to 10px, simplifying calculations and providing
+   a more intuitive way to work with font sizes using rem units. !!! */
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--bg-color);
+  width: 100%;
+  color: var(--text-color);
+  font-size: 1.6rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+nav,
+header {
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-family: "Papyrus", fantasy;
+}
+
+p,
+a {
+  color: var(--text-color);
+}
+
+hr {
+  margin: 1.6rem 0;
+  border: 0.5px solid black;
+}
+
+input[type="text"] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+/* <<------ Media Queries ---->>*/
+/* @media screen and (min-width: 1200px) {
+  body {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    font-size: 16px;
+  }
+} */
