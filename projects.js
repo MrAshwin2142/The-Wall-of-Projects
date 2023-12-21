@@ -414,6 +414,15 @@ const projects = [
     codeLink: "https://github.com/BouraouiSaoussen/tinder-clone",
     liveLink: "",
   },
+  {
+    name: "The Language Hub",
+    image: "./images/The Language Hub.jpg",
+    description: "An language reference book that aims to simplify the journey of language learning by having all the important information of a  language in one place.",
+    usedTech: "Next.js, Tailwind, Markdown",
+    contributorName: "Dante",
+    codeLink: "https://github.com/Psypher1/the-language-hub",
+    liveLink: "https://thelanguagehub.netlify.app/",
+  },
 
   // Manually add more projects here
   // Please avoid putting your projects at the very beginning or the end of the file. Instead, insert them in the middle.
