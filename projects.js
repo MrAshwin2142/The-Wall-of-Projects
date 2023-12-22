@@ -141,6 +141,15 @@ const projects = [
     liveLink: "https://tmdb-moviezz.netlify.app/",
   },
   {
+    name: "Leetcode-Problem-Solver-OpenAI",
+    image: "./images/leetcode.png", // Add your project image to the `images` directory
+    description: "Solves any leetcode problem using OpenAI's api",
+    usedTech: "Javascript",
+    contributorName: "Ved Surve",
+    codeLink: "https://github.com/veecodes07/Leetcode-Solver-with-OpenAI-api",
+    liveLink: "",
+  },
+  {
     name: "Text to Emoji",
     image: "https://ashwin-portfolioo.netlify.app/image/TextToEmoji.png",
     description:
