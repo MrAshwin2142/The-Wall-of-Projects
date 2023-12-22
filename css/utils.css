@@ -2,20 +2,24 @@
 
 /* !! 1 rem = 10px !! */
 
-/* xxx button helper classes xxx */
-.btn {
-  margin: 0.32rem;
-  padding: 0.48rem 0.8rem;
-  background-color: var(--btn-bg);
-  color: antiquewhite;
-  border-radius: 0.8rem;
-  border: none;
-  cursor: pointer;
-  font-family: "Courier New", Courier, monospace;
+/* container */
+.container {
+  width: 90%;
+  max-width: 1440px;
 }
 
-.active {
-  background-color: rgb(220, 38, 38);
+/* xxx button helper classes xxx */
+.btn {
+  margin: 0.3rem;
+  padding: 0.8rem 1rem;
+  border-radius: 0.25em;
+  cursor: pointer;
+  border: none;
+}
+
+.btn.active {
+  /* background-color: var(--btn-active-color); */
+  filter: brightness(0.8);
 }
 
 .btn:hover {
@@ -43,10 +47,16 @@
   align-items: center;
 }
 
-.flex-column-center {
+.flex-col-center {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.flex-col-items-center {
+  display: flex;
+  align-items: center;
   flex-direction: column;
 }
 

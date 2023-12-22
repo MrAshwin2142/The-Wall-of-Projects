@@ -1,9 +1,18 @@
 /* !! 1 rem = 10px !! */
+.projectBtn {
+  background-color: var(--btn-bg);
+  color: var(--btn-color);
+}
 
 #addProjectBtn {
   background-color: var(--add-btn-bg);
-  border-radius: 0.8rem;
-  font-weight: 700;
+  border-radius: 100vmax;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+#addProjectBtn a {
+  color: var(--btn-color);
 }
 
 #addProjectBtn:hover {
