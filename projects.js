@@ -31,6 +31,15 @@ const projects = [
     codeLink: "https://github.com/vivek-paswan028/Paymentform",
     liveLink: "https://paymentform-blush.vercel.app/",
   },
+    {
+    name: "HTL - Portfolio 😎",
+    image: "./images/htl-portfolio.png",
+    description: "My personal portfolio website using React Tailwind",
+    usedTech: "React, Tailwind",
+    contributorName: "Htet Aung Lin",
+    codeLink: "https://github.com/HTLA380/Personal_Portfolio.git",
+    liveLink: "https://htetaunglin-coder.netlify.app/",
+  },
   {
     name: "Tarsho",
     image: "https://drive.google.com/open?id=11exI1VQ824jGGO75Fj4XJ_9nKtSuZaQX",
