@@ -76,28 +76,85 @@ document.addEventListener("DOMContentLoaded", () => {
     projectList.appendChild(projectButton);
   });
 
-  searchBox.addEventListener("input", (event) => {
-    const searchTerm = event.target.value.toLowerCase();
+  
+const searchBox = document.getElementById("searchBox");
+const project = document.getElementById("projectList");
 
-    const buttons = projectList.getElementsByTagName("button");
-    for (const button of buttons) {
-      const tech = button.getAttribute("data-tech") || "";
-      const name = button.getAttribute("data-name") || "";
-      const contributor = button.getAttribute("data-contributor") || "";
+searchBox.addEventListener("input", (event) => {
+  const searchTerm = event.target.value.toLowerCase();
+  const buttons = projectList.getElementsByTagName("button");
 
-      if (
-        tech.includes(searchTerm) ||
-        name.includes(searchTerm) ||
-        contributor.includes(searchTerm)
-      ) {
-        button.style.display = ""; // Show the button
-      } else {
-        button.style.display = "none"; // Hide the button
-      }
+  searchBox.addEventListener("click", (event) => {
+    if (event.target.matches('#searchBox')) {
+      autocompleteList.style.display = '';
+}});
+
+  // An array to store suggestions
+  const suggestions = ["JavaScript",
+  "Python",
+  "Java",
+  "C++",
+  "Ruby",
+  "Swift",
+  "TypeScript",
+  "C#",
+  "Go",
+  "Kotlin",
+  "Rust",
+  "PHP",
+  "HTML",
+  "CSS",
+  "SQL",
+  "PostgreSQL",
+  "MongoDB"];
+
+  for (const button of buttons) {
+    const tech = button.getAttribute("data-tech") || "";
+    const name = button.getAttribute("data-name") || "";
+    const contributor = button.getAttribute("data-contributor") || "";
+
+    if (
+      tech.includes(searchTerm) ||
+      name.includes(searchTerm) ||
+      contributor.includes(searchTerm)
+    ) {
+      button.style.display = ""; // Show the button
+      suggestions.push(contributor); // Add to suggestions
+    } else {
+      button.style.display = "none"; // Hide the button
     }
-  });
+  }
 
-  // Event delegation for project buttons
+  // Update autocomplete suggestions
+  updateAutocomplete([...new Set(suggestions)]);
+});
+
+// Function to update autocomplete suggestions
+function updateAutocomplete(suggestions) {
+  const autocompleteList = document.getElementById("autocompleteList");
+  autocompleteList.innerHTML = ""; // Clear previous suggestions
+
+  suggestions.forEach((suggestion) => {
+    const listItem = document.createElement("li");
+    listItem.textContent = suggestion;
+
+    // Add click event to set suggestion as search term
+    listItem.addEventListener("click", () => {
+      searchBox.value = suggestion;
+      const inputEvent = new Event("input");
+      searchBox.dispatchEvent(inputEvent);
+    });
+
+    autocompleteList.appendChild(listItem);
+  });
+}
+
+document.addEventListener('click', (event) => {
+  if (!event.target.matches('#searchBox') && !event.target.matches('#autocompleteList li')) {
+    autocompleteList.style.display = 'none';
+  }});
+
+   // Event delegation for project buttons
   projectList.addEventListener("click", (event) => {
     const projectButton = event.target;
     if (projectButton.tagName === "BUTTON") {
