@@ -34,17 +34,22 @@
 
 #projectName {
   margin: 1.6rem;
+  font-family: 'Clash Display', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
 }
 
 #projectDetails p {
   margin: 1.6rem 3.2rem;
   font-size: 2.2rem;
-  font-weight: bold;
+  font-weight: 400;
   color: #000;
+  font-family: 'Inter', sans-serif;
 }
 
 #projectHr {
   margin: 0.8rem 0;
+  border: 1px solid brown;
 }
 
 /* button styles */
@@ -55,17 +60,19 @@
 }
 
 .button-container button {
-  font-family: "Courier New", Courier, monospace;
-  background-color: #0918efe1;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  background-color: brown;
   border: none;
   border-radius: 0.8rem;
   margin: 0.8rem;
-  padding: 0.8rem 1.6rem;
+  padding: 1.4rem 2.2rem;
   cursor: pointer;
+  font-size: 18px;
 }
 
 .button-container button:hover {
-  background-color: #0077ff;
+  background-color: rgb(189, 52, 52);
 }
 
 .liveLinkContainer {
