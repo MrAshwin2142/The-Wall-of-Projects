@@ -2,6 +2,15 @@
 
 const projects = [
   {
+    name: "IceAndSpice - A Restaurant Website",
+    image: "./images/IceAndSpice.png",
+    description: "IceAndSpice is a simple website for a restaurant which allows their customers to order food and make table reservations online. It allows the restaurant admin to view/accept orders & reservations, update menu as well as offers.",
+    usedTech: "Python, Django, HTML, CSS, JavaScript",
+    contributorName: "Sahil Gupta",
+    codeLink: "https://github.com/shaanguptaa/IceAndSpice",
+    liveLink: "https://iceandspice.pythonanywhere.com/",
+  },
+  {
     name: "Demos Delivered",
     image: "./images/demosdelivered.png",
     description:
