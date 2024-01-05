@@ -1,10 +1,10 @@
-@import url("fonts.css");
-@import url("utils.css");
-@import url("navbar.css");
-@import url("header.css");
-@import url("projects.css");
-@import url("contributors.css");
-@import url("footer.css");
+@import url('fonts.css');
+@import url('utils.css');
+@import url('navbar.css');
+@import url('header.css');
+@import url('projects.css');
+@import url('contributors.css');
+@import url('footer.css');
 
 :root {
   --flat-black: #333;
@@ -85,16 +85,17 @@ body {
   width: 100%;
   color: var(--text-color);
   font-size: 1.6rem;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
+  transition: all 0.5s ease-in-out;
 }
 
 nav,
 header {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 h1 {
-  font-family: "Papyrus", fantasy;
+  font-family: 'Papyrus', fantasy;
 }
 
 p,
@@ -107,7 +108,7 @@ hr {
   border: 0.5px solid black;
 }
 
-input[type="text"] {
+input[type='text'] {
   width: 25%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -157,7 +158,6 @@ input[type="text"] {
 #autocompleteList li:hover {
   background-color: #f2f2f2;
 } */
-
 
 /* <<------ Media Queries ---->>*/
 /* @media screen and (min-width: 1200px) {
