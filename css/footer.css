@@ -12,6 +12,10 @@ footer p {
   padding: 1.6rem;
 }
 
+footer p a {
+  text-decoration: underline;
+}
+
 .copyright {
   background-color: var(--footer-bg);
 }

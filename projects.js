@@ -2,6 +2,15 @@
 
 const projects = [
   {
+    name: "IceAndSpice - A Restaurant Website",
+    image: "./images/IceAndSpice.png",
+    description: "IceAndSpice is a simple website for a restaurant which allows their customers to order food and make table reservations online. It allows the restaurant admin to view/accept orders & reservations, update menu as well as offers.",
+    usedTech: "Python, Django, HTML, CSS, JavaScript",
+    contributorName: "Sahil Gupta",
+    codeLink: "https://github.com/shaanguptaa/IceAndSpice",
+    liveLink: "https://iceandspice.pythonanywhere.com/",
+  },
+  {
     name: "Demos Delivered",
     image: "./images/demosdelivered.png",
     description:
@@ -30,6 +39,15 @@ const projects = [
     contributorName: "Vivek Paswan ",
     codeLink: "https://github.com/vivek-paswan028/Paymentform",
     liveLink: "https://paymentform-blush.vercel.app/",
+  },
+    {
+    name: "HTL - Portfolio 😎",
+    image: "./images/htl-portfolio.png",
+    description: "My personal portfolio website using React Tailwind",
+    usedTech: "React, Tailwind",
+    contributorName: "Htet Aung Lin",
+    codeLink: "https://github.com/HTLA380/Personal_Portfolio.git",
+    liveLink: "https://htetaunglin-coder.netlify.app/",
   },
   {
     name: "Tarsho",
@@ -477,6 +495,15 @@ const projects = [
     codeLink: "https://github.com/vib795/Password-Manager",
     liveLink: "",
   },
+  {
+    name: "counter",
+    image: "./images/counter.png", // Add your project image to the `images` directory
+    description: "counts and stores the number you counted ",
+    usedTech: "html css and javascript ",
+    contributorName: "Yug bathla",
+    codeLink: "https://github.com/yugbathla30/counter",
+    liveLink: "https://sweet-moxie-7185f8.netlify.app/",
+},
   // Manually add more projects here
   // Please avoid putting your projects at the very beginning or the end of the file. Instead, insert them in the middle.
   // {

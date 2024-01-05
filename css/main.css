@@ -1,10 +1,10 @@
-@import url("fonts.css");
-@import url("utils.css");
-@import url("navbar.css");
-@import url("header.css");
-@import url("projects.css");
-@import url("contributors.css");
-@import url("footer.css");
+@import url('fonts.css');
+@import url('utils.css');
+@import url('navbar.css');
+@import url('header.css');
+@import url('projects.css');
+@import url('contributors.css');
+@import url('footer.css');
 
 :root {
   --flat-black: #333;
@@ -87,16 +87,17 @@ body {
   width: 100%;
   color: var(--text-color);
   font-size: 1.6rem;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
+  transition: all 0.5s ease-in-out;
 }
 
 nav,
 header {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 h1 {
-  font-family: "Papyrus", fantasy;
+  font-family: 'Papyrus', fantasy;
 }
 
 p,
@@ -109,13 +110,56 @@ hr {
   border: 0.5px solid black;
 }
 
-input[type="text"] {
+input[type='text'] {
   width: 25%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
   text-align: left;
 }
+
+#autocompleteList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  color: black;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+#autocompleteList li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+#autocompleteList li:hover {
+  background-color: #f0f0f0;
+}
+
+/* #autocompleteList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  z-index: -1;
+  
+}
+
+#autocompleteList li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+#autocompleteList li:hover {
+  background-color: #f2f2f2;
+} */
 
 /* <<------ Media Queries ---->>*/
 /* @media screen and (min-width: 1200px) {
