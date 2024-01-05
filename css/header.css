@@ -52,6 +52,7 @@ header .container {
   font-weight: 900;
   font-size: 2.75rem;
   line-height: 1.25;
+  margin: auto;
 }
 
 #intro .card {
