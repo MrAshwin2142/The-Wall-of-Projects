@@ -58,7 +58,7 @@ Style for language menu
   font-size: 16px;
   cursor: pointer;
   outline: none;
-  color:  black;
+  color:  var(--text-color);
   border-radius: 10px;
   padding: 10px;
   /* transition: 1s ease-in-out; */
