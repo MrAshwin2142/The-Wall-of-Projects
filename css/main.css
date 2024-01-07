@@ -1,10 +1,10 @@
-@import url("fonts.css");
-@import url("utils.css");
-@import url("navbar.css");
-@import url("header.css");
-@import url("projects.css");
-@import url("contributors.css");
-@import url("footer.css");
+@import url('fonts.css');
+@import url('utils.css');
+@import url('navbar.css');
+@import url('header.css');
+@import url('projects.css');
+@import url('contributors.css');
+@import url('footer.css');
 
 :root {
   --flat-black: #333;
@@ -16,18 +16,20 @@
   /* Background Colors */
   --bg-color: #faebd7;
   --card-bg: #575050;
-  --btn-bg: rgb(234, 88, 12);
-  --add-btn-bg: #007bff;
+  --btn-bg: #bb7589;
+  --add-btn-bg: #575050;
   --table-heading-bg: #007bff;
   --footer-bg: black;
 
   /* Text Colors */
   --text-color: #333;
+  --btn-color: #fff;
   --h1-color: #8a1135;
   --footer-text-color: white;
 
   /* Border Colors */
   --table-border: #ddd;
+  --btn-border: #8a1135;
 
   /* Gradients and Patterns */
   --linear-gradient: linear-gradient(
@@ -85,16 +87,17 @@ body {
   width: 100%;
   color: var(--text-color);
   font-size: 1.6rem;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
+  transition: all 0.5s ease-in-out;
 }
 
 nav,
 header {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 h1 {
-  font-family: "Papyrus", fantasy;
+  font-family: 'Papyrus', fantasy;
 }
 
 p,
@@ -107,7 +110,7 @@ hr {
   border: 0.5px solid black;
 }
 
-input[type="text"] {
+input[type='text'] {
   width: 25%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -135,6 +138,28 @@ input[type="text"] {
 #autocompleteList li:hover {
   background-color: #f0f0f0;
 }
+
+/* #autocompleteList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  z-index: -1;
+  
+}
+
+#autocompleteList li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+#autocompleteList li:hover {
+  background-color: #f2f2f2;
+} */
 
 /* <<------ Media Queries ---->>*/
 /* @media screen and (min-width: 1200px) {

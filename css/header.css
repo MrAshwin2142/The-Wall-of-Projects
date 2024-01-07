@@ -8,11 +8,6 @@ header {
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2) inset;
 }
 
-header .container {
-  width: 90%;
-  max-width: 1440px;
-}
-
 #intro,
 .welcome,
 .card {
@@ -52,6 +47,7 @@ header .container {
   font-weight: 900;
   font-size: 2.75rem;
   line-height: 1.25;
+  margin: auto;
 }
 
 #intro .card {
