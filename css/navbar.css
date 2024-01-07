@@ -38,6 +38,58 @@ nav .navContainer {
   color: var(--bg-color);
 }
 
+Style for language menu
+#google_translate_element {
+  position: relative;
+  top: 0;
+  right: 20px;
+  z-index: 1000;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(255, 254, 254, 0.1);
+  border-radius: 40px;
+}
+
+#google_translate_element select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  color:  var(--text-color);
+  border-radius: 10px;
+  padding: 10px;
+  /* transition: 1s ease-in-out; */
+}
+
+#google_translate_element select:hover {
+  background-color: #000000;
+  color: #ffffff;
+  /* transition: 1s ease-in-out; */
+}
+
+#google_translate_element label {
+  margin-right: 10px;
+  color: #000000;
+}
+
+/* Add some animation for a more dynamic feel */
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+#google_translate_element {
+  animation: slideIn 0.5s ease-in-out;
+}
+
+
 nav button:has(> #modeButton) {
   cursor: pointer;
   width: 2rem;
