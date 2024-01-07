@@ -16,18 +16,20 @@
   /* Background Colors */
   --bg-color: #faebd7;
   --card-bg: #575050;
-  --btn-bg: rgb(234, 88, 12);
-  --add-btn-bg: #007bff;
+  --btn-bg: #bb7589;
+  --add-btn-bg: #575050;
   --table-heading-bg: #007bff;
   --footer-bg: black;
 
   /* Text Colors */
   --text-color: #333;
+  --btn-color: #fff;
   --h1-color: #8a1135;
   --footer-text-color: white;
 
   /* Border Colors */
   --table-border: #ddd;
+  --btn-border: #8a1135;
 
   /* Gradients and Patterns */
   --linear-gradient: linear-gradient(
