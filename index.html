@@ -21,10 +21,7 @@
     <title>The Wall of Projects</title>
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="icon" type="image/png" href="./images/wall.png">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8502923994917060"
-     crossorigin="anonymous"></script>
-
-</head>
+    </head>
 
 <body>
     <!-- Navbar -->
@@ -32,6 +29,10 @@
       <div class="navContainer flex-center">
         <div class="container flex-between">
           <h4>The Wall of Projects</h4>
+
+          <!-- Language menu container -->
+            <div id="google_translate_element"></div>
+
           <div class="subNav flex-center">
             <a
               href="https://github.com/MrAshwin2142/The-Wall-of-Projects"
@@ -237,5 +238,19 @@
 
     <script src="script.js"></script>
     <script src="projects.js"></script>
+
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          { pageLanguage: 'en' },
+          'google_translate_element'
+        );
+      }
+    </script>
+    
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
+
   </body>
 </html>
