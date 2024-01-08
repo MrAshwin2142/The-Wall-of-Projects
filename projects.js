@@ -513,7 +513,6 @@ const projects = [
     codeLink: "https://github.com/yugbathla30/counter",
     liveLink: "https://sweet-moxie-7185f8.netlify.app/",
 },
-
   // Manually add more projects here
   // Please avoid putting your projects at the very beginning or the end of the file. Instead, insert them in the middle.
   // {
