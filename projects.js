@@ -11,6 +11,16 @@ const projects = [
     liveLink: "https://iceandspice.pythonanywhere.com/",
   },
   {
+    name: "Gym-Web-Application",
+    image: "\Gym-Web-Application.png",
+    description:
+    "Efficient gym web app for seamless fitness management, scheduling, tracking, and community engagement, promoting a healthier lifestyle anytime, anywhere.",
+    usedTech: "HTML, CSS, JavaScript",
+    contributorName: "Preeti sen",
+    codeLink: "https://github.com/withpreetisen08/Gym-Web-Application.git",
+    liveLink: " https://withpreetisen08.github.io/Gym-Web-Application/",
+  },
+  {
     name: "Demos Delivered",
     image: "./images/demosdelivered.png",
     description:
