@@ -76,7 +76,6 @@ document.addEventListener("DOMContentLoaded", () => {
     projectList.appendChild(projectButton);
   });
 
-  
 const searchBox = document.getElementById("searchBox");
 const project = document.getElementById("projectList");
 
