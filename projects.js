@@ -495,7 +495,16 @@ const projects = [
     codeLink: "https://github.com/BouraouiSaoussen/tinder-clone",
     liveLink: "",
   },
-
+  {
+    name: "Quote Generator ",
+    image: "./images/Quote-Gen.png",
+    description:
+      "Hey there , I created this cool and simple quote generator",
+    usedTech: "HTML, CSS , JavaScript",
+    contributorName: "Hiren Sharma ",
+    codeLink: "https://github.com/hiirrxnn/Quote_Gen",
+    liveLink: "",
+  },
   {
     name: "Offline Password Manager",
     image: "./images/offline-password-manager.png", // Add your project image to the `images` directory
