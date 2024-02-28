@@ -25,18 +25,26 @@ nav .navContainer {
   cursor: pointer;
 }
 
-.subNav .desktopLink {
+.subNav .desktopLink  {
   font-size: 1.5rem;
   margin: 0 0.4rem;
   padding: 0.8rem 1.6rem;
-  border-radius: 0.8rem;
+ 
+  box-shadow: inset  -2px -2px 6px 0px grey,2px 2px 4px 0px black;
+  border-radius: 0.5rem;
+  background: var(--bg-color);
   transition: ease-in-out 0.2s;
 }
 
-.subNav .desktopLink:hover {
-  background-color: var(--text-color);
-  color: var(--bg-color);
+
+.subNav .desktopLink:hover,
+#modeButton:hover{
+  box-shadow: inset  2px 2px 6px 0px grey, inset -2px -2px 3px 0px grey;
+  
 }
+.subNav .desktopLink:focus{
+  box-shadow: inset  2px 2px 8px 0px grey, inset -2px -2px  8px 0px grey;
+  }
 
 Style for language menu
 #google_translate_element {
@@ -45,7 +53,8 @@ Style for language menu
   right: 20px;
   z-index: 1000;
   padding: 10px;
-  box-shadow: 0 0 10px rgba(255, 254, 254, 0.1);
+
+  box-shadow: inset  -2px -2px 6px 0px grey,2px 2px 4px 0px black;
   border-radius: 40px;
 }
 
@@ -100,7 +109,14 @@ nav button:has(> #modeButton) {
 nav #modeButton {
   width: 100%;
 }
-
+#modeButton{
+  margin:3px;
+  padding:5px;
+ box-shadow: inset  -2px -2px 6px 0px grey,2px 2px 4px 0px black;
+  border-radius: 100%;
+  background: var(--bg-color);
+  transition: 0.5s ease-in-out;
+}
 .lightIcon {
   content: url("../images/light-mode.svg");
 }
