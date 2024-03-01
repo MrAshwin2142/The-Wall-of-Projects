@@ -30,7 +30,7 @@ nav .navContainer {
   margin: 0 0.4rem;
   padding: 0.8rem 1.6rem;
  
-  box-shadow: inset  -2px -2px 6px 0px grey,2px 2px 4px 0px black;
+  box-shadow: inset  -2px -2px 0.5px 0px grey,2px 2px 2px 0px black;
   border-radius: 0.5rem;
   background: var(--bg-color);
   transition: ease-in-out 0.2s;
@@ -39,7 +39,7 @@ nav .navContainer {
 
 .subNav .desktopLink:hover,
 #modeButton:hover{
-  box-shadow: inset  2px 2px 6px 0px grey, inset -2px -2px 3px 0px grey;
+  box-shadow: inset  2px 2px 2px 0px grey, inset -2px -2px 2px 0px grey;
   
 }
 .subNav .desktopLink:focus{
