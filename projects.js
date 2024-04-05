@@ -515,6 +515,15 @@ const projects = [
     liveLink: "",
   },
   {
+     name: "Selective Network Bridge",
+     image: "./images/BiBridge.png",
+     description: "Linux Python script to invisibly bridge 2 networks based on IP params",
+     usedTech: "Python: Scapy, NetFilterQueue",
+     contributorName: "Laython Childers",
+     codeLink: "https://github.com/LaythonChilders/Selective-Bridge",
+     liveLink: "",
+  },
+  {
     name: "counter",
     image: "./images/counter.png", // Add your project image to the `images` directory
     description: "counts and stores the number you counted ",
