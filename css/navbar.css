@@ -1,0 +1,206 @@
+/* !! 1 rem = 10px !! */
+
+nav .navContainer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 2rem 1.5rem;
+  background-color: var(--bg-color);
+  border-bottom: 1px solid var(--text-color);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+.navContainer .container {
+  width: 100%;
+  max-width: 1440px;
+}
+
+.navContainer .container h4 {
+  font-family: "Papyrus", fantasy;
+  color: var(--text-color);
+  font-size: 2.4rem;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.subNav .desktopLink  {
+  font-size: 1.5rem;
+  margin: 0 0.4rem;
+  padding: 0.8rem 1.6rem;
+ 
+  box-shadow: inset  -2px -2px 0.5px 0px grey,2px 2px 2px 0px black;
+  border-radius: 0.5rem;
+  background: var(--bg-color);
+  transition: ease-in-out 0.2s;
+}
+
+
+.subNav .desktopLink:hover,
+#modeButton:hover{
+  box-shadow: inset  2px 2px 2px 0px grey, inset -2px -2px 2px 0px grey;
+  
+}
+.subNav .desktopLink:focus{
+  box-shadow: inset  2px 2px 8px 0px grey, inset -2px -2px  8px 0px grey;
+  }
+
+Style for language menu
+#google_translate_element {
+  position: relative;
+  top: 0;
+  right: 20px;
+  z-index: 1000;
+  padding: 10px;
+
+  box-shadow: inset  -2px -2px 6px 0px grey,2px 2px 4px 0px black;
+  border-radius: 40px;
+}
+
+#google_translate_element select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  color:  var(--text-color);
+  border-radius: 10px;
+  padding: 10px;
+  /* transition: 1s ease-in-out; */
+}
+
+#google_translate_element select:hover {
+  background-color: #000000;
+  color: #ffffff;
+  /* transition: 1s ease-in-out; */
+}
+
+#google_translate_element label {
+  margin-right: 10px;
+  color: #000000;
+}
+
+/* Add some animation for a more dynamic feel */
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+#google_translate_element {
+  animation: slideIn 0.5s ease-in-out;
+}
+
+
+nav button:has(> #modeButton) {
+  cursor: pointer;
+  width: 2rem;
+  border: none;
+  background-color: transparent;
+}
+
+nav #modeButton {
+  width: 100%;
+}
+#modeButton{
+  margin:3px;
+  padding:5px;
+ box-shadow: inset  -2px -2px 6px 0px grey,2px 2px 4px 0px black;
+  border-radius: 100%;
+  background: var(--bg-color);
+  transition: 0.5s ease-in-out;
+}
+.lightIcon {
+  content: url("../images/light-mode.svg");
+}
+
+.darkIcon {
+  content: url("../images/dark-mode.svg");
+}
+
+/* xxxxxxx mobile menu styles xxxxxxxxxxxx */
+nav .menu {
+  display: none;
+  background-color: transparent;
+  border: none;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+nav .menu img {
+  width: 2rem;
+  height: 2rem;
+  transition: 0.2s ease-in-out;
+}
+
+.slideInMenu {
+  display: none;
+  width: 25.6rem;
+  height: 18rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-bottom: 2.2rem;
+  background-color: var(--white);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  border-bottom-left-radius: 100vmax;
+  transition: top 0.5s ease-in-out, right 0.5s ease-in-out;
+}
+
+.slideInMenu.hidden {
+  top: -16rem !important;
+  right: -8rem !important;
+}
+
+.slideInMenu a {
+  font-size: 1.45rem;
+  padding: 0.72rem 1.44rem;
+  text-align: left;
+  display: block;
+  transition: 0.3s ease-in-out;
+  color: var(--flat-black);
+}
+
+.slideInMenu a:hover {
+  background: var(--flat-black);
+  color: var(--gray);
+}
+
+.slideInMenu .close {
+  position: absolute;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  top: 9rem;
+  left: 8.36rem;
+}
+
+.slideInMenu .close img {
+  width: 1.98rem;
+}
+/* xxxxxxx xxxxx xxxx xxxxxx xxxxxxxxxxxx */
+/*---Media Queries----*/
+
+@media screen and (max-width: 768px) {
+  nav .menu {
+    display: block;
+  }
+
+  nav .desktopLink {
+    display: none;
+  }
+
+  nav .slideInMenu {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-direction: column;
+  }
+}

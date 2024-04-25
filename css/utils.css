@@ -1,0 +1,80 @@
+/* <<------- Utilities Classes  ------->> */
+
+/* !! 1 rem = 10px !! */
+
+/* container */
+.container {
+  width: 90%;
+  max-width: 1440px;
+}
+
+/* xxx button helper classes xxx */
+.btn {
+  margin: 0.3rem;
+  padding: 0.8rem 1rem;
+  border-radius: 0.25em;
+  cursor: pointer;
+  border: none;
+}
+
+.btn.active {
+  /* background-color: var(--btn-active-color); */
+  filter: brightness(0.8);
+}
+
+.btn:hover {
+  box-shadow: inset 0 -3em 3em rgba(29, 28, 28, 0.3),
+    0.3em 0.3em 1em rgba(22, 22, 22, 0.3);
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.hover-scale:hover {
+  scale: 1.15;
+}
+
+/* xxx display helper classes xxx */
+.hidden {
+  display: none;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex-col-items-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* xxx text helper classes xxx */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* xxx others xxx */
+.gradientLine {
+  display: block;
+  width: 90%;
+  height: 1px;
+  background: var(--linear-gradient);
+}

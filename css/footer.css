@@ -1,0 +1,33 @@
+/* !! 1 rem = 10px !! */
+
+footer {
+  margin-top: 1.6rem;
+  font-size: 2.2rem;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: 1rem 0 0;
+}
+
+footer p {
+  padding: 1.6rem;
+}
+
+footer p a {
+  text-decoration: underline;
+}
+
+.copyright {
+  background-color: var(--footer-bg);
+}
+
+.copyright p {
+  font-size: 2.4rem;
+  padding: 1.6rem;
+  color: var(--footer-text-color);
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    font-size: 1.6rem;
+  }
+}

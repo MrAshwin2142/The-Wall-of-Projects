@@ -2,6 +2,35 @@
 
 const projects = [
   {
+    name: "IceAndSpice - A Restaurant Website",
+    image: "./images/IceAndSpice.png",
+    description: "IceAndSpice is a simple website for a restaurant which allows their customers to order food and make table reservations online. It allows the restaurant admin to view/accept orders & reservations, update menu as well as offers.",
+    usedTech: "Python, Django, HTML, CSS, JavaScript",
+    contributorName: "Sahil Gupta",
+    codeLink: "https://github.com/shaanguptaa/IceAndSpice",
+    liveLink: "https://iceandspice.pythonanywhere.com/",
+  },
+  {
+    name: "Gym-Web-Application",
+    image: "\Gym-Web-Application.png",
+    description:
+    "Efficient gym web app for seamless fitness management, scheduling, tracking, and community engagement, promoting a healthier lifestyle anytime, anywhere.",
+    usedTech: "HTML, CSS, JavaScript",
+    contributorName: "Preeti sen",
+    codeLink: "https://github.com/withpreetisen08/Gym-Web-Application.git",
+    liveLink: " https://withpreetisen08.github.io/Gym-Web-Application/",
+  },
+  {
+    name: "Demos Delivered",
+    image: "./images/demosdelivered.png",
+    description:
+      "A web platform for aspiring producers to submit their demos to the hottest EDM labels. I used React & Next.js along with MongoDB to store music label information. The responsive styling is done with Tailwind CSS. Currently have 200 active users.",
+    usedTech: "React, Next.js, HTML, TypeScript, Tailwind CSS, MongoDB",
+    contributorName: "Jason Zubiate",
+    codeLink: "https://github.com/jasonzubiate/Demos-Delivered",
+    liveLink: "https://www.demosdelivered.live/",
+  },
+  {
     name: "Weather-Info",
     image: "./images/weather.png",
     description:
@@ -20,6 +49,25 @@ const projects = [
     contributorName: "Vivek Paswan ",
     codeLink: "https://github.com/vivek-paswan028/Paymentform",
     liveLink: "https://paymentform-blush.vercel.app/",
+  },
+    {
+    name: "HTL - Portfolio 😎",
+    image: "./images/htl-portfolio.png",
+    description: "My personal portfolio website using React Tailwind",
+    usedTech: "React, Tailwind",
+    contributorName: "Htet Aung Lin",
+    codeLink: "https://github.com/HTLA380/Personal_Portfolio.git",
+    liveLink: "https://htetaunglin-coder.netlify.app/",
+  },
+  {
+    name: "Tarsho",
+    image: "https://drive.google.com/open?id=11exI1VQ824jGGO75Fj4XJ_9nKtSuZaQX",
+    description:
+      "Tarsho is a groundbreaking mobile application designed to streamline the connection between independent contractors and customers seeking professional services. It simplifies the process of discovering and engaging with dependable service providers, catering to various needs such as HVAC, plumbing, and electrical work. With an intuitive design and a user-friendly interface, Tarsho aims to revolutionize interactions between customers and service professionals. Its key features include dual account creation options for consumers and service providers, comprehensive service listings with detailed information, advanced proximity-based search functionality, and a seamless user experience. The tech stack powering Tarsho encompasses React Native for mobile development, React for the web platform, Node.js and Express.js for a robust backend, MongoDB for flexible data management, and GitHub Actions for continuous integration and deployment, all aimed at delivering a reliable and efficient service ecosystem. Deployment strategies for cloud and hosting are yet to be determined, and version control is managed through Git hosted on GitHub.Tarsho is a groundbreaking mobile application designed to streamline the connection between independent contractors and customers seeking professional services. It simplifies the process of discovering and engaging with dependable service providers, catering to various needs such as HVAC, plumbing, and electrical work. With an intuitive design and a user-friendly interface, Tarsho aims to revolutionize interactions between customers and service professionals. Its key features include dual account creation options for consumers and service providers, comprehensive service listings with detailed information, advanced proximity-based search functionality, and a seamless user experience. The tech stack powering Tarsho encompasses React Native for mobile development, React for the web platform, Node.js and Express.js for a robust backend, MongoDB for flexible data management, and GitHub Actions for continuous integration and deployment, all aimed at delivering a reliable and efficient service ecosystem. Deployment strategies for cloud and hosting are yet to be determined, and version control is managed through Git hosted on GitHub.",
+    usedTech: "Reactjs, Nodejs, Expressjs, Mongodb",
+    contributorName: "Ahmed ",
+    codeLink: "https://github.com/AhmedRaisi/Tarsho",
+    liveLink: "",
   },
   {
     name: "Fardeen Ahamed Personal Portfolio",
@@ -51,7 +99,7 @@ const projects = [
     codeLink: "https://github.com/Sukanyasingh3/PyroDetect",
     liveLink: "",
   },
-   {
+  {
     name: "Speech Emotion Recognition",
     image: "./images/SER.png",
     description:
@@ -121,6 +169,15 @@ const projects = [
     liveLink: "https://tmdb-moviezz.netlify.app/",
   },
   {
+    name: "Leetcode-Problem-Solver-OpenAI",
+    image: "./images/leetcode.png", // Add your project image to the `images` directory
+    description: "Solves any leetcode problem using OpenAI's api",
+    usedTech: "Javascript",
+    contributorName: "Ved Surve",
+    codeLink: "https://github.com/veecodes07/Leetcode-Solver-with-OpenAI-api",
+    liveLink: "",
+  },
+  {
     name: "Text to Emoji",
     image: "https://ashwin-portfolioo.netlify.app/image/TextToEmoji.png",
     description:
@@ -161,6 +218,45 @@ const projects = [
     liveLink: "",
   },
   {
+    name: "Next-Word-Predictor",
+    image: "images/Next-Word-Predictor.png",
+    description:
+      "Python model trained in Keras to predict next word in a sentence.",
+    usedTech: "Python",
+    contributorName: "Luke Li",
+    codeLink: "https://github.com/yhlli/Next-Word-Predictor",
+    liveLink: "",
+  },
+  {
+    name: "Safest Path",
+    image: "images/safest.jpg",
+    description:
+      "Website that lets the user go from one point to other by adding its name to the file. They have option to travel by walk or by drive.",
+    usedTech: "HTML, CSS, JavaScript",
+    contributorName: "Taranjeet Singh Bedi",
+    codeLink: "https://github.com/TartejBrothers/Safest-Path",
+    liveLink: "https://safestpathmap.web.app/",
+  },
+  {
+    name: "Alumni Nexus",
+    image: "images/AlumniNexus.jpg",
+    description:
+      "A website for connecting alumni of a college. It saves records on cloud database, and can be accessed for better connections.  ",
+    usedTech: "HTML, CSS, JavaScript, DJango, PostgreSQL",
+    contributorName: "Taranjeet Singh Bedi",
+    codeLink: "https://github.com/TartejBrothers/Alumni-Nexus",
+    liveLink: "https://alumni-nexus.vercel.app/",
+  },
+  {
+    name: "History Games",
+    image: "images/historyGames.png",
+    description: "A drag and drop app to learn about France's History",
+    usedTech: "React JS and the beautiful dnd library",
+    contributorName: "Ulysse Valdenaire",
+    codeLink: "https://github.com/UltraViolet33/history-games",
+    liveLink: "https://ultraviolet33.github.io/history-games",
+  },
+  {
     name: "Super Market Billing System",
     image: "./images/BillingSystem.jpg",
     description:
@@ -180,6 +276,16 @@ const projects = [
     contributorName: "Preeti Sen",
     codeLink: "https://github.com/withpreetisen08/Calculator2",
     liveLink: "https://withpreetisen08.github.io/Calculator2/",
+  },
+  {
+    name: "SpeechBoy",
+    image: "./images/SpeechBoy.png",
+    description:
+      "SpeechBoy is a text to speech transaltion application providing us with a variety of options to customize the voice",
+    usedTech: "Python",
+    contributorName: "Bhanuj Sharma",
+    codeLink: "https://github.com/BhanujISNOTACODER/SpeechBoy",
+    liveLink: "",
   },
   {
     name: "Thermopy",
@@ -231,6 +337,15 @@ const projects = [
     liveLink: "https://layerfi.meta.mt/",
   },
   {
+    name: "Calculator",
+    image: "./images/calculator.png", 
+    description: "A Simple Web Calculator for performing calculations with responsive design",
+    usedTech: "HTML, CSS, Javascript",
+    contributorName: "Sutanjoy Pal",
+    codeLink: "https://github.com/SutanjoyPal/Calculator",
+    liveLink: " https://sutanjoypal.github.io/Calculator/",
+  },
+  {
     name: "The Wall of Projects(React)",
     image: "./images/thewallofprojects(react).png",
     description:
@@ -268,6 +383,15 @@ const projects = [
     contributorName: "Ruchika Muddinagiri",
     codeLink: "https://github.com/ruchikamuddinagiri/memory-tiles",
     liveLink: "https://pokemon-memory-tiles.netlify.app/",
+  },
+  {
+    name: "E-COMMARCE",
+    image: "./images/ecommers.png", // Add your project image to the `images` directory
+    description: "This is E-commarce website to connect Amazon website ",
+    usedTech: "HTML and CSS",
+    contributorName: "ER. ANJALI SAHU",
+    codeLink: "https://theanjalisahu23.github.io/E-commarce.github.io/",
+    liveLink: "https://theanjalisahu23.github.io/E-commarce.github.io/",
   },
   {
     name: "DeepAm Creation",
@@ -319,6 +443,19 @@ const projects = [
     liveLink: "https://shoyebaktar-shirol.github.io/Personal-Portfolio/",
   },
   {
+    name: "Log_ver_2",
+    image:
+      "https://th.bing.com/th/id/OIP.o1sheU57dJ5yz7xBrK30bQHaHa?rs=1&pid=ImgDetMain",
+    description:
+      "A windows based application for diary entry with login and signup features, made using Tkinter.",
+    usedTech: "Python",
+    contributorName: "Chaanakyaa Milkuri",
+    codeLink:
+      "https://github.com/chaanakyaaM/Projects/tree/52e5945e02be503f7ff6459d9c44e99f86922f46/Log_ver_2",
+    liveLink:
+      "https://github.com/chaanakyaaM/Projects/tree/52e5945e02be503f7ff6459d9c44e99f86922f46/Log_ver_2",
+  },
+  {
     name: "Poke!Book - Poetry notebook",
     image: "./images/pokebook.png",
     description:
@@ -337,6 +474,18 @@ const projects = [
     codeLink: "https://github.com/MahdiSelmani/ecommerce",
     liveLink: "",
   },
+
+  {
+    name: "Jingle",
+    image: "./images/jingle.png",
+    description:
+      "A simple voice assistant to automate your daily tasks a replica of Alexa.",
+    usedTech: "Python",
+    contributorName: "Suvashish Shrestha",
+    codeLink: "https://github.com/suvashish26/Jingle",
+    liveLink: "",
+  },
+
   {
     name: "tinder Clone",
     image: "./images/tinder.jpg",
@@ -345,8 +494,53 @@ const projects = [
     contributorName: "Saoussen Bouraoui",
     codeLink: "https://github.com/BouraouiSaoussen/tinder-clone",
     liveLink: "",
-  }
-
+  },
+  {
+    name: "Quote Generator ",
+    image: "./images/Quote-Gen.png",
+    description:
+      "Hey there , I created this cool and simple quote generator",
+    usedTech: "HTML, CSS , JavaScript",
+    contributorName: "Hiren Sharma ",
+    codeLink: "https://github.com/hiirrxnn/Quote_Gen",
+    liveLink: "",
+  },
+  {
+    name: "Offline Password Manager",
+    image: "./images/offline-password-manager.png", // Add your project image to the `images` directory
+    description: "Offline Password Manager",
+    usedTech: "Python",
+    contributorName: "Utkarsh Singh",
+    codeLink: "https://github.com/vib795/Password-Manager",
+    liveLink: "",
+  },
+  {
+     name: "Selective Network Bridge",
+     image: "./images/BiBridge.png",
+     description: "Linux Python script to invisibly bridge 2 networks based on IP params",
+     usedTech: "Python: Scapy, NetFilterQueue",
+     contributorName: "Laython Childers",
+     codeLink: "https://github.com/LaythonChilders/Selective-Bridge",
+     liveLink: "",
+  },
+  {
+    name: "counter",
+    image: "./images/counter.png", // Add your project image to the `images` directory
+    description: "counts and stores the number you counted ",
+    usedTech: "html css and javascript ",
+    contributorName: "Yug bathla",
+    codeLink: "https://github.com/yugbathla30/counter",
+    liveLink: "https://sweet-moxie-7185f8.netlify.app/",
+},
+{
+  name: "loginpage",
+  image: "./images/login.jpg", // Add your project image to the `images` directory
+  description: "Simple login/signup page ",
+  usedTech: "html css and javascript ",
+  contributorName: "Zoya Khatry",
+  codeLink: "https://github.com/Zoyakhatry1/login_page",
+  liveLink: "https://gorgeous-lebkuchen-818691.netlify.app/",
+},
   // Manually add more projects here
   // Please avoid putting your projects at the very beginning or the end of the file. Instead, insert them in the middle.
   // {

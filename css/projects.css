@@ -1,0 +1,145 @@
+/* !! 1 rem = 10px !! */
+.projectBtn {
+  background-color: var(--btn-bg);
+  color: var(--btn-color);
+}
+
+#addProjectBtn {
+  background-color: var(--add-btn-bg);
+  border-radius: 100vmax;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+#addProjectBtn a {
+  color: var(--btn-color);
+}
+
+#addProjectBtn:hover {
+  transform: scale(1.05);
+}
+
+/* Project List Styles */
+#projectList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1.6rem;
+}
+
+/* Project Detail Styles */
+#projectDetails {
+  padding: 0.8rem;
+  background-color: #ee8505;
+  border-radius: 1.6rem;
+}
+
+#projectDetails,
+#projectImage {
+  width: 90%;
+  margin: 0.8rem auto;
+  border-radius: 1.6rem;
+}
+
+#projectName {
+  margin: 1.6rem;
+  font-family: 'Clash Display', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+#projectDetails p {
+  margin: 1.6rem 3.2rem;
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #000;
+  font-family: 'Inter', sans-serif;
+}
+
+#projectHr {
+  margin: 0.8rem 0;
+  border: 1px solid brown;
+}
+
+/* button styles */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.button-container button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  background-color: brown;
+  border: none;
+  border-radius: 0.8rem;
+  margin: 0.8rem;
+  padding: 1.4rem 2.2rem;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.button-container button:hover {
+  background-color: rgb(189, 52, 52);
+}
+
+.liveLinkContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.liveLinkContainer #liveLinkError {
+  visibility: hidden;
+  width: 400px;
+  background-color: #555;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 105%;
+  left: 50%;
+  margin-left: -200px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.liveLinkContainer #liveLinkError::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.liveLinkContainer:hover #liveLinkError {
+  visibility: visible;
+  opacity: 1;
+}
+
+.button-container a {
+  color: #ffffff;
+}
+
+/*---Media Queries----*/
+
+@media screen and (max-width: 768px) {
+  #projectImage {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+
+  #projectList {
+    display: flex;
+    flex-direction: row;
+    grid-row: 2;
+  }
+
+  .btn {
+    width: 200px;
+  }
+}
