@@ -466,6 +466,15 @@ const projects = [
     liveLink: "https://book.pokeghost.org/",
   },
   {
+    name: "Memory Game",
+    image: "./images/memoryGame.png",
+    description: "This is a simple Memory Game Web Application.",
+    usedTech: "Javascript, HTML, CSS",
+    contributorName: "lchauha",
+    codeLink: "https://github.com/lchauha/CPSC-8710-Memory-game",
+    liveLink: "https://motazabdou.github.io/MS2-MemoryGame/",
+},
+  {
     name: "ShopMag - E-Commerce",
     image: "./images/ShopMag.png",
     description: "A Full stack e-commerce application.",
