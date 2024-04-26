@@ -10,6 +10,14 @@ const projects = [
     codeLink: "https://github.com/shaanguptaa/IceAndSpice",
     liveLink: "https://iceandspice.pythonanywhere.com/",
   },
+    {
+    name: "AutoSense",
+    image: "./images/autosense.png",
+    description: "AutoSense is an innovative project focused on enhancing road safety and optimizing autonomous driving capabilities through advanced vehicle and pedestrian detection",
+    contributorName: "Sukanya Singh",
+    codeLink: "https://github.com/Sukanyasingh3/AutoSense",
+    liveLink: "https://autosense.vercel.app/",
+  },
   {
     name: "Gym-Web-Application",
     image: "\Gym-Web-Application.png",
