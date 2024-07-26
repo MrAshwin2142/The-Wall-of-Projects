@@ -19,6 +19,27 @@ const projects = [
     codeLink: "https://github.com/Sukanyasingh3/AutoSense",
     liveLink: "https://autosense.vercel.app/",
   },
+
+
+
+
+
+
+ {
+    name: "Car Rental System",
+    //image: "\Gym-Web-Application.png",
+    description:
+    "Developed a Car Rental System emphasizing Object-Oriented Programming (OOP) principles to facilitate efficient management and rental of cars. The system leverages OOP concepts such as \textbf{encapsulation, inheritance, polymorphism, and abstraction} to ensure a modular, maintainable, and scalable solution.",
+    usedTech: "OOPS , Core java",
+    contributorName: "Preeti sen",
+    codeLink: "https://github.com/preetisen08/Car-Rental-System.git",
+    //liveLink: " https://withpreetisen08.github.io/Gym-Web-Application/",
+  },
+
+
+
+
+  
   {
     name: "Gym-Web-Application",
     image: "\Gym-Web-Application.png",
