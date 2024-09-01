@@ -35,11 +35,15 @@ const projects = [
     codeLink: "https://github.com/preetisen08/Car-Rental-System.git",
     //liveLink: " https://withpreetisen08.github.io/Gym-Web-Application/",
   },
-
-
-
-
-  
+  {
+    name: "Text-To-QR-Generator",
+    image: ".images/TextToQrGenerator.png",
+    description: "Developed a Text-to-QR Code Generator utilizing API integration, emphasizing key programming concepts to ensure efficient conversion and management of text data into QR codes. The system leverages principles such as \textbf{modularity, reusability, and API-driven architecture} to provide a seamless, scalable, and user-friendly solution for generating QR codes on demand.",
+    usedTech: "HTML, CSS, JavaScript",
+    contributorName: "Sagar Adhikari",
+    codeLink: "https://github.com/Sagarhoraa/QR_generator.git",
+    liveLink: "https://text-to-qr-code-generator.netlify.app/",
+  },
   {
     name: "Gym-Web-Application",
     image: "\Gym-Web-Application.png",
