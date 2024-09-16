@@ -2,6 +2,15 @@
 
 const projects = [
   {
+    name: "DevOps Resources Hub",
+    image: "./images/DevOpsResourcesHub.png", // Add your project image to the `images` directory
+    description: "An interactive platform built with React, designed to provide developers with curated resources for learning and mastering DevOps practices. Whether you're a beginner or an experienced developer looking to scale your DevOps skills, this hub features essential tutorials, blogs, and guides covering Docker, Kubernetes, CI/CD, and more. This project is fully automated using GitHub Actions and a CI/CD pipeline, ensuring continuous integration and deployment of changes directly to the live site. I created the workflow in GitHub Actions to handle testing, building, and deploying updates to GitHub Pages, and also to build a Docker image at each push or pull request, pushing the built image to Docker Hub. ",
+    usedTech: "React, JSX, JavaScript, MaterialUI, Docker, Github Actions, Github Pages",
+    contributorName: "Ashmit Dwivedi",
+    codeLink: "https://github.com/ashmit4818/DevOps_Resources_Project",
+    liveLink: "https://ashmit4818.github.io/DevOps_Resources_Project/",
+},
+  {
     name: "IceAndSpice - A Restaurant Website",
     image: "./images/IceAndSpice.png",
     description: "IceAndSpice is a simple website for a restaurant which allows their customers to order food and make table reservations online. It allows the restaurant admin to view/accept orders & reservations, update menu as well as offers.",
