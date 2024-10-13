@@ -19,13 +19,7 @@ const projects = [
     codeLink: "https://github.com/Sukanyasingh3/AutoSense",
     liveLink: "https://autosense.vercel.app/",
   },
-
-
-
-
-
-
- {
+{
     name: "Car Rental System",
     //image: "\Gym-Web-Application.png",
     description:
@@ -558,13 +552,22 @@ const projects = [
     liveLink: "",
   },
   {
-     name: "Selective Network Bridge",
-     image: "./images/BiBridge.png",
-     description: "Linux Python script to invisibly bridge 2 networks based on IP params",
-     usedTech: "Python: Scapy, NetFilterQueue",
-     contributorName: "Laython Childers",
-     codeLink: "https://github.com/LaythonChilders/Selective-Bridge",
-     liveLink: "",
+    name: "Selective Network Bridge",
+    image: "./images/BiBridge.png",
+    description: "Linux Python script to invisibly bridge 2 networks based on IP params",
+    usedTech: "Python: Scapy, NetFilterQueue",
+    contributorName: "Laython Childers",
+    codeLink: "https://github.com/LaythonChilders/Selective-Bridge",
+    liveLink: "",
+  },
+  {
+    name: "Simon Says Game Web Version",
+    image: "./images/SimonSaysGame.png",
+    description: "Simon Says is an interactive game project that challenges players to repeat a sequence of colors or sounds to test their memory and reflexes.",
+    sedTech: "HTML,CSS, JavaScript",
+    cntributorName: "Rajat Mishra",
+    codeLink: "https://github.com/mishraRj/Simon_Says_Game_miniProject.git",
+    liveLink: "",
   },
   {
     name: "counter",
