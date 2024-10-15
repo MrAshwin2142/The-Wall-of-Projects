@@ -1,0 +1,55 @@
+.custom-dark-theme {
+    background-image: url(../image.jpg); /* Set the background image */
+     /* Text Colors */
+    --text-color: #d6d6d6;
+    --h1-color: #ca1c50;
+    --footer-text-color: black;
+
+    --bg-color: #2e2929;
+    --btn-bg: rgb(68, 63, 58);
+    --add-btn-bg: #21043b;
+    --table-heading-bg: #21043b;
+    --footer-bg: white;
+
+      /* Gradients and Patterns */
+    --linear-gradient: linear-gradient(
+    90deg,
+    transparent,
+    rgba(250, 235, 215, 1) 44%,
+    transparent 100%
+    );
+
+      /* Border Colors */
+    --table-border: #1f1429;
+}
+
+
+
+.custom-dark-theme .nav {
+    color: white; /* Change the navigation text color */
+}
+
+.custom-dark-theme nav .navContainer {
+    background-color: #121212;
+}
+
+.custom-dark-theme #intro .card {
+    background-color: #212121;
+}
+
+.custom-dark-theme footer {
+    background-color: #121212;
+    color: white;
+}
+.custom-dark-theme .copyright {
+    background-color: #121212;
+}
+.custom-dark-theme .copyright p {
+    color: white !important; /* Force text color to white in dark mode */
+}
+
+/*Stars style Credits -
+Name   : Rajat Mishra
+github : https://github.com/mishraRj
+Linkdin: https://www.linkedin.com/in/mishrarj/ 
+*/

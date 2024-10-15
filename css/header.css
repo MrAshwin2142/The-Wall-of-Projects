@@ -57,6 +57,7 @@ header {
   background-color: var(--card-bg);
   border-radius: 2.2rem 2.2rem 0 0;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  z-index: 500;
 }
 
 #intro .card .gradientLine {

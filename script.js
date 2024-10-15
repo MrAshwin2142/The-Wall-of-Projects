@@ -197,11 +197,40 @@ document.addEventListener('click', (event) => {
   projectCount.textContent = `Total Projects Hosted: ${projects.length}`;
 });
 
+// Function to toggle theme and store preference
 function handleMode() {
   const element = document.getElementById("modeButton");
+  const body = document.body;
+  
+  // Toggle classes
   element.classList.toggle("lightIcon");
-  document.body.classList.toggle("dark-Theme");
+  body.classList.toggle("custom-dark-theme");
+
+  // Save the theme preference in localStorage
+  if (body.classList.contains("custom-dark-theme")) {
+    localStorage.setItem("theme", "dark");
+  } else {
+    localStorage.setItem("theme", "light");
+  }
 }
+
+// Function to apply the saved theme on page load
+function applySavedTheme() {
+  const savedTheme = localStorage.getItem("theme");
+
+  if (savedTheme === "dark") {
+    document.body.classList.add("custom-dark-theme");
+    document.getElementById("modeButton").classList.add("lightIcon");
+  } else {
+    document.body.classList.remove("custom-dark-theme");
+    document.getElementById("modeButton").classList.remove("lightIcon");
+  }
+}
+
+// Call applySavedTheme when the page loads
+document.addEventListener("DOMContentLoaded", applySavedTheme);
+
+
 
 // Handling Menu toggle on mobile screen
 function toggleSlideInMenu() {
