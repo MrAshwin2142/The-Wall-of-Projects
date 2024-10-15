@@ -26,3 +26,10 @@ function generateSnowflakes() {
 
 // Call the function to generate snowflakes
 generateSnowflakes();
+
+
+/*Stars style Credits -
+Name   : Rajat Mishra
+github : https://github.com/mishraRj
+Linkdin: https://www.linkedin.com/in/mishrarj/ 
+*/
