@@ -1,0 +1,24 @@
+/* Snowflake styling */
+.snow {
+    height: 2px;
+    width: 2px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px; /* Start slightly off the top of the screen */
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+    animation: fall linear infinite, glow 1.5s ease-in-out infinite alternate;
+    opacity: 0.8;
+}
+
+/* Snow falling animation */
+@keyframes fall {
+    0% {
+        transform: translateY(-10px); /* Start off-screen */
+    }
+    100% {
+        transform: translateY(var(--page-height)); /* Use dynamic height for fall distance */
+    }
+}
+

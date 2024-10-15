@@ -40,31 +40,6 @@
   );
 }
 
-.dark-Theme {
-  /* Background Colors */
-  --bg-color: #2e2929;
-  --btn-bg: rgb(68, 63, 58);
-  --add-btn-bg: #21043b;
-  --table-heading-bg: #21043b;
-  --footer-bg: white;
-
-  /* Text Colors */
-  --text-color: #d6d6d6;
-  --h1-color: #ca1c50;
-  --footer-text-color: black;
-
-  /* Border Colors */
-  --table-border: #1f1429;
-
-  /* Gradients and Patterns */
-  --linear-gradient: linear-gradient(
-    90deg,
-    transparent,
-    rgba(250, 235, 215, 1) 44%,
-    transparent 100%
-  );
-}
-
 /* general styles */
 
 * {
@@ -77,13 +52,12 @@
 html {
   scroll-behavior: smooth;
   /* !!! Set the base font size to 62.5% for easier pixel-to-rem translation.
-   This makes 1rem equal to 10px, simplifying calculations and providing
+  This makes 1rem equal to 10px, simplifying calculations and providing
    a more intuitive way to work with font sizes using rem units. !!! */
   font-size: 62.5%;
 }
 
 body {
-  background-color: var(--bg-color);
   width: 100%;
   color: var(--text-color);
   font-size: 1.6rem;
