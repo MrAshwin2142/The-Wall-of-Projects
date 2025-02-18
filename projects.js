@@ -11,6 +11,24 @@ const projects = [
     liveLink: "https://ashmit4818.github.io/DevOps_Resources_Project/",
 },
   {
+    name: "GitHub profile Finder",
+    image: "./images/GIthub-Profile-Finder.png", // Add your project image to the `images` directory
+    description: " simple, web app to search and display GitHub user profiles and repositories using the GitHub API. Built with vanilla JavaScript, HTML, and CSS. ",
+    usedTech: "JavaScript,HTML,CSS, Github API, Github Actions, Github Pages",
+    contributorName: "Noora Koufin",
+    codeLink: "https://github.com/theNooradeveloper/Github-Profile-Finder.git",
+    liveLink: "https://thenooradeveloper.github.io/Github-Profile-Finder/",
+},
+  {
+    name: "NoteSpace Notes App",
+    image: "./images/NoteSpace-dashboard.png", // Add your project image to the `images` directory
+    description: 'NoteSpace is a web-based notes app designed for seamless productivity. Users can create, customize, and manage notes with rich text editing, sketch ideas on canvas, and organize tasks with a to-do list feature. The app includes Firebase integration for secure authentication ,real-time data storage and support for Google Sign-In.',
+    usedTech: "JavaScript,HTML,CSS,Firebase,Firestore,database,Google Authentication",
+    contributorName: "Noora Koufin",
+    codeLink: "https://github.com/theNooradeveloper/Notespace-app.git",
+    liveLink: "https://thenooradeveloper.github.io/Notespace-app/",
+},
+  {
     name: "IceAndSpice - A Restaurant Website",
     image: "./images/IceAndSpice.png",
     description: "IceAndSpice is a simple website for a restaurant which allows their customers to order food and make table reservations online. It allows the restaurant admin to view/accept orders & reservations, update menu as well as offers.",
