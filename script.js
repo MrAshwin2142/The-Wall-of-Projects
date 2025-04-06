@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
     projectButton.setAttribute("data-name", project.name);
     projectButton.setAttribute(
       "data-contributor",
-      project.contributorName.toLowerCase()
+      project.contributorName
     );
     projectButton.title = project.usedTech;
 
@@ -80,7 +80,7 @@ const searchBox = document.getElementById("searchBox");
 const project = document.getElementById("projectList");
 
 searchBox.addEventListener("input", (event) => {
-  const searchTerm = event.target.value.toLowerCase();
+  const searchTerm = event.target.value;
   const buttons = projectList.getElementsByTagName("button");
 
   searchBox.addEventListener("click", (event) => {
