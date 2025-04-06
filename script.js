@@ -65,8 +65,8 @@ document.addEventListener("DOMContentLoaded", () => {
     starContributor[project.contributorName] =
       (starContributor[project.contributorName] || 0) + 1;
     projectButton.className = "btn projectBtn";
-    projectButton.setAttribute("data-tech", project.usedTech.toLowerCase());
-    projectButton.setAttribute("data-name", project.name.toLowerCase());
+    projectButton.setAttribute("data-tech", project.usedTech);
+    projectButton.setAttribute("data-name", project.name);
     projectButton.setAttribute(
       "data-contributor",
       project.contributorName.toLowerCase()
