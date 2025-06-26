@@ -614,6 +614,15 @@ const projects = [
   codeLink: "https://github.com/Zoyakhatry1/login_page",
   liveLink: "https://gorgeous-lebkuchen-818691.netlify.app/",
 },
+{
+  name: "Robowar Registration Platform",
+  image: "./images/robowar.png",
+  description: "Developed a comprehensive registration platform for the Robowar competition, featuring user-friendly interfaces, secure data handling, and real-time updates.",
+  usedTech: "React, Tailwind CSS, JavaScript, MongoDB, Formik",
+  contributorName: "Tushar Kumar Shah", 
+  codeLink: "https://github.com/Hackoverflow-Society/robowars",
+  liveLink: "https://robowars.vercel.app/",
+},
   // Manually add more projects here
   // Please avoid putting your projects at the very beginning or the end of the file. Instead, insert them in the middle.
   // {
