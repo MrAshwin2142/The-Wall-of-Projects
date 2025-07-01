@@ -551,6 +551,15 @@ const projects = [
   },
 
   {
+    name: "trimrr",
+    image: "./images/trimrr.png",
+    description: "A modern URL shortener with QR codes and click analytics.",
+    usedTech: "ReactJS,Supabase, Tailwind CSS, Shadcn UI",
+    contributorName: "Rahul",
+    codeLink: "https://github.com/rajanarahul93/trimrr",
+    liveLink: "https://trimrr-amber.vercel.app/",
+  },
+  {
     name: "tinder Clone",
     image: "./images/tinder.jpg",
     description: "Full stack tinder clone application",
