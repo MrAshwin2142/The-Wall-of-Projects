@@ -2,6 +2,15 @@
 
 const projects = [
   {
+    name: "Codex Quota Overlay",
+    image: "./images/codex-quota-overlay.png",
+    description: "Free, MIT-licensed Windows companion for Codex Desktop showing quota and reset countdown in a click-through overlay, plus a local Quota Center. Independent community project, not affiliated with or endorsed by OpenAI. Version 0.4.0 distributes Windows builds only.",
+    usedTech: "Electron, TypeScript, JavaScript",
+    contributorName: "Codex Quota Overlay project maintainer",
+    codeLink: "https://github.com/cpys/codex-quota-overlay",
+    liveLink: "https://cpys.github.io/codex-quota-overlay/"
+  },
+  {
     name: "DevOps Resources Hub",
     image: "./images/DevOpsResourcesHub.png", // Add your project image to the `images` directory
     description: "An interactive platform built with React, designed to provide developers with curated resources for learning and mastering DevOps practices. Whether you're a beginner or an experienced developer looking to scale your DevOps skills, this hub features essential tutorials, blogs, and guides covering Docker, Kubernetes, CI/CD, and more. This project is fully automated using GitHub Actions and a CI/CD pipeline, ensuring continuous integration and deployment of changes directly to the live site. I created the workflow in GitHub Actions to handle testing, building, and deploying updates to GitHub Pages, and also to build a Docker image at each push or pull request, pushing the built image to Docker Hub. ",
